@@ -9,8 +9,8 @@ Whilst there are several tools/utilities included with the Imager tool, most of 
   
 ## Included with the Emu68 Imager Tool
 
-- Roadshow Demo - Included with permission from Olaf Barthel and Andreas Magerl. Please consider supporting the developers by purchasing the full version from [http://roadshow.apc-tcp.de/](https://github.com/henrikstengaard/hst-imager)
-- Picasso96 configuration file - Included with permission from Individual Computers. Free version is downloaded from aminet and installed. You can purchase the full version from their shop: [https://icomp.de/shop-icomp/en/news.html](https://github.com/henrikstengaard/hst-imager)
+- Roadshow Demo - Included with permission from Olaf Barthel and Andreas Magerl. Please consider supporting the developers by purchasing the full version from [http://roadshow.apc-tcp.de/](http://roadshow.apc-tcp.de)
+- Picasso96 configuration file - Included with permission from Individual Computers. Free version is downloaded from aminet and installed. You can purchase the full version from their shop: [https://icomp.de/shop-icomp/en/news.html](https://icomp.de/shop-icomp/en/news.html)
 
 ## Downloaded and installed during image creation
 
