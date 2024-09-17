@@ -8,6 +8,7 @@ The Emu68 Imager is an utility to allow PiStorm users to easily prepare an SD ca
 [Instructions](instructions.md)<br>
 [What's Included](included.md)<br>
 [Frequently Asked Questions](faqs.md)<br>
+[Support](support.md)<br>
 [Credits & Thanks](credits.md)<br>
 
 ---
