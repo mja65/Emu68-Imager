@@ -1,6 +1,6 @@
 ## Requirements
 
-- Windows 7/8/10/11 with Powershell.
+- Windows 10 or 11 with Powershell.
 - MicroSD card.
 - MicroSD card reader.
 - AmigaOS 3.1 or 3.2.2.1 ADF files.
