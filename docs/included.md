@@ -5,7 +5,7 @@ Whilst there are several tools/utilities included with the Imager tool, most of 
 - HST.Imager - [https://github.com/henrikstengaard/hst-imager](https://github.com/henrikstengaard/hst-imager)
 - HST.Amiga - [https://github.com/henrikstengaard/hst-amiga](https://github.com/henrikstengaard/hst-imager)
 - HDF2Emu68 - [https://github.com/PiStorm/hdf2emu68](https://github.com/henrikstengaard/hst-imager)
-- 7Zip - https://www.7-zip.org/
+- 7Zip - [https://www.7-zip.org/](https://github.com/henrikstengaard/hst-imager)
   
 ## Included with the Emu68 Imager Tool
 
