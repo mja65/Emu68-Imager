@@ -4,7 +4,7 @@ Whilst there are several tools/utilities included with the Imager tool, most of 
 
 - HST.Imager - [https://github.com/henrikstengaard/hst-imager](https://github.com/henrikstengaard/hst-imager)
 - HST.Amiga - [https://github.com/henrikstengaard/hst-amiga](https://github.com/henrikstengaard/hst-amiga)
-- HDF2Emu68 - [https://github.com/PiStorm/hdf2emu68](https://github.com/henrikstengaard/hst-imager)
+- HDF2Emu68 - [https://github.com/PiStorm/hdf2emu68](https://github.com/PiStorm/hdf2emu68))
 - 7Zip - [https://www.7-zip.org/](https://www.7-zip.org/)
   
 ## Included with the Emu68 Imager Tool
@@ -29,14 +29,14 @@ Whilst there are several tools/utilities included with the Imager tool, most of 
 - Hippo Player : [https://aminet.net/package/mus/play/hippoplayerupdate](https://aminet.net/package/mus/play/hippoplayerupdate)
 - Idefix 97 : [https://aminet.net/package/driver/media/IDEfix97](https://aminet.net/package/driver/media/IDEfix97)
 - Installer : [https://aminet.net/package/util/misc/Installer-43_3](https://aminet.net/package/util/misc/Installer-43_3)
-- Jano Editor : [https://aminet.net/package/text/edit/JanoEditor](https://github.com/henrikstengaard/hst-imager)
+- Jano Editor : [https://aminet.net/package/text/edit/JanoEditor](https://aminet.net/package/text/edit/JanoEditor)
 - LHA : [https://aminet.net/package/util/arc/lha_68k](https://aminet.net/package/util/arc/lha_68k)
 - LZX : [https://aminet.net/package/util/arc/lzx121r1](https://aminet.net/package/util/arc/lzx121r1)
 - MD5 Sum : [https://aminet.net/package/util/crypt/MD5SUM](https://aminet.net/package/util/crypt/MD5SUM)
 - MUI 3.8 : [https://aminet.net/package/util/libs/mui38usr](https://aminet.net/package/util/libs/mui38usr)
 - PFS : [https://aminet.net/package/disk/misc/PFS3_53](https://aminet.net/package/disk/misc/PFS3_53)
 - Picasso96 free : [http://aminet.net/package/driver/video/Picasso96](http://aminet.net/package/driver/video/Picasso96)
-- Prism 2 : [https://aminet.net/package/driver/net/prism2v2](https://github.com/henrikstengaard/hst-imager)
+- Prism 2 : [https://aminet.net/package/driver/net/prism2v2](https://aminet.net/package/driver/net/prism2v2)
 - Reboot : [https://aminet.net/package/util/boot/reboot](https://aminet.net/package/util/boot/reboot)
 - Reqtools : [https://aminet.net/util/package/libs/Reqtools-Wide](https://aminet.net/util/package/libs/Reqtools-Wide)
 - Screentext : [https://thomas-rapp.hier-im-netz.de/downloads/](https://thomas-rapp.hier-im-netz.de/downloads/)
