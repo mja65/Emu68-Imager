@@ -1,4 +1,4 @@
-## Requirements
+## Support
 
 For help and support please post in the **#emu68-imager** channel on the official PiStorm Discord server.
 
