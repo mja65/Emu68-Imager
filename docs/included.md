@@ -2,7 +2,7 @@ Whilst there are several tools/utilities included with the Imager tool, most of 
 
 ## Programs used by the tool
 
-- HST.Imager - https://github.com/henrikstengaard/hst-imager
+- HST.Imager - [https://github.com/henrikstengaard/hst-imager]
 - HST.Amiga - https://github.com/henrikstengaard/hst-amiga
 - HDF2Emu68 - https://github.com/PiStorm/hdf2emu68
 - 7Zip - https://www.7-zip.org/
