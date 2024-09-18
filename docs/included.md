@@ -14,7 +14,11 @@ Whilst there are several tools/utilities included with the Imager tool, most of 
 
 ## Downloaded and installed during image creation
 
-- Emu68 Tools : Emu68 Discord nightly builds
+The full packages (including licencing information (where applicable) and documentation) can be obtained at the following links. 
+
+- Emu68 Tools : [https://github.com/michalsc/Emu68-tools/releases/tag/nightly] (https://github.com/michalsc/Emu68-tools/releases/tag/nightly)
+- Emu68 Pistorm: [https://github.com/michalsc/Emu68/releases] (https://github.com/michalsc/Emu68/releases)
+- Emu68 Pistorm32lite: [https://github.com/michalsc/Emu68/releases] (https://github.com/michalsc/Emu68/releases)
 - PeterK's icon.library (latest version): [https://aminet.net/search?query=iconlib](https://aminet.net/search?query=iconlib)
 - Ami Speed Test : [https://aminet.net/package/comm/net/AmiSpeedTest](https://aminet.net/package/comm/net/AmiSpeedTest)
 - iBrowse (demo) : [https://www.ibrowse-dev.net/](hhttps://www.ibrowse-dev.net/)
