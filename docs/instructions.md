@@ -10,7 +10,7 @@ When you start the Emu68 Imager you will be presented with the options screen:
 
 The **Run Tool** button will be red until you select the required options. When you select those it will turn green and you can press it.
 
-### Quick Start
+# Quick Start
 
 If you want to quickly create an image for your Pistormed amiga then you can leave most things on their default setting and do the following:
 - Insert your SD card in your SD card reader
@@ -25,7 +25,7 @@ If you want to quickly create an image for your Pistormed amiga then you can lea
 - Press the **Run Tool** button and follow the popup windows to start the tool
 - It will take some time for all utilities to be downloaded and image written
 
-## Emu68 Imager tool instructions
+# Emu68 Imager tool instructions
 
 The tool has several sections. You will need to select options in each section for the tool to be able to run. When everything that is mandatory is selected the **Run Tool** button will turn green and you can continue with the image creation.
 
@@ -33,20 +33,40 @@ At any time you can click on **Click for Documentation** button which will show 
 
 ## Selecting SD card
 
-You can insert the SD before you start the tool. If you insert the SD card or change it while the tool is running you have to press the  **Refresh Available Media** button so the drop down box is refreshed.
-Select the desired SD card from the **Select Media to use** drop down box. When you do so the partition bar will change accordingly.
+You can insert the SD crd before you start the tool. If you insert the SD card or change it while the tool is running you have to press the  **Refresh Available Media** button so the drop down box is refreshed.
+Select the desired SD card from the **Select Media to use** drop down box. When you do so the partition bar will change according to the capacity of the SD card. 
 
-**Reset Partitions to default** button will reset the partitions to their default values as if you selected the SD card for the first time.
+If you change the default sizes of the partitions then the **Reset Partitions to default** button will reset the partitions to their default values as if you selected the SD card for the first time.
 
 ## Selecting Parititon sizes
 
-The tool will select the partition sizes to some reasonable default values. You can change any partition size to your liking. There are 5 parts on the partition bar:
+The tool will set the partition sizes to some reasonable default values. You can change any partition size to your liking.
+If you want to resize partitions then you will have to first *shrink* the Work partition. This will give you some **Not Used** space and you can resize other partitions to your liking.
+There are 5 parts on the partition bar:
 
-# Fat32
+### Fat32
+
+This is the boot partition for the raspberry Pi. It contains the Emu68 image and all necessary files for it to function. Additionally it contains the following:
+- Kickstart image for your Amiga
+- config.txt file with configuration of your pistorm and raspberry Pi
+- cmdline.txt file with configuration of the Emu68
+- Kickstarts folder to which you can copy the Kickstarts you want to use with WHDLoad games and demos
+- Packages folder to which you can copy Install Packages for the Emu68 Imager tool package installer
+
+The Fat32 partition can be upto 4GB big. The tool selects the default size according to the capacity of the SD card. 
+
+### Workbench
+
+This is the boot partition for your Amiga. It will contain the Workbench installation and all tools and utilities that are necessary.
+In addition to the installation folders that are installed with the OS you chose there are the following two folders created:
+- Pistorm - contains all tools associated with Pistorm and Emu68
+- Programs - contains essential utilities that we thought will benefit the user on clean install
+
+Please refer to [Amiga Utilities instructions](#amiga-utilities-instructions) about the content of these two folders.
+
+The Workbench partition can be upto 100Gb big. The tool selects the default size according to the capacity of the SD card. 
 
 
-
-
-### Amiga Utilities instructions
+# Amiga Utilities instructions
 
 test text 2
