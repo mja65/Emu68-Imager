@@ -23,7 +23,8 @@ If you want to quickly create an image for your Pistormed amiga then you can lea
 - Select the Kickstart folder by clicking on **Click to set Kickstart Path** button
 - Select the ADF Images folder by clicking on **Click to set ADF Path** button
 - Select the Screen Mode of your HDMI monitor in the drop down box
-- The button **Run Tool** should turn green if there was enough space on your disk
+- If the button **Run Tool** is red it means you have not completed the required information. At any time you can press this button and the tool will tell you what is missing
+- The button **Run Tool** should turn green if there was enough space on your disk. If you have insufficient space, the button will turn yellow and give you the opportunity to select a different drive
 - Press the **Run Tool** button and follow the popup windows to start the tool
 - It will take some time for all utilities to be downloaded and image written
 
