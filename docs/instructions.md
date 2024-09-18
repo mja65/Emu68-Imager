@@ -42,8 +42,8 @@ If you change the default sizes of the partitions then the **Reset Partitions to
 
 ## Selecting Parititon sizes
 
-The tool will set the partition sizes to some reasonable default values. You can change any partition size to your liking.
-If you want to resize partitions then you will have to first *shrink* the Work partition. This will give you some **Not Used** space and you can resize other partitions to your liking.
+The tool will set the partition sizes to some reasonable default values. You can change any partition size to your liking. To resize a partiton you can click on the desired bar and drag it left/right to resize or you can enter the desired values in the text boxes below the bar. If you enter invalid values the text box background will turn red.
+If you want to resize Fat32 or Workbench partitions then you will have to first *shrink* the Work partition (the Work partition gets most space by default). This will give you some **Not Used** space and you can resize other partitions to your liking.
 There are 5 parts on the partition bar:
 
 ### Fat32
@@ -67,6 +67,21 @@ In addition to the installation folders that are installed with the OS you chose
 Please refer to [Amiga Utilities instructions](#amiga-utilities-instructions) about the content of these two folders.
 
 The Workbench partition can be upto 100Gb big. The tool selects the default size according to the capacity of the SD card. 
+
+### Work
+
+The Work partition is the one that will use up most of the capicity of your SD card. It should be used to install any programs for your Amiga.
+You can populate some (or all) of it using the Imager tool from the start. Please refer to the [Transfer Files to Work Partition](#transfer-files-to-work-partition) section on how to do that. If you don't populate it using this functionality then it will be empty.
+
+The Work partition will by default take up all the remaining capacity of your SD card. Since the PFS3 partitions on the amiga can only be upto 100GB in size the tool will create multiple Work partitions if your SD card has more capacity. Only the first Work: partition will be formatted, you will need to format the rest yourself on the amiga. Please refer to [First Time Run](#first-time-run) section on how to do that.
+
+### Free Space
+
+The Free Space is the space that will be avaialble as "Free" on your amiga HD Tool Box to repartion and use as you wish. It is recommended to resize your Work partition so that there is no Free Space. The free space WILL be written to your SD card (it will take time to write it).
+
+### Not Used
+
+The Not Used is the part of the SD card that will not be touched and it will NOT be available on your amiga. If you would like to have smaller image on the amiga and have some free space which you can Repartion on your windows (to have another Fat32 or NTFS volume for PC use for example) then please use this free space for it.
 
 
 # Amiga Utilities instructions
