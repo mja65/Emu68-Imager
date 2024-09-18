@@ -4,13 +4,15 @@ Whilst there are several tools/utilities included with the Imager tool, most of 
 
 - HST.Imager - [https://github.com/henrikstengaard/hst-imager](https://github.com/henrikstengaard/hst-imager)
 - HST.Amiga - [https://github.com/henrikstengaard/hst-amiga](https://github.com/henrikstengaard/hst-amiga)
-- HDF2Emu68 - [https://github.com/PiStorm/hdf2emu68](https://github.com/PiStorm/hdf2emu68))
-- 7Zip - [https://www.7-zip.org/](https://www.7-zip.org/)
+- HDF2Emu68 - [https://github.com/PiStorm/hdf2emu68](https://github.com/PiStorm/hdf2emu68)
+- Unlzx - [https://aminet.net/util/arc/W95unlzx.lha](https://aminet.net/util/arc/W95unlzx.lha)
+
   
 ## Included with the Emu68 Imager Tool
 
+- 7Zip - [https://www.7-zip.org/](https://www.7-zip.org/)
 - Roadshow Demo - Included with permission from Olaf Barthel and Andreas Magerl. Please consider supporting the developers by purchasing the full version from [http://roadshow.apc-tcp.de/](http://roadshow.apc-tcp.de)
-- Picasso96 configuration file - Included with permission from Individual Computers. Free version is downloaded from aminet and installed. You can purchase the full version from their shop: [https://icomp.de/shop-icomp/en/news.html](https://icomp.de/shop-icomp/en/news.html)
+- Picasso96 configuration file - Included with permission from Individual Computers. Free version is downloaded from aminet and installed. You can purchase the full version of P96 from their shop: [https://icomp.de/shop-icomp/en/news.html](https://icomp.de/shop-icomp/en/news.html)
 
 ## Downloaded and installed during image creation
 
@@ -25,9 +27,10 @@ The full packages (including licencing information (where applicable) and docume
 - AmiSSL (latest version) : [https://aminet.net/search?query=amissl+os3](https://aminet.net/search?query=amissl+os3)
 - BusTest : [https://aminet.net/package/util/moni/bustest](https://aminet.net/package/util/moni/bustest)
 - CFD : [https://aminet.net/package/driver/media/CFD133](https://aminet.net/package/driver/media/CFD133)
-- Change Boot Pri : [https://thomas-rapp.hier-im-netz.de/downloads/](https://thomas-rapp.hier-im-netz.de/downloads/)
+- ChangeBootPri : [https://thomas-rapp.hier-im-netz.de/downloads/](https://thomas-rapp.hier-im-netz.de/downloads/)
 - CopyReplace : [https://aminet.net/package/util/sys/CopyReplace](https://aminet.net/package/util/sys/CopyReplace)
-- Directory Opus : [https://aminet.net/package/util/dopus/DOpus416JRbin](https://aminet.net/package/util/dopus/DOpus416JRbin)
+- Directory Opus 4.16JR : [https://aminet.net/package/util/dopus/DOpus416JRbin](https://aminet.net/package/util/dopus/DOpus416JRbin)
+- Directory Opus 4.17pre21 : [http://dopus.free.fr/betas/DOpus417pre21.lzx](http://dopus.free.fr/betas/DOpus417pre21.lzx)
 - Fat95 : [https://aminet.net/package/disk/misc/fat95](https://aminet.net/package/disk/misc/fat95)
 - File Sys Box : [https://aminet.net/package/util/libs/filesysbox.m68k-amigaos](https://aminet.net/package/util/libs/filesysbox.m68k-amigaos)
 - Hippo Player : [https://aminet.net/package/mus/play/hippoplayerupdate](https://aminet.net/package/mus/play/hippoplayerupdate)
