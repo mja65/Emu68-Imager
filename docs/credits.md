@@ -8,3 +8,23 @@ There are several people responsible for this in several different ways. Most of
 - Lemaru
 - ZX Dunny
 - Flype
+
+We want to thank the Pistorm team that has made all of this possible. We appretiate the dedication and all the work they put into making the best accelerator for the Amiga (and all this free of charge):
+
+- Claude
+- Michal
+- Paraj
+- everyone else that has contributed in any way
+
+Also big thanks for the users that supported us with ideas and just being there:
+
+- Pedro
+- R-Typer
+- Kifla
+- MrZ
+- nikosidis
+- Katzazakis
+- Arzi
+- H3lio3
+- Sampedenawa
+- twilen
