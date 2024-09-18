@@ -21,6 +21,7 @@ Also big thanks for the users that supported us with ideas and just being there:
 - Pedro
 - R-Typer
 - Kifla
+- Jaimie
 - MrZ
 - nikosidis
 - Katzazakis
