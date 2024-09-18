@@ -15,10 +15,10 @@ Whilst there are several tools/utilities included with the Imager tool, most of 
 ## Downloaded and installed during image creation
 
 - Emu68 Tools : Emu68 Discord nightly builds
-- PeterK's icon.library : [https://aminet.net/search?query=iconlib](https://aminet.net/search?query=iconlib)
+- PeterK's icon.library (latest version): [https://aminet.net/search?query=iconlib](https://aminet.net/search?query=iconlib)
 - Ami Speed Test : [https://aminet.net/package/comm/net/AmiSpeedTest](https://aminet.net/package/comm/net/AmiSpeedTest)
 - iBrowse (demo) : [https://www.ibrowse-dev.net/](hhttps://www.ibrowse-dev.net/)
-- AmiSSL : [https://aminet.net/search?query=amissl+os3](https://aminet.net/search?query=amissl+os3)
+- AmiSSL (latest version) : [https://aminet.net/search?query=amissl+os3](https://aminet.net/search?query=amissl+os3)
 - BusTest : [https://aminet.net/package/util/moni/bustest](https://aminet.net/package/util/moni/bustest)
 - CFD : [https://aminet.net/package/driver/media/CFD133](hhttps://aminet.net/package/driver/media/CFD133)
 - Change Boot Pri : [https://thomas-rapp.hier-im-netz.de/downloads/](https://thomas-rapp.hier-im-netz.de/downloads/)
