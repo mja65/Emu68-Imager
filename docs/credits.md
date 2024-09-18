@@ -16,7 +16,7 @@ We want to thank the Pistorm team that has made all of this possible. We appreti
 - Paraj
 - everyone else that has contributed in any way
 
-Also big thanks for the users that supported us with ideas and just being there:
+Also big thanks to the users that supported us with ideas and for just being there:
 
 - Pedro
 - R-Typer
