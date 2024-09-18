@@ -51,7 +51,7 @@ The tool will set the partition sizes to some reasonable default values. You can
 If you want to resize Fat32 or Workbench partitions then you will have to first *shrink* the Work partition (the Work partition gets most space by default). This will give you some **Not Used** space and you can resize other partitions to your liking.
 There are 5 parts on the partition bar:
 
-### Fat32
+## Fat32
 
 This is the boot partition for the raspberry Pi. It contains the Emu68 image and all necessary files for it to function. Additionally it contains the following:
 - Kickstart image for your Amiga
@@ -62,7 +62,7 @@ This is the boot partition for the raspberry Pi. It contains the Emu68 image and
 
 The Fat32 partition can be upto 4GB big. The tool selects the default size according to the capacity of the SD card. 
 
-### Workbench
+## Workbench
 
 This is the boot partition for your Amiga. It will contain the Workbench installation and all tools and utilities that are necessary.
 In addition to the installation folders that are installed with the OS you chose there are the following two folders created:
@@ -73,19 +73,19 @@ Please refer to [Amiga Utilities instructions](#amiga-utilities-instructions) ab
 
 The Workbench partition can be upto 100Gb big. The tool selects the default size according to the capacity of the SD card. 
 
-### Work
+## Work
 
 The Work partition is the one that will use up most of the capicity of your SD card. It should be used to install any programs for your Amiga.
 You can populate some (or all) of it using the Imager tool from the start. Please refer to the [Supplying additional files that you want to have available](#supplying-additional-files-that-you-want-to-have-available) section on how to do that. If you don't populate it using this functionality then it will be empty.
 
 The Work partition will by default take up all the remaining capacity of your SD card. Since the PFS3 partitions on the amiga can only be upto 100GB in size the tool will create multiple Work partitions if your SD card has more capacity. Only the first Work: partition will be formatted, you will need to format the rest yourself on the amiga. Please refer to [First Time Run](#first-time-run) section on how to do that.
 
-### Free Space
+## Free Space
 
 The Free Space is the space that will be avaialble as "Free" on your amiga - HD Tool Box will be able to repartion and use it as you wish.
 It is recommended to resize your Work partition so that there is no Free Space since the *free space* WILL be written to your SD card (it will take time to write it).
 
-### Not Used
+## Not Used
 
 The Not Used is the part of the SD card that will not be touched and it will NOT be available on your amiga. If you would like to have smaller image on the amiga and have some free space which you can Repartion on your windows (to have another Fat32 or NTFS volume for PC use for example) then please use this *not used* space for it.
 
@@ -105,7 +105,7 @@ The names of the ADF files and Kickstart ROMs are not important. You can name th
 
 First you need to select for which OS version you will provide the needed files. Use the **Select OS Version** dropdown.
 
-### Kickstart ROM files
+## Kickstart ROM files
 
 The following Kickstart ROM files are needed for each OS that is supported. Place them in any directory on your hard drive and select that directory by clicking on **Click to set Kickstart Path** button.
 
@@ -114,7 +114,7 @@ The following Kickstart ROM files are needed for each OS that is supported. Plac
 |Kickstart 3.1 A1200 (40.068) Commodore||
 |Kickstart 3.x A1200 Cloanto||
 
-### Workbench ADF Install Images
+## Workbench ADF Install Images
 
 The following ADF files must be provided for each OS. You can place them in the same directory as Kickstart ROM or a separate one.
 
