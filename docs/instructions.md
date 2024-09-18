@@ -77,11 +77,12 @@ The Work partition will by default take up all the remaining capacity of your SD
 
 ### Free Space
 
-The Free Space is the space that will be avaialble as "Free" on your amiga HD Tool Box to repartion and use as you wish. It is recommended to resize your Work partition so that there is no Free Space. The free space WILL be written to your SD card (it will take time to write it).
+The Free Space is the space that will be avaialble as "Free" on your amiga - HD Tool Box will be able to repartion and use it as you wish.
+It is recommended to resize your Work partition so that there is no Free Space since the *free space* WILL be written to your SD card (it will take time to write it).
 
 ### Not Used
 
-The Not Used is the part of the SD card that will not be touched and it will NOT be available on your amiga. If you would like to have smaller image on the amiga and have some free space which you can Repartion on your windows (to have another Fat32 or NTFS volume for PC use for example) then please use this free space for it.
+The Not Used is the part of the SD card that will not be touched and it will NOT be available on your amiga. If you would like to have smaller image on the amiga and have some free space which you can Repartion on your windows (to have another Fat32 or NTFS volume for PC use for example) then please use this *not used* space for it.
 
 
 # Amiga Utilities instructions
