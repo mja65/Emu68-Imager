@@ -109,7 +109,7 @@ First you need to select for which OS version you will provide the needed files.
 
 The following Kickstart ROM files are needed for each OS that is supported. Place them in any directory on your hard drive and select that directory by clicking on **Click to set Kickstart Path** button.
 
-|OS 3.1 |OS 3.2.2.1 |
+|**OS 3.1**|**OS 3.2.2.1**|
 |Kickstart 3.1 A1200 (40.068) Hyperion|Kickstart 3.2.2 A1200 (47.111)|
 |Kickstart 3.1 A1200 (40.068) Commodore||
 |Kickstart 3.x A1200 Cloanto||
@@ -120,12 +120,12 @@ The following ADF files must be provided for each OS. You can place them in the 
 
 For OS 3.2.2.1 make sure to use the latest version ADF file if the name does not include version number! First are the files from 3.2 distribution then the files from 3.2.2 Update and last the file from 3.2.2.1 Hotfix.
 
-|OS 3.1               |OS 3.2.2.1 |
+|**OS 3.1**               |**OS 3.2.2.1**|
 |Workbench 3.1        |Storage 3.2|
 |Workbench 3.1 Install|Backdrops 3.2|
 |Workbench 3.1 Storage|Extras 3.2|
 |Workbench 3.1 Fonts  |Workbench 3.2|
-|Workbench 3.1 Extras ||Fonts 3.2|
+|Workbench 3.1 Extras |Fonts 3.2|
 |Workbench 3.1 Locale |Install 3.2|
 ||Classes 3.2|
 ||GlowIcons 3.2
