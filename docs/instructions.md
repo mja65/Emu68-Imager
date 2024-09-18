@@ -76,7 +76,7 @@ The Workbench partition can be upto 100Gb big. The tool selects the default size
 ### Work
 
 The Work partition is the one that will use up most of the capicity of your SD card. It should be used to install any programs for your Amiga.
-You can populate some (or all) of it using the Imager tool from the start. Please refer to the [Transfer Files to Work Partition](#transfer-files-to-work-partition) section on how to do that. If you don't populate it using this functionality then it will be empty.
+You can populate some (or all) of it using the Imager tool from the start. Please refer to the [Supplying additional files that you want to have available](#supplying-additional-files-that-you-want-to-have-available) section on how to do that. If you don't populate it using this functionality then it will be empty.
 
 The Work partition will by default take up all the remaining capacity of your SD card. Since the PFS3 partitions on the amiga can only be upto 100GB in size the tool will create multiple Work partitions if your SD card has more capacity. Only the first Work: partition will be formatted, you will need to format the rest yourself on the amiga. Please refer to [First Time Run](#first-time-run) section on how to do that.
 
@@ -120,6 +120,8 @@ The following ADF files must be provided for each OS. You can place them in the 
 
 For OS 3.2.2.1 make sure to use the latest version ADF file if the name does not include version number! First are the files from 3.2 distribution then the files from 3.2.2 Update and last the file from 3.2.2.1 Hotfix.
 
+Select the directory where you placed the files by clicking on **Click to set ADF Path** button.
+
 |**OS 3.1**               |**OS 3.2.2.1**|
 |Workbench 3.1        |Storage 3.2|
 |Workbench 3.1 Install|Backdrops 3.2|
@@ -151,6 +153,13 @@ For OS 3.2.2.1 make sure to use the latest version ADF file if the name does not
 ||LocaleES 3.2.2|
 |||
 ||Update 3.3.2.1|
+
+## Supplying additional files that you want to have available
+
+If you want to supply your own files that you want to have available in the Work: partition then you can do so by clicking on the **Click to set transfer path** button.
+You can put any files you want there and they will be copied to the SD card into the Work: partition.
+The Imager tool will check the sizes if they fit and will warn you if there is not enough space.
+
 
 ---
 
