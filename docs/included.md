@@ -10,9 +10,20 @@ Whilst there are several tools/utilities included with the Imager tool, most of 
   
 ## Included with the Emu68 Imager Tool
 
-- 7Zip - [https://www.7-zip.org/](https://www.7-zip.org/)
+- 7Zip - Copyright (C) 2024 Igor Pavlov. 7zip is free software licenced under the GNU LGPL license. Both the binaries and the source code can be obtained from [https://www.7-zip.org/](https://www.7-zip.org/)
 - Roadshow Demo - Included with permission from Olaf Barthel and Andreas Magerl. Please consider supporting the developers by purchasing the full version from [http://roadshow.apc-tcp.de/](http://roadshow.apc-tcp.de)
-- Picasso96 configuration file - Included with permission from Individual Computers. Free version is downloaded from aminet and installed. You can purchase the full version of P96 from their shop: [https://icomp.de/shop-icomp/en/news.html](https://icomp.de/shop-icomp/en/news.html)
+- Picasso96 configuration file - Included with permission from Jens Schönfeld. Free version is downloaded from aminet and installed. Jens would like it noted:
+    - The only location to purcahse a legal copy of P96 is Individual Computers.
+    - no other emulation package can claim to have a "legal copy" of P96
+You can purchase the full version of P96 at their shop: [https://icomp.de/shop-icomp/en/news.html](https://icomp.de/shop-icomp/en/news.html)
+- ArewePal - Created by Tom-Cat
+- CE - Created by Tom-Cat
+- Emu68Info - Created by Flype
+- Emu68meter - Created by Flype
+- TomCopy - Created by Tom-Cat
+- TomDelete - Created by Tom-Cat
+- WaitforTask - Created by Flype
+
 
 ## Downloaded and installed during image creation
 
@@ -60,6 +71,7 @@ The full packages (including licencing information (where applicable) and docume
 - Unzip : [https://aminet.net/package/util/arc/UnZIP552](https://aminet.net/package/util/arc/UnZIP552)
 - Vinced : [https://aminet.net/packageutil/shell/ViNCEd](https://aminet.net/packageutil/shell/ViNCEd)
 - WHDLoad : [https://whdload.de/whdload/WHDLoad_usr.lha](https://whdload.de/whdload/WHDLoad_usr.lha)
+- WHDLoadWrapper (latest version) : [https://ftp2.grandis.nu/turransearch/search.php?_search_=1&search=Wrapper&category_id=Misc&exclude=&limit=30&httplinks=on&username=ftp%2Cany](https://ftp2.grandis.nu/turransearch/search.php?_search_=1&search=Wrapper&category_id=Misc&exclude=&limit=30&httplinks=on&username=ftp%2Cany)
 - Workbench Library : [https://cdn.cloanto.com/pub/amiga/Workbench-Library-40-5.lha](https://cdn.cloanto.com/pub/amiga/Workbench-Library-40-5.lha)
 - XAD Master : [https://aminet.net/package/util/arc/xadmaster020](https://aminet.net/package/util/arc/xadmaster020)
 - ZIP : [https://aminet.net/package/util/arc/ZIP232](https://aminet.net/package/util/arc/ZIP232)
