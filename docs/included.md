@@ -20,7 +20,7 @@ Whilst there are several tools/utilities included with the Imager tool, most of 
 - iBrowse (demo) : [https://www.ibrowse-dev.net/](hhttps://www.ibrowse-dev.net/)
 - AmiSSL (latest version) : [https://aminet.net/search?query=amissl+os3](https://aminet.net/search?query=amissl+os3)
 - BusTest : [https://aminet.net/package/util/moni/bustest](https://aminet.net/package/util/moni/bustest)
-- CFD : [https://aminet.net/package/driver/media/CFD133](hhttps://aminet.net/package/driver/media/CFD133)
+- CFD : [https://aminet.net/package/driver/media/CFD133](https://aminet.net/package/driver/media/CFD133)
 - Change Boot Pri : [https://thomas-rapp.hier-im-netz.de/downloads/](https://thomas-rapp.hier-im-netz.de/downloads/)
 - CopyReplace : [https://aminet.net/package/util/sys/CopyReplace](https://aminet.net/package/util/sys/CopyReplace)
 - Directory Opus : [https://aminet.net/package/util/dopus/DOpus416JRbin](https://aminet.net/package/util/dopus/DOpus416JRbin)
