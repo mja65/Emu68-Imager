@@ -139,6 +139,8 @@ Option **Set disk up only. Do not install packages.** will not install anything 
 
 Option **Do not write to disk. Produce image file only.** will create an .IMG file on your drive (in folder "Working Folder/Output Files") and will not write anything to the SD card. You can write the .IMG file to the SD card later with any image writing program.
 
+Option **Skip empty space when writing to disk** will only write portions of the SD Card that contain data, skipping over any empty space. This will **greatly** reduce image writing time however it is still a bit experimental. However we did not have any problems or saw any bugs.
+
 ## Space Requirements
 
 In this section you can always see how much space is required on your disk for the temporary files that are created when creating the image. You can also see how much space is required on the Work: partition for any addiitonal files you want to write to it. 
