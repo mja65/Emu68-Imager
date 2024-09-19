@@ -148,6 +148,24 @@ If you want to supply your own files that you want to have available in the Work
 You can put any files you want there and they will be copied to the SD card into the Work: partition.
 The Imager tool will check the sizes if they fit and will warn you if there is not enough space.
 
+## Selecting Screen mode of the HDMI output
+
+The output of your raspberryPi stays fixed from the boot and the same resolution is used by the RTG driver on the Amiga. The resolution that you pick from the Screen Mode preferences is then stretched/shrinked to the resolution you picked for the RaspberryPi. In the Settings group you can select one of the pre-defined resolutions or let it be Automatically selected by the Pi on boot. 
+If you want to change it later you can edit the config.txt file on fat32 partition accordingly.
+
+## Configuring WiFi
+
+Imager lets you configure WiFi driver of Emu68 (wifipi.device) before the Workbench is started. You need to enter the SSID (name) of your WiFi endpoint and the Password for it. Both are in the `Wifi Settings` section. You can change them later on by using the **Wifi Config** icon in the **Pistorm** folder on your Workbench partition.
+
+## Options
+
+Option **Set disk up only. Do not install packages.** will not install anything on the Workbench partition, it will only create the partitions and format them.
+
+Option **Do not write to disk. Produce image file only.** will create an .IMG file on your drive (in folder "Working Folder/Output Files") and will not write anything to the SD card. You can write the .IMG file to the SD card later with any image writing program.
+
+## Space Requirements
+
+In this section you can always see how much space is required on your disk for the temporary files that are created when creating the image. You can also see how much space is required on the Work: partition for any addiitonal files you want to write to it. 
 
 ---
 
