@@ -9,7 +9,7 @@ The Emu68 Imager is a utility to allow PiStorm users to easily prepare an SD car
 [Installation](installation.md)<br>
 [Quick Start](quickstart.md)<br>
 [Emu68 Imager tool Instructions](instructions.md)<br>
-[Amiga Utilities instructions](amigautilities.md)<br>
+[Amiga Utilities Instructions](amigautilities.md)<br>
 [What's Included](included.md)<br>
 [Frequently Asked Questions](faqs.md)<br>
 [Support](support.md)<br>
