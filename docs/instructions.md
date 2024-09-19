@@ -12,7 +12,7 @@ At any time you can click on `Click for Documentation` button which will show th
 
 ## Selecting SD card
 
-You can insert the SD crd before you start the tool. If you insert the SD card or change it while the tool is running you have to press the  `Refresh Available Media` button so the drop down box is refreshed.
+You can insert the SD card before you start the tool. If you insert the SD card or change it while the tool is running you have to press the  `Refresh Available Media` button so the drop down box is refreshed.
 Select the desired SD card from the `Select Media to use` drop down box. When you do so the partition bar will change according to the capacity of the SD card. 
 
 If you change the default sizes of the partitions then the `Reset Partitions to default` button will reset the partitions to their default values as if you selected the SD card for the first time.
@@ -32,7 +32,7 @@ This is the boot partition for the raspberry Pi. It contains the Emu68 image and
 - Kickstarts folder to which you can copy the Kickstarts you want to use with WHDLoad games and demos
 - Packages folder to which you can copy Install Packages for the Emu68 Imager tool package installer
 
-The Fat32 partition can be upto 4GB big. The tool selects the default size according to the capacity of the SD card. 
+The miniumum size of the Fat32 partition is 35MiB and it can be upto 4GB big. The tool selects the default size according to the capacity of the SD card. 
 
 ## Workbench
 
@@ -43,18 +43,18 @@ In addition to the installation folders that are installed with the OS you chose
 
 Please refer to [Amiga Utilities instructions](amigautilities.md) about the content of these two folders.
 
-The Workbench partition can be upto 100Gb big. The tool selects the default size according to the capacity of the SD card. 
+The Workbench partition can be up to the maximum size allowed by the PFS file system (101 GiB). The tool selects the default size according to the capacity of the SD card. 
 
 ## Work
 
 The Work partition is the one that will use up most of the capicity of your SD card. It should be used to install any programs for your Amiga.
 You can populate some (or all) of it using the Imager tool from the start. Please refer to the [Supplying additional files that you want to have available](#supplying-additional-files-that-you-want-to-have-available) section on how to do that. If you don't populate it using this functionality then it will be empty.
 
-The Work partition will by default take up all the remaining capacity of your SD card. Since the PFS3 partitions on the amiga can only be upto 100GB in size the tool will create multiple Work partitions if your SD card has more capacity. Only the first Work: partition will be formatted, you will need to format the rest yourself on the amiga. Please refer to [First Time Run](amigautilities.md#first-time-run) section on how to do that.
+The Work partition will by default take up all the remaining capacity of your SD card. Since the PFS3 partitions on the amiga can only be upto 101GiB in size the tool will create multiple Work partitions of equal size if your SD card has more capacity than the PFS limit. Only the first Work: partition will be formatted, you will need to format the rest yourself on the amiga. Please refer to [First Time Run](amigautilities.md#first-time-run) section on how to do that.
 
 ## Free Space
 
-The Free Space is the space that will be avaialble as "Free" on your amiga - HD Tool Box will be able to repartion and use it as you wish.
+The Free Space is the space that will be available as "Free" on your amiga - HD Tool Box will be able to repartion and use it as you wish.
 It is recommended to resize your Work partition so that there is no Free Space since the *free space* WILL be written to your SD card (it will take time to write it).
 
 ## Not Used
