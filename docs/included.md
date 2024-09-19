@@ -2,9 +2,10 @@ Whilst there are several tools/utilities included with the Imager tool, most of 
 
 ## Programs used by the tool
 
-- HST.Imager - [https://github.com/henrikstengaard/hst-imager](https://github.com/henrikstengaard/hst-imager)
-- HST.Amiga - [https://github.com/henrikstengaard/hst-amiga](https://github.com/henrikstengaard/hst-amiga)
-- HDF2Emu68 - [https://github.com/PiStorm/hdf2emu68](https://github.com/PiStorm/hdf2emu68)
+- HST.Imager by Henrik Nørfjand Stengaard - [https://github.com/henrikstengaard/hst-imager](https://github.com/henrikstengaard/hst-imager)
+- HST.Amiga by Henrik Nørfjand Stengaard - [https://github.com/henrikstengaard/hst-amiga](https://github.com/henrikstengaard/hst-amiga)
+- HDF2Emu68 by Claude Schwartz and Tom-Cat - [https://github.com/PiStorm/hdf2emu68](https://github.com/PiStorm/hdf2emu68)
+- DDTC by Tom-Cat 
 - Unlzx - [https://aminet.net/util/arc/W95unlzx.lha](https://aminet.net/util/arc/W95unlzx.lha)
 
   
