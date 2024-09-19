@@ -142,3 +142,10 @@ Option **Do not write to disk. Produce image file only.** will create an .IMG fi
 ## Space Requirements
 
 In this section you can always see how much space is required on your disk for the temporary files that are created when creating the image. You can also see how much space is required on the Work: partition for any addiitonal files you want to write to it. 
+
+## Writing the Image to the SD Card
+
+After you set everything properly up the `Run Tool` button will turn Green and you can now press it.<br>
+You will be presented with popups displaying the result of some initial tests then the Image creation will begin.<br>
+There are several sections where Imager downloads all necessary packages from the internet. In the end the image is written to the SD Card and when it finishes you can eject it using the icon then you can remove it from the reader!<br>
+Now you can insert the SD Card into RaspberryPi on your amiga and continue with the [Amiga Utilities instructions](amigautilities.md)!
