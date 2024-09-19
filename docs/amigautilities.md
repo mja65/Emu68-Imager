@@ -18,7 +18,7 @@ There are several scripts run to finalize the installation of Workbench includin
 - Setting PAL/NTSC monitors
 - Setting HDToolBox and Fat32 partition driver according to your RaspberryPi (rPi3/4)
 - Deletion of unecessary libraries
-- Seting up iBrowse, PFS3
+- Setting up iBrowse, PFS3
 - Tidying up Icon positions
 
 ## Locale preferences
@@ -28,6 +28,11 @@ You will also be asked to setup your Locale preferences. This is important for C
 ---
 
 # Pistorm utilities and features included
+
+Besides the usual Workbench Tools, Utilities and System Programs we also included all necessary and usefull **Pistorm** utilities and also a selection of **Programs** that will help you with the Pistorm and Emu68 startup.<br>
+Both are placed in the same named folders on Workbench: partition.
+
+## Pistorm utilities
 
 
 
