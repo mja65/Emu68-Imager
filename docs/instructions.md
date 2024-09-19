@@ -10,9 +10,9 @@ When you start the Emu68 Imager you will be presented with the options screen:
 
 ![Emu68 Imager Screenshot](images/screenshot1.png)
 
----
-
 The `Run Tool` button will be red until you select the required options. When you select those it will turn green and you can press it.
+
+---
 
 # Quick Start
 
