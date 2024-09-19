@@ -1,5 +1,11 @@
 # Emu68 Imager tool instructions
 
+When you start the Emu68 Imager you will be presented with the options screen:
+
+![Emu68 Imager Screenshot](images/screenshot1.png)
+
+The `Run Tool` button will be red until you select the required options. When you select those it will turn green and you can press it.
+
 The tool has several sections. You will need to select options in each section for the tool to be able to run. When everything that is mandatory is selected the `Run Tool` button will turn green and you can continue with the image creation.
 
 At any time you can click on `Click for Documentation` button which will show this instructions in your default browser.
