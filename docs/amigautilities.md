@@ -10,7 +10,9 @@ First time the SD card is run there will be several additional things done :
 
 ## Buptest
 
-Buptest is a test performed by Emu68 to check that the pistorm is functioning properly. On your HDMI output you will see several lines of output. If all is well the test should be succesfull and your Amiga will continue booting the Emu68. From now on the output will be on your normal Amiga monitor output.
+Buptest is a test performed by Emu68 to check that the pistorm is functioning properly. On your HDMI output you will see several lines of output. If all is well the test should be succesfull and your Amiga will continue booting the Emu68. From now on the output will be on your normal Amiga monitor output.<br>
+
+After the amiga succesfully boots into Workbench it will disable Buptest since it is not needed anymore and it only slows the boot process down.
 
 ## Workbench finalization
 
