@@ -107,4 +107,4 @@ A free and feature-rich Editor. Especially on OS 3.1 you will need it!
 
 We have installed these so you don't have to set them Up.
 
-Please refer to [What's Included section](included.rb) to see where the tool downloads these programs and their documentation.
+Please refer to [What's Included section](included.md) to see where the tool downloads these programs and their documentation.
