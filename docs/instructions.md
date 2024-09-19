@@ -138,9 +138,3 @@ Option **Do not write to disk. Produce image file only.** will create an .IMG fi
 ## Space Requirements
 
 In this section you can always see how much space is required on your disk for the temporary files that are created when creating the image. You can also see how much space is required on the Work: partition for any addiitonal files you want to write to it. 
-
----
-
-# Amiga Utilities instructions
-
-test text 2
