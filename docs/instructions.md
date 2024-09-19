@@ -122,37 +122,26 @@ For OS 3.2.2.1 make sure to use the latest version ADF file if the name does not
 
 Select the directory where you placed the files by clicking on `Click to set ADF Path` button.
 
-|**OS 3.1**               |**OS 3.2.2.1**|
-|Workbench 3.1        |Storage 3.2|
-|Workbench 3.1 Install|Backdrops 3.2|
-|Workbench 3.1 Storage|Extras 3.2|
-|Workbench 3.1 Fonts  |Workbench 3.2|
-|Workbench 3.1 Extras |Fonts 3.2|
-|Workbench 3.1 Locale |Install 3.2|
-||Classes 3.2|
-||GlowIcons 3.2
-||Locale 3.2|
-||LocaleDE 3.2|
-||LocaleUK 3.2|
-||LocaleNL 3.2|
-||LocaleEN 3.2|
-||LocaleDK 3.2|
-||LocaleES 3.2|
-||LocaleIT 3.2|
-||LocaleFR 3.2|
-|||
-||DiskDoctor 3.2.2|
-||Update 3.2.2|
-||LocaleDE 3.2.2|
-||LocaleIT 3.2.2|
-||LocaleNL 3.2.2|
-||LocaleUK 3.2.2|
-||LocaleFR 3.2.2|
-||LocaleDK 3.2.2|
-||LocaleEN 3.2.2|
-||LocaleES 3.2.2|
-|||
-||Update 3.3.2.1|
+|**OS 3.1**               |**OS 3.2.2.1**|||
+||OS 3.2|OS 3.2.2|OS 3.2.2.1|
+|||||
+|Workbench 3.1        |Storage 3.2|  DiskDoctor 3.2.2|Update 3.2.2.1|
+|Workbench 3.1 Install|Backdrops 3.2|Update 3.2.2||
+|Workbench 3.1 Storage|Extras 3.2|   LocaleDE 3.2.2||
+|Workbench 3.1 Fonts  |Workbench 3.2|LocaleIT 3.2.2||
+|Workbench 3.1 Extras |Fonts 3.2|    LocaleNL 3.2.2||
+|Workbench 3.1 Locale |Install 3.2|  LocaleUK 3.2.2||
+||Classes 3.2|                      |LocaleFR 3.2.2||
+||GlowIcons 3.2                     |LocaleDK 3.2.2||
+||Locale 3.2|                       |LocaleEN 3.2.2||
+||LocaleDE 3.2|                     |LocaleES 3.2.2||
+||LocaleUK 3.2|||
+||LocaleNL 3.2|||
+||LocaleEN 3.2|||
+||LocaleDK 3.2|||
+||LocaleES 3.2|||
+||LocaleIT 3.2|||
+||LocaleFR 3.2|||
 
 ## Supplying additional files that you want to have available
 
