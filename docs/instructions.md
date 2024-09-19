@@ -79,20 +79,22 @@ First you need to select for which OS version you will provide the needed files.
 
 ## Kickstart ROM files
 
-The following Kickstart ROM files are needed for each OS that is supported. Place them in any directory on your hard drive and select that directory by clicking on `Click to set Kickstart Path` button.
+The following Kickstart ROM files are needed for each OS that is supported. Select the directory where the Kickstart ROM file is located by clicking on `Click to set Kickstart Path` button.
 
 |**OS 3.1**|**OS 3.2.2.1**|
 |Kickstart 3.1 A1200 (40.068) Hyperion|Kickstart 3.2.2 A1200 (47.111)|
 |Kickstart 3.1 A1200 (40.068) Commodore||
 |Kickstart 3.x A1200 Cloanto||
 
+The tool will then search the location you have specified and match to the relevant Kickstart required (irrespective of the filenames).
+
 ## Workbench ADF Install Images
 
-The following ADF files must be provided for each OS. You can place them in the same directory as Kickstart ROM or a separate one.
+The following ADF files must be provided for each OS. They can be in the same directory as where the Kickstart ROM is located or a separate directory.
 
 For OS 3.2.2.1 make sure to use the latest version ADF file if the name does not include version number! First are the files from 3.2 distribution then the files from 3.2.2 Update and last the file from 3.2.2.1 Hotfix.
 
-Select the directory where you placed the files by clicking on `Click to set ADF Path` button.
+Select the directory where the files exist (it will search all sub-folders under this directory) by clicking on `Click to set ADF Path` button.
 
 |**OS 3.1**               |**OS 3.2.2.1**| ||
 ||*from 3.2*|*from 3.2.2*|*from 3.2.2.1*|
@@ -113,6 +115,8 @@ Select the directory where you placed the files by clicking on `Click to set ADF
 ||LocaleES 3.2|||
 ||LocaleIT 3.2|||
 ||LocaleFR 3.2|||
+
+The tool will then search the location you have specified and match to the relevant ADFs required (irrespective of the filenames).
 
 ## Supplying additional files that you want to have available
 
