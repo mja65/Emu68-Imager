@@ -1,37 +1,3 @@
-# Instructions
-
-[Quick Start](#quick-start)
-
-[Emu68 Imager tool instructions](#emu68-imager-tool-instructions)
-
-[Amiga Utilities instructions](#amiga-utilities-instructions)
-
-When you start the Emu68 Imager you will be presented with the options screen:
-
-![Emu68 Imager Screenshot](images/screenshot1.png)
-
-The `Run Tool` button will be red until you select the required options. When you select those it will turn green and you can press it.
-
----
-
-# Quick Start
-
-If you want to quickly create an image for your Pistormed amiga then you can leave most things on their default setting and do the following:
-- Insert your SD card in your SD card reader
-- If you inserted the SD card after the tool was run then press the `Refresh Available Media` button
-- Select the desired SD card from the drop down control
-- Select the desired OS version
-- Copy the Kickstart ROM and all installation ADF floppy images to a folder on your disk (refer to [ADF Images](#adf-images) section)
-- Select the Kickstart folder by clicking on `Click to set Kickstart Path` button
-- Select the ADF Images folder by clicking on `Click to set ADF Path` button
-- Select the Screen Mode of your HDMI monitor in the drop down box
-- If the button `Run Tool` is red it means you have not completed the required information. At any time you can press this button and the tool will tell you what is missing
-- The button `Run Tool` should turn green if there was enough space on your disk. If you have insufficient space, the button will turn yellow and give you the opportunity to select a different drive
-- Press the `Run Tool` button and follow the popup windows to start the tool
-- It will take some time for all utilities to be downloaded and image written
-
----
-
 # Emu68 Imager tool instructions
 
 The tool has several sections. You will need to select options in each section for the tool to be able to run. When everything that is mandatory is selected the `Run Tool` button will turn green and you can continue with the image creation.
@@ -69,7 +35,7 @@ In addition to the installation folders that are installed with the OS you chose
 - Pistorm - contains all tools associated with Pistorm and Emu68
 - Programs - contains essential utilities that we thought will benefit the user on clean install
 
-Please refer to [Amiga Utilities instructions](#amiga-utilities-instructions) about the content of these two folders.
+Please refer to [Amiga Utilities instructions](amigautilities.md) about the content of these two folders.
 
 The Workbench partition can be upto 100Gb big. The tool selects the default size according to the capacity of the SD card. 
 
@@ -78,7 +44,7 @@ The Workbench partition can be upto 100Gb big. The tool selects the default size
 The Work partition is the one that will use up most of the capicity of your SD card. It should be used to install any programs for your Amiga.
 You can populate some (or all) of it using the Imager tool from the start. Please refer to the [Supplying additional files that you want to have available](#supplying-additional-files-that-you-want-to-have-available) section on how to do that. If you don't populate it using this functionality then it will be empty.
 
-The Work partition will by default take up all the remaining capacity of your SD card. Since the PFS3 partitions on the amiga can only be upto 100GB in size the tool will create multiple Work partitions if your SD card has more capacity. Only the first Work: partition will be formatted, you will need to format the rest yourself on the amiga. Please refer to [First Time Run](#first-time-run) section on how to do that.
+The Work partition will by default take up all the remaining capacity of your SD card. Since the PFS3 partitions on the amiga can only be upto 100GB in size the tool will create multiple Work partitions if your SD card has more capacity. Only the first Work: partition will be formatted, you will need to format the rest yourself on the amiga. Please refer to [First Time Run](amigautilities.md#first-time-run) section on how to do that.
 
 ## Free Space
 
