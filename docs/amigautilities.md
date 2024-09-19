@@ -35,7 +35,7 @@ We have provided a Picasso96 settings file with a lot of usefull resolutions pre
 
 ## Formatting of extra Work partitions
 
-If your SD Card is bigger than 100GB and you set up Work partition to be bigger than 101GB then it will be split into more partitions. First partition named Work: is already formatted, but you will need to format the rest your self. Just right click on the **Non Initialized** partition icon and select Format, then follow the instructions and format the partition.
+If your SD Card is bigger than 100GB and you set up Work partition to be bigger than 101GB then it will be split into more partitions. First partition named Work: is already formatted, but you will need to format the rest your self. Just select the **Non Initialized** partition icon and on the right click Icons menu select Format disk, then follow the instructions and format the partition.
 
 ---
 
