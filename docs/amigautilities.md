@@ -27,6 +27,16 @@ There are several scripts run to finalize the installation of Workbench includin
 
 You will also be asked to setup your Locale preferences. This is important for Clock to be set correctly when you go online.
 
+## Additional settings after Workbench first boots
+
+## RTG Screenmodes
+
+We have provided a Picasso96 settings file with a lot of usefull resolutions pre-set for you. Just run the ScreenMode preferences and set any resolution you like. It will display on your HDMI display. Workbench will be much snappier and you will be able to enjoy millions of colours. We have also installed PeterK's icon library that takes advantage of all these colours so you can install PNG icons in all their glory.
+
+## Formatting of extra Work partitions
+
+If your SD Card is bigger than 100GB and you set up Work partition to be bigger than 101GB then it will be split into more partitions. First partition named Work: is already formatted, but you will need to format the rest your self. Just right click on the **Non Initialized** partition icon and select Format, then follow the instructions and format the partition.
+
 ---
 
 # Pistorm utilities and features included
@@ -70,6 +80,8 @@ You can copy all your kickstart rom files into folder named Kickstarts on the FA
 ## InstallPackages
 
 This script can install custom packages that you have in the Fat32 partition **Install** folder. In the future we will have packages available here that you can install for free. Just copy the Package (it is an .lha file) into the Install folder, boot your amiga and double click **InstallPackages** icon. 
+
+---
 
 # Programs
 
