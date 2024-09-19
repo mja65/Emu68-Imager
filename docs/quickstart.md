@@ -13,7 +13,7 @@ If you want to quickly create an image for your Pistormed amiga then you can lea
 - If you inserted the SD card after the tool was run then press the `Refresh Available Media` button
 - Select the desired SD card from the drop down control
 - Select the desired OS version
-- Copy the Kickstart ROM and all installation ADF floppy images to a folder on your disk (refer to [ADF Images](#adf-images) section)
+- Copy the Kickstart ROM and all installation ADF floppy images to a folder on your disk (refer to [ADF Images](instructions.md#supplying-kickstart-rom-and-workbench-installation-floppies) section)
 - Select the Kickstart folder by clicking on `Click to set Kickstart Path` button
 - Select the ADF Images folder by clicking on `Click to set ADF Path` button
 - Select the Screen Mode of your HDMI monitor in the drop down box
