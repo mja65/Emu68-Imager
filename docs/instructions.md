@@ -131,10 +131,10 @@ Select the directory where you placed the files by clicking on `Click to set ADF
 |Workbench 3.1 Fonts  |Workbench 3.2|LocaleIT 3.2.2||
 |Workbench 3.1 Extras |Fonts 3.2|    LocaleNL 3.2.2||
 |Workbench 3.1 Locale |Install 3.2|  LocaleUK 3.2.2||
-||Classes 3.2|                      |LocaleFR 3.2.2||
-||GlowIcons 3.2                     |LocaleDK 3.2.2||
-||Locale 3.2|                       |LocaleEN 3.2.2||
-||LocaleDE 3.2|                     |LocaleES 3.2.2||
+||Classes 3.2|                       LocaleFR 3.2.2||
+||GlowIcons 3.2|                     LocaleDK 3.2.2||
+||Locale 3.2|                        LocaleEN 3.2.2||
+||LocaleDE 3.2|                      LocaleES 3.2.2||
 ||LocaleUK 3.2|||
 ||LocaleNL 3.2|||
 ||LocaleEN 3.2|||
