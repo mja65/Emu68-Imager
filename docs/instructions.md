@@ -122,7 +122,7 @@ For OS 3.2.2.1 make sure to use the latest version ADF file if the name does not
 
 Select the directory where you placed the files by clicking on `Click to set ADF Path` button.
 
-|**OS 3.1**               |**OS 3.2.2.1**|||
+|**OS 3.1**               |**OS 3.2.2.1**| ||
 ||*from 3.2*|*from 3.2.2*|*from 3.2.2.1*|
 |Workbench 3.1        |Storage 3.2|  DiskDoctor 3.2.2|Update 3.2.2.1|
 |Workbench 3.1 Install|Backdrops 3.2|Update 3.2.2||
