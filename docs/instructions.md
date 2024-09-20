@@ -94,6 +94,8 @@ The following ADF files must be provided for each OS. They can be in the same di
 
 For OS 3.2.2.1, the OS 3.2 base installation is used along with the various updates and hotfixes. Please make sure to use the latest version ADF file if the name does not include version number! First are the files from 3.2 distribution then the files from 3.2.2 Update and last the file from 3.2.2.1 Hotfix are required.
 
+**NOTE about 3.2.2.1** : You can copy ALL 3.2 , 3.2.2 Update and 3.2.2.1 Hotfix ADF files (including the ones not on the list) into the same folder. Make sure you don't overwrite any if they have the same filename but rename them so in the end ALL of them are there. And then choose that directory. Imager will find all appropriate ADFs regardless of what filename they have.
+
 Select the directory where the files exist (it will search all sub-folders under this directory) by clicking on `Click to set ADF Path` button.
 
 |**OS 3.1**               |**OS 3.2.2.1**| ||
