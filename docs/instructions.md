@@ -126,20 +126,20 @@ The Imager tool will check the sizes if they fit and will warn you if there is n
 
 ## Selecting Screen mode of the HDMI output
 
-The output of your raspberryPi stays fixed from the boot and the same resolution is used by the RTG driver on the Amiga. The resolution that you pick from the Screen Mode preferences is then stretched/shrinked to the resolution you picked for the RaspberryPi. In the Settings group you can select one of the pre-defined resolutions or let it be Automatically selected by the Pi on boot. 
-If you want to change it later you can edit the config.txt file on fat32 partition accordingly.
+Please note, the output of your RaspberryPi stays fixed from the boot and the same resolution is used by the RTG driver on the Amiga. The resolution that you pick from the Screen Mode preferences is then stretched/shrunk to the resolution you picked for the RaspberryPi. In the Settings group you can select one of the pre-defined resolutions or let it be Automatically selected by the Pi on boot. 
+If you want to change it later you can edit the config.txt file on the FAT32 partition accordingly.
 
 ## Configuring WiFi
 
-Imager lets you configure WiFi driver of Emu68 (wifipi.device) before the Workbench is started. You need to enter the SSID (name) of your WiFi endpoint and the Password for it. Both are in the `Wifi Settings` section. You can change them later on by using the **Wifi Config** icon in the **Pistorm** folder on your Workbench partition.
+Imager lets you configure WiFi driver of Emu68 (wifipi.device) before the Workbench is started. You need to enter the SSID (name) for your WiFi  and the Password for it. Both are in the `Wifi Settings` section. It is not mandatory to provide on start up and you can set it up or change it later on by using the **Wifi Config** icon in the **Pistorm** folder on your Workbench partition.
 
 ## Options
 
 Option **Set disk up only. Do not install packages.** will not install anything on the Workbench partition, it will only create the partitions and format them.
 
-Option **Do not write to disk. Produce image file only.** will create an .IMG file on your drive (in folder "Working Folder/Output Files") and will not write anything to the SD card. You can write the .IMG file to the SD card later with any image writing program.
+Option **Do not write to disk. Produce image file only.** will create an .IMG file on your drive (in folder "Working Folder/Output Files") and will not write anything to the SD card. You can write the .IMG file to the SD card later with any image writing program such as BalenaEtcher, etc.
 
-Option **Skip empty space when writing to disk** will only write portions of the SD Card that contain data, skipping over any empty space. This will **greatly** reduce image writing time however it is still a bit experimental. However we did not have any problems or saw any bugs.
+Option **Skip empty space when writing to disk** will only write portions of the SD Card that contain data, skipping over any empty space. This will **greatly** reduce image writing time however it is still somewhat experimental. However we did not have any problems or saw any bugs.
 
 ## Space Requirements
 

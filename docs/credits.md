@@ -9,7 +9,7 @@ There are several people responsible for this in several different ways. Most of
 - ZX Dunny
 - Flype
 
-We want to thank the Pistorm team that has made all of this possible. We appretiate the dedication and all the work they put into making the best accelerator for the Amiga (and all this free of charge):
+We want to thank the Pistorm team that has made all of this possible. We appreciate the dedication and all the work they put into making the best accelerator for the Amiga along with constant improvements along the way (and all this free of charge):
 
 - Claude
 - Michal

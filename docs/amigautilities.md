@@ -5,12 +5,13 @@ After turning your amiga on you should see the Emu68 Logo on your HDMI output.<b
 
 ## First Time Run
 
-The Amiga should have both HDMI monitor and standard Amiga monitor connected, since both are used on the First run!<br>
+Ideally, (but not essential), the  Amiga should have both HDMI monitor and standard Amiga monitor connected since both are used on the First run!<br>
 First time the SD card is run there will be several additional things done :
 
 ## Buptest
 
-Buptest is a test performed by Emu68 to check that the pistorm is functioning properly. On your HDMI output you will see several lines of output. If all is well the test should be succesfull and your Amiga will continue booting the Emu68. From now on the output will be on your normal Amiga monitor output.<br>
+Buptest is a test performed by Emu68 to check that the pistorm is functioning properly. On your HDMI output you will see several lines of output. If all is well the test should be succesfull and your Amiga will continue booting the Emu68. From now on the output will be on your normal Amiga monitor output. Therefore if you do not have a 
+HDMI monitor connected you will not see this message. <br>
 
 After the amiga succesfully boots into Workbench it will disable Buptest since it is not needed anymore and it only slows the boot process down.
 
@@ -25,17 +26,17 @@ There are several scripts run to finalize the installation of Workbench includin
 
 ## Locale preferences
 
-You will also be asked to setup your Locale preferences. This is important for Clock to be set correctly when you go online.
+You will also be asked to setup your Locale preferences. This is important for Clock to be set correctly when you go online (which is a requirement for accessing https sites).
 
 ## Additional settings after Workbench first boots
 
 ## RTG Screenmodes
 
-We have provided a Picasso96 settings file with a lot of usefull resolutions pre-set for you. Just run the ScreenMode preferences and set any resolution you like. It will display on your HDMI display. Workbench will be much snappier and you will be able to enjoy millions of colours. We have also installed PeterK's icon library that takes advantage of all these colours so you can install PNG icons in all their glory.
+We have provided a Picasso96 settings file with a lot of useful resolutions pre-set for you. Just run the ScreenMode preferences and set any resolution you like. It will display on your HDMI display. Workbench will be much snappier and you will be able to enjoy millions of colours. We have also installed PeterK's icon library that takes advantage of all these colours so you can install PNG icons in all their glory.
 
 ## Formatting of extra Work partitions
 
-If your SD Card is bigger than 100GB and you set up Work partition to be bigger than 101GB then it will be split into more partitions. First partition named Work: is already formatted, but you will need to format the rest your self. Just select the **Non Initialized** partition icon and on the right click Icons menu select Format disk, then follow the instructions and format the partition.
+If your SD Card is bigger than 100GB and you set up Work partition to be bigger than 101GB (the maximum PFS supports) then it will be split into additional partitions. The first partition named Work: is already formatted, but you will need to format the rest yourself. Just select the **Non Initialized** partition icon and on the right click Icons menu select Format disk, then follow the instructions and format the partition.
 
 ---
 
