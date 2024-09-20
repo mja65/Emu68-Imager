@@ -100,23 +100,23 @@ Select the directory where the files exist (it will search all sub-folders under
 
 |**OS 3.1**               |**OS 3.2.2.1**| ||
 ||*from 3.2*|*from 3.2.2*|*from 3.2.2.1*|
-|Workbench 3.1        |Storage 3.2|  DiskDoctor 3.2.2|Update 3.2.2.1|
-|Workbench 3.1 Install|Backdrops 3.2|Update 3.2.2||
-|Workbench 3.1 Storage|Extras 3.2|   LocaleDE 3.2.2||
-|Workbench 3.1 Fonts  |Workbench 3.2|LocaleIT 3.2.2||
-|Workbench 3.1 Extras |Fonts 3.2|    LocaleNL 3.2.2||
-|Workbench 3.1 Locale |Install 3.2|  LocaleUK 3.2.2||
-||Classes 3.2|                       LocaleFR 3.2.2||
-||GlowIcons 3.2|                     LocaleDK 3.2.2||
-||Locale 3.2|                        LocaleEN 3.2.2||
-||LocaleDE 3.2|                      LocaleES 3.2.2||
-||LocaleUK 3.2|||
-||LocaleNL 3.2|||
-||LocaleEN 3.2|||
-||LocaleDK 3.2|||
-||LocaleES 3.2|||
-||LocaleIT 3.2|||
-||LocaleFR 3.2|||
+|Workbench 3.1        |Storage3.2|  DiskDoctor|Update3.2.2.1|
+|Workbench 3.1 Install|Backdrops3.2|Update3.2.2||
+|Workbench 3.1 Storage|Extras3.2|   Locale3.2.2-DE ||
+|Workbench 3.1 Fonts  |Workbench3.2|Locale3.2.2-IT||
+|Workbench 3.1 Extras |Fonts|    Locale3.2.2-NL||
+|Workbench 3.1 Locale |Install3.2|  Locale3.2.2-UK||
+||Classes3.2|                       Locale3.2.2-FR||
+||GlowIcons3.2|                     Locale3.2.2-DK||
+||Locale|                        Locale3.2.2-EN||
+||Locale-DE|                      Locale3.2.2-ES||
+||Locale-UK|||
+||Locale-NL|||
+||Locale-EN|||
+||Locale-DK|||
+||Locale-ES|||
+||Locale-IT|||
+||Locale-FR|||
 
 The tool will then search the location you have specified and match to the relevant ADFs required (irrespective of the filenames).
 
