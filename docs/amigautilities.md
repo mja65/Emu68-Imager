@@ -5,7 +5,7 @@ After turning your amiga on you should see the Emu68 Logo on your HDMI output.<b
 
 ## First Time Run
 
-Ideally, (but not essential), the  Amiga should have both HDMI monitor and standard Amiga monitor connected since both are used on the First run!<br>
+Ideally, (but it is not essential), the  Amiga should have both a HDMI monitor and standard Amiga monitor connected since both are used on the First run!<br>
 First time the SD card is run there will be several additional things done :
 
 ## Buptest
@@ -51,7 +51,7 @@ The included tools will make sure you can monitor the status of Emu68, adjust al
 
 ## EmuControl
 
-Essential utility to control everything Emu68 related. You can adjust how JIT performs, setup Debug options and see some of the properties like temperature.
+An essential utility to control everything Emu68 related. You can adjust how JIT performs, setup Debug options and see some of the properties like temperature.
 
 ## VC4Tweak
 
@@ -60,10 +60,10 @@ Lets you tweak the RTG graphics output with filtering options. If you want the s
 ## Online / Offline / WiFi Config
 
 If you setup WiFi SSID and Password before you can click on Online icon and your Amiga should get online.<br>
-The installation is using a demo version of Roadshow TCP/IP stack which will let you be online for 15 minutes after which you have to reset. <br>
-Clicking the Offline icon will stop the TCP/IP stack and you will get offline again.<br>
+The installation is using a demo version of Roadshow TCP/IP stack which will let you be online for up to 15 minutes after which you have to reset your Amiga. <br>
+Clicking the Offline icon will stop the TCP/IP stack and you will get offline again. However, due to limitations in the demo version of Roadshow you may need to reboot your Amiga to go back online. We encourage you to consider buying the full version of Roadshow which does not have these limitations. <br>
 
-If you didn't setup the WiFi SSID and Password before or you want to change it then you can use the **WiFi Config** icon which will let you edit the wifipi.device configuration file.
+If you didn't setup the WiFi SSID and Password before (or you want to change it) then you can use the **WiFi Config** icon which will let you edit the wifipi.device configuration file.
 
 ## Emu68Meter and Emu68Info.r
 
@@ -75,22 +75,22 @@ These two utilities will display the status of the Emu68 and give you informatio
 
 ## TransferKick
 
-If you want to use WHDLoad Games and/or Demos then you will need to have kickstart ROM files present in the Devs/Kickstarts drawers. We have provided a script that will make it easier for you to copy proper kickstart files automatically.<br>
+If you want to use WHDLoad Games and/or Demos then you will need to have kickstart ROM files present in the Devs/Kickstarts drawers. We have provided a script that will make it easier for you to copy proper kickstart files automatically to the folder from the FAT32 partition.<br>
 You can copy all your kickstart rom files into folder named Kickstarts on the FAT32 partition. After you boot your amiga click on the **TransferKick** icon and a script will check for all suitable kickstart rom files and copy them to Devs/Kickstarts for you.
 
 ## InstallPackages
 
-This script can install custom packages that you have in the Fat32 partition **Install** folder. In the future we will have packages available here that you can install for free. Just copy the Package (it is an .lha file) into the Install folder, boot your amiga and double click **InstallPackages** icon. 
+This script can install custom packages that you have in the Fat32 partition **Install** folder. In the future we will have packages available that you can install for free. Just copy the Package (it is an .lha file) into the Install folder, boot your Amiga and double click **InstallPackages** icon. 
 
 ---
 
 # Programs
 
-In addition of Pistorm tools we also installed a few essential and usefull programs for you.
+In addition of Pistorm tools we also installed a few essential and useful programs for you.
 
 ## Directory Opus 4
 
-This is the most used file commander used on amiga. It is the daddy of all double-panel browsers and Amiga installation cannot be without one. We have also provided additional functionality like archive extraction for you so you are all set up and good to go.
+This is one of the more commonly used  file commander tools on the Amiga. It is the daddy of all double-panel browsers and Amiga installation cannot be without one. We have also provided additional functionality like archive extraction for you so you are all set up and good to go.
 
 ## IBrowse (demo)
 
@@ -102,7 +102,7 @@ Utility that lets you see what amiga is doing. Essential to debug problems and f
 
 ## HippoPlayer
 
-Essential module (and much more) player that is still being developed. Latest version will be installed for your convenience.
+An essential module (and much more) player that is still being developed. Latest version will be installed for your convenience.
 
 ## SysInfo
 

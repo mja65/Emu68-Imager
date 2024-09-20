@@ -92,7 +92,7 @@ The tool will then search the location you have specified and match to the relev
 
 The following ADF files must be provided for each OS. They can be in the same directory as where the Kickstart ROM is located or a separate directory.
 
-For OS 3.2.2.1 make sure to use the latest version ADF file if the name does not include version number! First are the files from 3.2 distribution then the files from 3.2.2 Update and last the file from 3.2.2.1 Hotfix.
+For OS 3.2.2.1, the OS 3.2 base installation is used along with the various updates and hotfixes. Please make sure to use the latest version ADF file if the name does not include version number! First are the files from 3.2 distribution then the files from 3.2.2 Update and last the file from 3.2.2.1 Hotfix are required.
 
 Select the directory where the files exist (it will search all sub-folders under this directory) by clicking on `Click to set ADF Path` button.
 
@@ -122,11 +122,11 @@ The tool will then search the location you have specified and match to the relev
 
 If you want to supply your own files that you want to have available in the Work: partition then you can do so by clicking on the `Click to set transfer path` button.
 You can put any files you want there and they will be copied to the SD card into the Work: partition.
-The Imager tool will check the sizes if they fit and will warn you if there is not enough space.
+The Imager tool will check the sizes if they fit and will warn you if there is not enough space. Note, this can take significant time to transfer if you have a large amount of files! 
 
 ## Selecting Screen mode of the HDMI output
 
-Please note, the output of your RaspberryPi stays fixed from the boot and the same resolution is used by the RTG driver on the Amiga. The resolution that you pick from the Screen Mode preferences is then stretched/shrunk to the resolution you picked for the RaspberryPi. In the Settings group you can select one of the pre-defined resolutions or let it be Automatically selected by the Pi on boot. 
+Please note, the output of your RaspberryPi is fixed after boot and the same resolution is used by the RTG driver on the Amiga. The resolution that you pick from the Screen Mode preferences is then stretched/shrunk to the resolution you picked for the RaspberryPi. In the Settings group you can select one of the pre-defined resolutions or let it be Automatically selected by the Pi on boot. 
 If you want to change it later you can edit the config.txt file on the FAT32 partition accordingly.
 
 ## Configuring WiFi
