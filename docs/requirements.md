@@ -4,7 +4,7 @@
 - Windows 10 or 11 (while not tested, it should work with Windows 7 onwards with Powershell installed)
 - Internet connection. 
 - MicroSD card (and MicroSD card reader - ideally USB3 if using a large capacity card).
-- AmigaOS 3.1 or 3.2.2.1 ADF files.
+- AmigaOS 3.1 or 3.2.2.1 ADF files - including the base 3.2 install ADF files if installing 3.2.2.1
 - Kickstart 3.1 or 3.2.2.1 ROM file.
  
 **WARNING!**
