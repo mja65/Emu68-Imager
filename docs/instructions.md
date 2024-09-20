@@ -139,7 +139,7 @@ Option **Set disk up only. Do not install packages.** will not install anything 
 
 Option **Do not write to disk. Produce image file only.** will create an .IMG file on your drive (in folder "Working Folder/Output Files") and will not write anything to the SD card. You can write the .IMG file to the SD card later with any image writing program such as BalenaEtcher, etc.
 
-Option **Skip empty space when writing to disk** will only write portions of the SD Card that contain data, skipping over any empty space. This will **greatly** reduce image writing time however it is still somewhat experimental. However we did not have any problems or saw any bugs.
+Option **Skip empty space when writing to disk** will only write portions of the SD Card that contain data, skipping over any empty space. This will **greatly** reduce image writing time.
 
 ## Space Requirements
 
