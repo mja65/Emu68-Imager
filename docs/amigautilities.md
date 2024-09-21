@@ -71,7 +71,7 @@ These two utilities will display the status of the Emu68 and give you informatio
 
 ## SMB Config
 
-**SMB Config** icon will bring up the configuration file for the included Samba driver. You can enter the connection string to your Samba share on the bottom file. If you want to mount the Samba share then you need to go into Storage/DOSDrivers folder and double click the SMB0 icon.
+**SMB Config** icon will bring up the configuration file for the included Samba driver. You can enter the connection string to your Samba share on the bottom file. If you want to mount the Samba share then you need to go into Storage/DOSDrivers folder and double click the SMB0 icon or you can use the MountSMB button in Directory Opus (right clicking on the same button will unmount the Samba share volume).
 
 ## TransferKick
 
