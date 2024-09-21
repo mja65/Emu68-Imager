@@ -4,20 +4,21 @@ When you start the Emu68 Imager you will be presented with the options screen:
 
 ![Emu68 Imager Screenshot](images/screenshot1.png)
 
-The `Run Tool` button will be red until you select the required options. When you select those it will turn green and you can press it.
+The `Run Tool` button will remain red until you select the required options.
+Options that are manadatory are the SD Drive to write to, The OS version you intend to install, your desired screen mode for the RTG driver, and the paths to both the system ADF images and your Kickstart ROM image.
+Bear in mind that if you are installing AmigaOS 3.2.2.1, you will need both the base 3.2 ADFs as well as the hotfix/update ADFs from the 3.2.2.1 distribution in the same folder.
 
 ---
 
 If you want to quickly create an image for your Pistormed amiga then you can leave most things on their default setting and do the following:
-- Insert your SD card in your SD card reader
-- If you inserted the SD card after the tool was run then press the `Refresh Available Media` button
-- Select the desired SD card from the drop down control
-- Select the desired OS version
-- Ensure the the Kickstart ROM and all installation ADF floppy images are in folders on your disk (refer to [ADF Images](instructions.md#supplying-kickstart-rom-and-workbench-installation-floppies) section)
-- Select the Kickstart folder (can be the same as the ADF folder) by clicking on `Click to set Kickstart Path` button
-- Select the ADF Images folder (can be the same as the Kickstart folder) by clicking on `Click to set ADF Path` button
-- Select the Screen Mode of your HDMI monitor in the drop down box
-- If the button `Run Tool` is red it means you have not completed the required information. At any time you can press this button and the tool will tell you what is missing
-- The button `Run Tool` should turn green if there was enough space on your disk. If you have insufficient space, the button will turn yellow and give you the opportunity to select a different drive
-- Press the `Run Tool` button and follow the popup windows to start the tool
-- It will take some time for all utilities to be downloaded and image written
+- Insert your SD card into an SD card writer. If you do this after you have first launched the tool, then press the `Refresh Available Media` button.
+- Select the desired SD card from the drop down control.
+- Select the desired OS version - currently 3.1 and 3.2.2.1 are available.
+- Ensure the the Kickstart ROM and all installation ADF floppy images are in folders on your disk (refer to [ADF Images](instructions.md#supplying-kickstart-rom-and-workbench-installation-floppies) section).
+- Select the Kickstart folder (can be the same as the ADF folder) by clicking on `Click to set Kickstart Path` button.
+- Select the ADF Images folder (can be the same as the Kickstart folder) by clicking on `Click to set ADF Path` button.
+- Select the Screen Mode of your HDMI monitor in the drop down box.
+- If the button `Run Tool` remains red then you have not set the required options. Pressing this button when red will inform you of which options you have missed.
+- The button `Run Tool` should turn green if there was enough space on the disk you launched from. If you have insufficient space, the button will turn yellow and give you the opportunity to select a different drive. Bear in mind that you will need enough space available for the entire image - which can get quite large for bigger SD cards.
+- Press the green `Run Tool` button and follow the popup windows to start the tool. A console window will open showing you the current progress.
+- It will take some time for all utilities to be downloaded and image written.
