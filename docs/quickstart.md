@@ -22,3 +22,5 @@ If you want to quickly create an image for your Pistormed amiga then you can lea
 - The button `Run Tool` should turn green if there was enough space on the disk you launched from. If you have insufficient space, the button will turn yellow and give you the opportunity to select a different drive. Bear in mind that you will need enough space available for the entire image - which can get quite large for bigger SD cards.
 - Press the green `Run Tool` button and follow the popup windows to start the tool. A console window will open showing you the current progress.
 - It will take some time for all utilities to be downloaded and image written.
+
+- N.B: The "Experimental" option at the bottom of the window will skip writing empty space to your image. It can greatly speed up image writing, so should be considered for large SD cards.
