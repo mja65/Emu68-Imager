@@ -2,9 +2,9 @@
 
 You can add additional packages to the Installer. These packages include freely available stuff packaged up neatly and they are installed with minimal required interaction.<br>
 To install them put the files into **Install** folder of the fat32 drive (the only drive that you can access on your Windows).<br>
-When you boot your Amiga go into **Pistorm** folder and click on **Install Packages"" icon. The Installer with do the rest for you. You might need to press Enter after reading the disclaimers.
+When you boot your Amiga go into **Pistorm** folder and click on **Install Packages** icon. The Installer with do the rest for you. You might need to press Enter after reading the disclaimers.
 
-### Available packages:
+**Available packages:**
 
 ## WHDLoad Demos
 
