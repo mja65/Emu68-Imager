@@ -9,6 +9,7 @@ When you boot your Amiga go into **Pistorm** folder and click on **Install Packa
 ## WHDLoad Demos
 
 All available Demos that have WHDLoad version. Imager already installs the latest **WHDLoad Wrapper** for you so they will have the most compatible settings applied before they run.<br>
+You will need about 650Mb free on your Fat32 drive and around 930Mb free on your Work: Partition where the Demos will be installed.
 
 You can download the package here: [Google Drive Link](https://drive.google.com/drive/folders/1hQvmtpAc6XORclGtoqkZl1uGSf0QAr-3)
 
