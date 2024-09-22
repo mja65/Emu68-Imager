@@ -80,7 +80,7 @@ You can copy all your kickstart rom files into folder named Kickstarts on the FA
 
 ## InstallPackages
 
-This script can install custom packages that you have in the Fat32 partition **Install** folder. In the future we will have packages available that you can install for free. Just copy the Package (it is an .lha file) into the Install folder, boot your Amiga and double click **InstallPackages** icon. 
+This script can install custom packages that you have in the Fat32 partition **Install** folder. In the future we will have packages available that you can install for free. Just copy the Package (it is an .lha file) into the Install folder, boot your Amiga and double click **InstallPackages** icon.  Please refer to the [Additional Packages](packages.md) section of the documentation for further information.
 
 ---
 
