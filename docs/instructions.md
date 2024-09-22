@@ -18,7 +18,7 @@ If you click the `Run Tool` button before it is ready, the tool will inform you 
 The tool will list all available media in the drop-down box at the top of the window. The list will include any drives which are suitable for use, but do exercise caution when choosing as this process is irreversible.
 If you insert or change the media while this window is open, you can click on `Refresh available media` to update the list. 
 
-## Selecting Parititon sizes
+## Selecting Partiton sizes
 
 After selecting a suitable SD card, the partition bar will populate with some reasonable default values based on the size of your card. You can then change the sizes of each partition to meet your needs. Resizing is simple; just drag the solid bar between partitions to change them. Note that for very large cards, this may not be practical as the partitions will appear quite small (particularly for the FAT32 and Workbench partitions). In this case you may find that you prefer to enter their sizes in the text fields below.
 Invalid partition sizes will show as a red text field. 
