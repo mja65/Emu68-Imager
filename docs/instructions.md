@@ -27,7 +27,7 @@ N.B. If you want to resize the FAT32 or Workbench partitions then you will have 
 
 There are 5 sections in the partition bar:
 
-## Fat32
+## FAT32
 
 This is the boot partition for the Raspberry Pi. It contains the Emu68 system and all necessary files for it to function. Additionally it contains the following:
 
@@ -37,7 +37,7 @@ This is the boot partition for the Raspberry Pi. It contains the Emu68 system an
 - A Kickstarts folder to which you can copy the Kickstarts you want to use with WHDLoad games and demos
 - A Packages folder where you can copy Install Packages for the Emu68 Imager tool package installer LINKME
 
-The miniumum size of the Fat32 partition is 35MiB, with a maximum of 4GiB. The imager tool will select the default size according to the capacity of the SD card.
+The miniumum size of the FAT32 partition is 35MiB, with a maximum of 4GiB. The imager tool will select the default size according to the capacity of the SD card.
 
 ## Workbench
 
@@ -52,15 +52,15 @@ The Workbench partition can be resized up to the maximum size allowed by the PFS
 ## Work
 
 The Work partition is generally the largest of all the partitions on your SD Card, and it should be used to install any applications or games for your Amiga, along with your documents and other files.
-Some additional applications are available as part of the installation created by the image tool - please refer to the [Supplying additional files that you want to have available](#supplying-additional-files-that-you-want-to-have-available) section on how to choose which you would like to have pre-installed. If you don't populate the Work partition using this functionality then it will be empty.
+Provision has been made to make additional applications available as part of the installation created by the image tool - please refer to the [Supplying additional files that you want to have available](#supplying-additional-files-that-you-want-to-have-available) section on how to choose which of your files you would like to have pre-installed. If you don't populate the Work partition using this functionality then it will be empty.
 
-The Work partition will by default take up all the remaining capacity of your SD card. Since the PFS3 partitions on the amiga can only be upto 101GiB in size the tool will create multiple Work partitions of equal size if your SD card has more capacity than the PFS limit. 
+The Work partition will by default take up all the remaining capacity of your SD card. Since the PFS3 partitions on the Amiga can only be upto 101GiB in size the tool will create multiple Work partitions of equal size if your SD card has more capacity than the PFS limit. 
 
-Only the first Work: partition will be formatted, you will need to format the rest yourself on the amiga. Please refer to [First Time Run](amigautilities.md#first-time-run) section on how to do that.
+Only the first Work: partition will be formatted, you will need to format the rest yourself on the Amiga. Please refer to [First Time Run](amigautilities.md#first-time-run) section on how to do that.
 
 ## Free Space
 
-The Free Space is the space that will be available as "Free" on your amiga - HD Tool Box will be able to repartion and use it as you wish.
+The Free Space is the space that will be available as "unpartitioned" on your Amiga - HD Tool Box will be able to repartion and use it as you wish.
 It is recommended that you either resize your Work partition so that there is no Free Space (since the *free space* WILL be written to your SD card and may take some time to do so) or you should tick the `Skip empty space when writing to disk` option at the bottom of the window. 
 
 ## Not Used
@@ -76,7 +76,7 @@ Version 3.1 was originally supplied with the Amiga 1200 and 4000, and is still a
 
 Both routes will supply you with the necessary Kickstart ROM and Workbench disk image files.
 
-The most essential part of the AmigaOS is the Kickstart, and one of the benefits of using PiStorm with Emu68 is that you can use wichever Kickstart version you desire; you are not limited to the one physically installed in your Amiga. There are additional speed benefits also; any Kickstart file loaded by Emu68 is placed in fast RaspberryPi memory and is much, much faster to access - resulting in a snappier Workbench experience.
+The most essential part of the AmigaOS is the Kickstart, and one of the benefits of Emu68 is that you can use whichever Kickstart version you desire (the imager tool limits the option to two versions, but more may be available in future updates) - you are not limited to the one physically installed in your Amiga. There are additional speed benefits also; any Kickstart file loaded by Emu68 is placed in fast RaspberryPi memory and is much, much faster to access - resulting in a snappier Workbench experience.
 
 The second pre-requisite is the Workbench installation media. The imager tool expects that you will supply these media as disk images (.ADF files). You cannot use real floppy disks from an original workbench installation set with a PC floppy drive; they cannot be read. You can however use specialised hardware to make those images from real floppy drives using tools that you can get on Aminet, but that is beyond the scope of this document. Enquire with your friendly local Amiga web forum for more details.
 
@@ -176,4 +176,4 @@ The main output will be a Powershell window - a text display of progress.
 There are several sections where the imager tool downloads all necessary packages from the internet. 
 Finally, the image will be written to the SD Card and when finished you can eject it and remove it from the drive.
 
-Now you can insert the SD Card into RaspberryPi on your amiga and continue with the [Amiga Utilities instructions](amigautilities.md)!
+Now you can insert the SD Card into RaspberryPi on your Amiga and continue with the [Amiga Utilities instructions](amigautilities.md)!
