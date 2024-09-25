@@ -10,12 +10,15 @@ When you start the Emu68 Imager this window will be displayed after the credits 
 
 The `Run Tool` button will remain red until you supply the required information. When these requirements are satisifed, the button will turn green, indicating that the tool is ready to run.
 
+If the button turns yellow, it means that your current drive location does not have sufficient space. You will be given the option of defining a different working folder so you can select a location with additional space.
+
 At any time you can click on `Click for Documentation` button which will show these instructions in your default browser. 
 If you click the `Run Tool` button before it is ready, the tool will inform you of what information is missing.
 
 ## Selecting an SD card
 
-The tool will list all available media in the drop-down box at the top of the window. The list will include any drives which are suitable for use, but do exercise caution when choosing as this process is irreversible.
+The tool will list all available media in the drop-down box at the top of the window. The list is filtered to removable media and will include any drives which are suitable for use, but do exercise caution when choosing as this process is irreversible, especially as removable media will also include any attached USB drives.
+
 If you insert or change the media while this window is open, you can click on `Refresh available media` to update the list. 
 
 ## Selecting Partiton sizes
