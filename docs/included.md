@@ -6,6 +6,7 @@ Whilst there are several tools/utilities included with the Imager tool, most of 
 - HST.Amiga by Henrik Nørfjand Stengaard - [https://github.com/henrikstengaard/hst-amiga](https://github.com/henrikstengaard/hst-amiga)
 - HDF2Emu68 by Claude Schwartz and Tom-Cat - [https://github.com/PiStorm/hdf2emu68](https://github.com/PiStorm/hdf2emu68)
 - DDTC by Tom-Cat 
+- FindFreeSpace by Tom-Cat
 - Unlzx - [https://aminet.net/util/arc/W95unlzx.lha](https://aminet.net/util/arc/W95unlzx.lha)
 
   

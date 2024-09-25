@@ -1,19 +1,18 @@
 # Amiga Utilities instructions
 
-When Imager finishes writing the image on your SD card you can insert it into the SD card slot of your RaspberryPi.<br>
-After turning your amiga on you should see the Emu68 Logo on your HDMI output.<br>
+When the Imager finishes writing the image on your SD card you can insert it into the SD card slot of your RaspberryPi.<br>
+After turning your Amiga onm you should see the Emu68 Logo on your HDMI output.<br>
 
 ## First Time Run
 
 Ideally, (but it is not essential), the  Amiga should have both a HDMI monitor and standard Amiga monitor connected since both are used on the First run!<br>
-First time the SD card is run there will be several additional things done :
+The first time the SD card is run there will be several additional things done :
 
 ## Buptest
 
-Buptest is a test performed by Emu68 to check that the pistorm is functioning properly. On your HDMI output you will see several lines of output. If all is well the test should be succesfull and your Amiga will continue booting the Emu68. From now on the output will be on your normal Amiga monitor output. Therefore if you do not have a 
-HDMI monitor connected you will not see this message. <br>
+Buptest is a test performed by Emu68 to check that the PiStorm is functioning properly. On your HDMI output you will see several lines of output. If all is well the test should be successful and your Amiga will continue booting the Emu68. From now on the output will be on your normal Amiga monitor output. Therefore if you do not have a HDMI monitor connected you will not see this message. <br>
 
-After the amiga succesfully boots into Workbench it will disable Buptest since it is not needed anymore and it only slows the boot process down.
+After the Amiga succesfully boots into Workbench the first time it will disable Buptest since it is not needed anymore and it only slows the boot process down.
 
 ## Workbench finalization
 
@@ -26,7 +25,7 @@ There are several scripts run to finalize the installation of Workbench includin
 
 ## Locale preferences
 
-You will also be asked to setup your Locale preferences. This is important for Clock to be set correctly when you go online (which is a requirement for accessing https sites).
+You will also be asked to setup your Locale preferences. This is important for the clock to be set correctly when you go online (which is a requirement for accessing https sites).
 
 ## Additional settings after Workbench first boots
 
