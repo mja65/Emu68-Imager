@@ -17,7 +17,7 @@ If you click the `Run Tool` button before it is ready, the tool will inform you 
 
 ## Selecting an SD card
 
-The tool will list all available media in the drop-down box at the top of the window. The list is filtered to removable media and will include any drives which are suitable for use, but do exercise caution when choosing as this process is irreversible, especially as removable media will also include any attached USB drives.
+The tool will list all available media in the drop-down box at the top of the window. The list is filtered to removable media and will include any drives which are suitable for use, but do exercise caution when choosing as this process is irreversible. Removable media will also include any attached USB drives so please ensure you select the actual SD card you intend to use.
 
 If you insert or change the media while this window is open, you can click on `Refresh available media` to update the list. 
 
@@ -37,8 +37,8 @@ This is the boot partition for the Raspberry Pi. It contains the Emu68 system an
 - The Kickstart image for your Amiga
 - a config.txt file with configuration information for your PiStorm and Raspberry Pi
 - a cmdline.txt file with configuration information for Emu68
-- A Kickstarts folder to which you can copy the Kickstarts you want to use with WHDLoad games and demos
-- A Packages folder where you can copy Install Packages for the Emu68 Imager tool package installer LINKME
+- A Kickstarts folder to which you can copy the Kickstarts you want to use with WHDLoad games and demos. This is optional and not required to use the tool.
+- A Packages folder where you can copy Install Packages for the Emu68 Imager tool package installer. This is optional and not required to use the tool. LINKME
 
 The miniumum size of the FAT32 partition is 35MiB, with a maximum of 4GiB. The imager tool will select the default size according to the capacity of the SD card.
 
@@ -68,36 +68,37 @@ It is recommended that you either resize your Work partition so that there is no
 
 ## Not Used
 
-Due to the nature of how Emu68's drivers work, the SD card will be physically partitioned as two partitions - one FAT32 and one marked as 0x76. The second will contain Workbench and your Work partitions which the Amiga will be able to "see" as detailed above. These two partitions can be sized such that their total size is smaller than your SD card - you may not want an entire 512GiB or 1TiB card devoted to the Amiga and may decide to use half of it as Windows or Mac storage space instead for use on other devices. In this case, the remaining space on the SD card will be "*Not Used*" and will be unavailable from within AmigaOS.
+Due to the nature of how Emu68's drivers work, the SD card will be physically partitioned as two MBR partitions recognised on your PC (or Mac) - one FAT32 partition and one partition marked as 0x76. The second partition will contain the partitions seen on your Amiga  (i.e. the Workbench and any Work partitions as detailed above). These two partitions can be sized such that their total size is smaller than your SD card - you may not want an entire 512GiB or 1TiB card devoted to the Amiga and may decide to use half of it as Windows or Mac storage space instead for use on other devices. In this case, the remaining space on the SD card will be "*Not Used*" and will be unavailable from within AmigaOS (though you can add additional 0x76 partitions for use on the Amiga, though this is outside the scope of the tool).
 
 Press the `Reset Partitions to default` button to reset the partition sizes to default values.
 
 ## Supplying Kickstart ROM and Workbench installation floppy images (.ADF files)
 
-The imager tool supports two flavours of AmigaOS - v3.1 and v3.2.2.1. 
+The imager tool supports two flavours of AmigaOS - v3.1 and v3.2. Version 3.2 includes the latest updates (i.e. 3.2.2.1). 
 Version 3.1 was originally supplied with the Amiga 1200 and 4000, and is still available from Cloanto as part of their Amiga Forever package. If you would like to update to the very latest AmigaOS, then Hyperion will sell you a copy of 3.2 on a CD ROM, with additional update and hotfix files as separate downloads.
 
-Both routes will supply you with the necessary Kickstart ROM and Workbench disk image files.
+Both routes will supply you with the necessary Kickstart ROM and Workbench disk image files for which the tool will check you have the correct files.
 
-The most essential part of the AmigaOS is the Kickstart, and one of the benefits of Emu68 is that you can use whichever Kickstart version you desire (the imager tool limits the option to two versions, but more may be available in future updates) - you are not limited to the one physically installed in your Amiga. There are additional speed benefits also; any Kickstart file loaded by Emu68 is placed in fast RaspberryPi memory and is much, much faster to access - resulting in a snappier Workbench experience.
+The most essential part of the AmigaOS is the Kickstart, and one of the benefits of Emu68 is that you can use whichever Kickstart version you desire (currently the imager tool limits the option to two versions, but more may be available in future updates) - you are not limited to the one physically installed in your Amiga. There are additional speed benefits also; any Kickstart file loaded by Emu68 is placed in fast RaspberryPi memory and is much, much faster to access - resulting in a snappier Workbench experience.
 
 The second pre-requisite is the Workbench installation media. The imager tool expects that you will supply these media as disk images (.ADF files). You cannot use real floppy disks from an original workbench installation set with a PC floppy drive; they cannot be read. You can however use specialised hardware to make those images from real floppy drives using tools that you can get on Aminet, but that is beyond the scope of this document. Enquire with your friendly local Amiga web forum for more details.
 
 The names of the ADF files and Kickstart ROMs are *not important*. You can name them anything since the imager tool will checksum and compare them to a database of known good disk and ROM images. This system prevents corrupt or altered installations from causing issues with your setup and ensures a hassle-free experience.
 
+However, the actual contents of the files *is important*. You must use unmodified versions of these disks! 
+
 First you need to select for which OS version you will provide the needed files. Use the `Select OS Version` dropdown.
 
 ## Kickstart ROM files
 
-The following table shows the Kickstart ROM files that are expected for the two versions of AmigaOS that are supported.
-Select the directory where your ROM file is located by clicking on `Click to set Kickstart Path` button.
+The following table shows the Kickstart ROM files that are expected for the two versions of AmigaOS that are supported. Either copy the kickstart file to the default directory in the path where you have installed the tool (UserFiles\Kickstarts\) or select the directory where your ROM file is located by clicking on `Click to set Kickstart Path` button.
 
 |**OS 3.1**|**OS 3.2.2.1**|
 |Kickstart 3.1 A1200 (40.068) Hyperion|Kickstart 3.2.2 A1200 (47.111)|
 |Kickstart 3.1 A1200 (40.068) Commodore||
 |Kickstart 3.x A1200 Cloanto||
 
-When the `Run tool` button is clicked, the imager tool will then search this location and locate the correct Kickstart file based on its contents, so file names are not needed to match.
+You will then need to click the `Check` button and the imager tool will then search this location and locate the correct Kickstart file based on its contents, so file names are not needed to match.
 
 ## Workbench ADF Install Images
 
@@ -106,7 +107,7 @@ The following table details the ADF disk image files you will need for your chos
 For OS 3.2.2.1, the OS 3.2 base installation is used along with the various updates and hotfixes. Please make sure you use the latest version of each ADF file if the name does not include version number! 
 First, copy the files from 3.2 distribution, and then add in the files from 3.2.2 Update, followed by the files from 3.2.2.1 Hotfix, overwriting where necessary with newer files.
 
-Select the directory where the files exist (it will search all sub-folders under this directory) by clicking on `Click to set ADF Path` button.
+Either copy the required folders to the default directory in the path where you have installed the tool (UserFiles\ADFs\) or select the directory where the files exist (it will search all sub-folders under this directory) by clicking on `Click to set ADF Path` button.
 
 |**OS 3.1**               |**OS 3.2.2.1**| ||
 ||*from 3.2*|*from 3.2.2*|*from 3.2.2.1*|
@@ -128,7 +129,9 @@ Select the directory where the files exist (it will search all sub-folders under
 ||Locale-IT|||
 ||Locale-FR|||
 
-The tool will then search the location you have specified and match to the relevant ADFs required (irrespective of the filenames).
+The tool will then search the location you have specified and match to the relevant ADFs required (irrespective of the filenames). If you run into any issues where the tool notes there are missing ADFs, yet you have these available, check that the versions you have used are unmodified. Certain tools (e.g. DiskFlashback) were noted as causing modfications to the ADF, that while still useable, could cause the tool not to recognise them. If this happens, try copying the originally supplied ADFs to the folder.
+
+You will then need to click the `Check` button and the imager tool will then search this location and locate the correct Kickstart file based on its contents, so file names are not needed to match.
 
 ## Supplying your own additional files
 
@@ -142,7 +145,7 @@ N.B: this can take significant time to transfer if you have a large amount of fi
 
 This allows you to specify which screen resolution you want the Raspberry Pi to output once Emu68 has started. All Amiga screen modes used via the RTG system will be scaled to this output - if you choose 1920x1080 for the Pi, and use a 640x512 RTG workbench resolution then this will be scaled up to 1080p, for example, and may result in either a blurry filtered display (or jagged uneven pixels if you disable filtering later on in the RTG driver's Icon Information). It is advisable to either select the resolution that is native to your display, or the one that closely matches your intended Workbench screen mode. 
 
-You can choose one of the pre-selected resolutions, or the Automatic mode where the Raspberry Pi uses DLDI information from your display device to choose the best one. If you intend to use a HDMI switcher or similar device, then the Pi may not be able to determine the correct resolution.
+By default the tool will select the Automatic mode where the Raspberry Pi uses DLDI information from your display device to choose the best one. If you intend to use a HDMI switcher or similar device, then the Pi may not be able to determine the correct resolution. In this case you can choose one of the pre-selected resolutions.
 
 Please note, the output of your RaspberryPi is fixed after boot, and cannot be changed without altering the config.txt file on the FAT32 partition.
 
@@ -158,7 +161,6 @@ It is not mandatory to provide this information during the tool setup, and you c
 
 **Do not write to disk. Produce image file only.** will create an .IMG file on your drive (in folder "Working Folder/Output Files") and will not write anything to the SD card. You can write the .IMG file to the SD card later with any image writing program such as Balena Etcher, etc.
 
-**Skip empty space when writing to disk** will only write portions of the SD Card that contain data, skipping over any empty space. This will **greatly** reduce image writing time and is highly recommended.
 
 ## Space Requirements
 
