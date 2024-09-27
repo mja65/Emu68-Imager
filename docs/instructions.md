@@ -70,7 +70,7 @@ Only the first Work: partition will be formatted, you will need to format the re
 ## Free Space
 
 The Free Space is the space that will be available as "unpartitioned" on your Amiga - HD Tool Box will be able to repartion and use it as you wish.
-It is recommended that you either resize your Work partition so that there is no Free Space (since the *free space* WILL be written to your SD card and may take some time to do so) or you should tick the `Skip empty space when writing to disk` option at the bottom of the window. 
+It is recommended that you either resize your Work partition so that there is no Free Space since the *free space* WILL be written to your SD card. 
 
 ## Not Used
 
