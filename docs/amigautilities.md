@@ -1,12 +1,12 @@
 # Amiga Utilities instructions
 
 When the Imager finishes writing the image on your SD card you can insert it into the SD card slot of your RaspberryPi.<br>
-After turning your Amiga onm you should see the Emu68 Logo on your HDMI output.<br>
+After turning your Amiga on you should see the Emu68 Logo on your HDMI output.<br>
 
 ## First Time Run
 
-Ideally, (but it is not essential), the  Amiga should have both a HDMI monitor and standard Amiga monitor connected since both are used on the First run!<br>
-The first time the SD card is run there will be several additional things done :
+Ideally, (but it is not essential), the  Amiga should have both a HDMI monitor and standard Amiga monitor connected since both are used on the First run.<br>
+The first time the SD card is run there will be several additional things done:
 
 ## Buptest
 
@@ -17,11 +17,11 @@ After the Amiga succesfully boots into Workbench the first time it will disable 
 ## Workbench finalization
 
 There are several scripts run to finalize the installation of Workbench including:
-- Setting PAL/NTSC monitors
-- Setting HDToolBox and Fat32 partition driver according to your RaspberryPi (rPi3/4)
-- Deletion of unecessary libraries
-- Setting up iBrowse, PFS3
-- Tidying up Icon positions
+- Setting PAL/NTSC monitors.
+- Setting HDToolBox and Fat32 partition driver according to your RaspberryPi (rPi3/4).
+- Deletion of unecessary libraries.
+- Setting up iBrowse, PFS3.
+- Tidying up Icon positions.
 
 ## Locale preferences
 
@@ -31,22 +31,22 @@ You will also be asked to setup your Locale preferences. This is important for t
 
 ## RTG Screenmodes
 
-We have provided a Picasso96 settings file with a lot of useful resolutions pre-set for you. Just run the ScreenMode preferences and set any resolution you like. It will display on your HDMI display. Workbench will be much snappier and you will be able to enjoy millions of colours. We have also installed PeterK's icon library that takes advantage of all these colours so you can install PNG icons in all their glory.
+We have provided a Picasso96 settings file with many useful resolutions pre-set for you. Just run the ScreenMode preferences and set any resolution you like. It will display on your HDMI display. Workbench will be much snappier and you will be able to enjoy millions of colours. We have also installed PeterK's icon library that takes advantage of all these colours so you can install PNG icons in all their glory.
 
 ## Formatting of extra Work partitions
 
-If your SD Card is bigger than 100GB and you set up Work partition to be bigger than 101GB (the maximum PFS supports) then it will be split into additional partitions. The first partition named Work: is already formatted, but you will need to format the rest yourself. Just select the **Non Initialized** partition icon and on the right click Icons menu select Format disk, then follow the instructions and format the partition.
+If your SD Card is bigger than 100GB and you set up the Work: partition to be bigger than 101GB (the maximum PFS supports) then it will be split into additional partitions. The first partition named Work: is already formatted, but you will need to format the rest yourself. Just select the **Non Initialized** partition icon and on the right click Icons menu select Format disk, then follow the instructions and format the partition.
 
 ---
 
-# Pistorm utilities and features included
+# PiStorm utilities and features included
 
-Besides the usual Workbench Tools, Utilities and System Programs we also included all necessary and usefull **Pistorm** utilities and also a selection of **Programs** that will help you with the Pistorm and Emu68 startup.<br>
-Both are placed in the same named folders on Workbench: partition.
+Besides the usual Workbench Tools, Utilities and System Programs we also included all necessary and usefull **PiStorm** utilities and also a selection of **Programs** that will help you with the PiStorm and Emu68 startup.<br>
+Both are placed in the same named folders on the Workbench: partition.
 
-# Pistorm tools
+# PiStorm tools
 
-The included tools will make sure you can monitor the status of Emu68, adjust all possible settings, start,stop and configure WiFi and more.
+The included tools will make sure you can monitor the status of Emu68, adjust all possible settings, start/stop and configure WiFi and more.
 
 ## EmuControl
 
@@ -66,7 +66,7 @@ If you didn't setup the WiFi SSID and Password before (or you want to change it)
 
 ## Emu68Meter and Emu68Info.r
 
-These two utilities will display the status of the Emu68 and give you information on raspberryPi used.
+These two utilities will display the status of the Emu68 and give you information on the model of Raspberry Pi used.
 
 ## SMB Config
 
@@ -75,7 +75,7 @@ These two utilities will display the status of the Emu68 and give you informatio
 ## TransferKick
 
 If you want to use WHDLoad Games and/or Demos then you will need to have kickstart ROM files present in the Devs/Kickstarts drawers. We have provided a script that will make it easier for you to copy proper kickstart files automatically to the folder from the FAT32 partition.<br>
-You can copy all your kickstart rom files into folder named Kickstarts on the FAT32 partition. After you boot your amiga click on the **TransferKick** icon and a script will check for all suitable kickstart rom files and copy them to Devs/Kickstarts for you.
+You can copy all your kickstart rom files into folder named Kickstarts on the FAT32 partition. After you boot your Amiga click on the **TransferKick** icon and a script will check for all suitable kickstart rom files and copy them to Devs/Kickstarts for you.
 
 ## InstallPackages
 
@@ -83,29 +83,29 @@ This script can install custom packages that you have in the Fat32 partition **I
 
 ## Documentation
 
-This will launch iBrowse with the documentation saved on the SD card (you don't have to be online to view it). Full documentation is available on your Amiga.
+This will launch IBrowse with the documentation saved on the SD card (you don't have to be online to view it). Full documentation is available on your Amiga.
 
 ---
 
 # Programs
 
-In addition of Pistorm tools we also installed a few essential and useful programs for you.
+In addition of PiStorm tools we also installed a few essential and useful programs for you.
 
 ## Roadshow (demo) ##
 
-We are using the Roadshow TCP/IP stack since it is the only still maintaned TCP/IP stack for amiga. It is a commercial product but we were allowed to distribute the demo version with the tool. It is restricted to 15 minutes online time, after which you have to reboot the amiga. Please consider buying the unrestricted version from the author. More info in [Programs Used by the Tool](included.html#included-with-the-emu68-imager-tool)
+We are using the Roadshow TCP/IP stack since it is the only still maintaned TCP/IP stack for Amiga. It is a commercial product but we were allowed to distribute the demo version with the tool. It is restricted to 15 minutes online time, after which you have to reboot the Amiga. Please consider buying the unrestricted version from the author. More info in [Programs Used by the Tool](included.html#included-with-the-emu68-imager-tool)
 
 ## Directory Opus 4
 
-This is one of the more commonly used  file commander tools on the Amiga. It is the daddy of all double-panel browsers and Amiga installation cannot be without one. We have also provided additional functionality like archive extraction for you so you are all set up and good to go.
+This is one of the more commonly used  file commander tools on the Amiga. It is the daddy of all double-panel browsers and Amiga installations should not be without it. We have also provided additional functionality like archive extraction for you so you are all set up and good to go.
 
 ## IBrowse (demo)
 
-Demo version if the web browser for amiga. It is essential that you have it, if you use it a lot you are encouraged to buy the full version. Documentation included with the installation uses IBrowse for display. You should be able to navigate Aminet without any problems now.
+Demo version if the web browser for Amiga. It is essential that you have it, and if you use it a lot you are encouraged to buy the full version. Documentation included with the installation uses IBrowse for display. You should be able to navigate Aminet without any problems now.
 
 ## SnoopDOS
 
-Utility that lets you see what amiga is doing. Essential to debug problems and find out what your system is missing.
+Utility that lets you see what Amiga is doing. Essential to debug problems and find out what your system is missing.
 
 ## HippoPlayer
 
