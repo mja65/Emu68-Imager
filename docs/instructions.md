@@ -40,9 +40,9 @@ There are 5 sections in the partition bar:
 
 This is the boot partition for the Raspberry Pi. It contains the Emu68 system and all necessary files for it to function. Additionally it contains the following:
 
-- The Kickstart image for your Amiga
-- a config.txt file with configuration information for your PiStorm and Raspberry Pi
-- a cmdline.txt file with configuration information for Emu68
+- The Kickstart image for your Amiga.
+- A config.txt file with configuration information for your PiStorm and Raspberry Pi.
+- A cmdline.txt file with configuration information for Emu68.
 - A Kickstarts folder to which you can copy the Kickstarts you want to use with WHDLoad games and demos. This is optional and not required to use the tool.
 - A Packages folder where you can copy Install Packages for the Emu68 Imager tool package installer. This is optional and not required to use the tool. LINKME
 
@@ -51,8 +51,8 @@ The miniumum size of the FAT32 partition is 35MiB, with a maximum of 4GiB. The i
 ## Workbench
 
 This is the boot partition for your Amiga. It contains the Workbench installation, and additionally the following two folders:
-- PiStorm - contains all tools associated with PiStorm and Emu68
-- Programs - contains essential utilities that we thought will benefit the user on clean install
+- PiStorm - contains all tools associated with PiStorm and Emu68.
+- Programs - contains essential utilities that we thought will benefit the user on clean install.
 
 Please refer to [Amiga Utilities instructions](amigautilities.md) about the content of these two folders.
 
@@ -61,16 +61,16 @@ The Workbench partition can be resized up to the maximum size allowed by the PFS
 ## Work
 
 The Work partition is generally the largest of all the partitions on your SD Card, and it should be used to install any applications or games for your Amiga, along with your documents and other files.
-Provision has been made to make additional applications available as part of the installation created by the image tool - please refer to the [Supplying additional files that you want to have available](#supplying-additional-files-that-you-want-to-have-available) section on how to choose which of your files you would like to have pre-installed. If you don't populate the Work partition using this functionality then it will be empty.
+Provision has been made to make additional files available as part of the installation created by the image tool - please refer to the [Supplying additional files that you want to have available](#supplying-additional-files-that-you-want-to-have-available) section on how to choose which of your files you would like to have pre-installed. If you don't populate the Work partition using this functionality then it will be empty.
 
-The Work partition will by default take up all the remaining capacity of your SD card. Since the PFS3 partitions on the Amiga can only be upto 101GiB in size the tool will create multiple Work partitions of equal size if your SD card has more capacity than the PFS limit. 
+The Work partition will, by default, take up all the remaining capacity of your SD card. Since the PFS3 partitions on the Amiga can only be upto 101GiB in size the tool will create multiple Work partitions of equal size if your SD card has more capacity than the PFS limit. 
 
 Only the first Work: partition will be formatted, you will need to format the rest yourself on the Amiga. Please refer to [First Time Run](amigautilities.md#first-time-run) section on how to do that.
 
 ## Free Space
 
 The Free Space is the space that will be available as "unpartitioned" on your Amiga - HD Tool Box will be able to repartion and use it as you wish.
-It is recommended that you either resize your Work partition so that there is no Free Space since the *free space* WILL be written to your SD card. 
+It is recommended that you resize your Work partition so that there is no Free Space since the *free space* WILL be written to your SD card. 
 
 ## Not Used
 
@@ -103,6 +103,8 @@ The following table shows the Kickstart ROM files that are expected for the two 
 |Kickstart 3.1 A1200 (40.068) Hyperion|Kickstart 3.2.2 A1200 (47.111)|
 |Kickstart 3.1 A1200 (40.068) Commodore||
 |Kickstart 3.x A1200 Cloanto||
+
+Please note that only A1200 versions of the Kickstart ROMs are supported as these are recommended for Emu68 regardless of the Amiga model you are using. 
 
 You will then need to click the `Check` button and the imager tool will then search this location and locate the correct Kickstart file based on its contents, so file names are not needed to match.
 
