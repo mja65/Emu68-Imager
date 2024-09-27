@@ -87,6 +87,10 @@ This script can install custom packages that you have in the Fat32 partition **I
 
 In addition of Pistorm tools we also installed a few essential and useful programs for you.
 
+## Roadshow (demo) ##
+
+We are using the Roadshow TCP/IP stack since it is the only still maintaned TCP/IP stack for amiga. It is a commercial product but we were allowed to distribute the demo version with the tool. It is restricted to 15 minutes online time, after which you have to reboot the amiga. Please consider buying the unrestricted version from the author. More info in [Programs Used by the Tool](included.html#included-with-the-emu68-imager-tool)
+
 ## Directory Opus 4
 
 This is one of the more commonly used  file commander tools on the Amiga. It is the daddy of all double-panel browsers and Amiga installation cannot be without one. We have also provided additional functionality like archive extraction for you so you are all set up and good to go.
