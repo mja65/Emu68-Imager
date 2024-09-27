@@ -15,6 +15,12 @@ If the button turns yellow, it means that your current drive location does not h
 At any time you can click on `Click for Documentation` button which will show these instructions in your default browser. 
 If you click the `Run Tool` button before it is ready, the tool will inform you of what information is missing.
 
+## Load and Save Settings
+
+There is an option to load and save settings. This will allow you to save the settings entered in this screen in case you need to go back and rerun. As well as saving your settings here, a settings file will automatically be created and stored in the Settings folder where you have installed the tool. 
+
+Note, when you load settings you must have the SD card you used available if you wish to restore the partition sizes from the loaded settings file. If the SD card is not available then the partition sizes from the settings file will not be loaded.
+
 ## Selecting an SD card
 
 The tool will list all available media in the drop-down box at the top of the window. The list is filtered to removable media and will include any drives which are suitable for use, but do exercise caution when choosing as this process is irreversible. Removable media will also include any attached USB drives so please ensure you select the actual SD card you intend to use.
@@ -157,17 +163,18 @@ It is not mandatory to provide this information during the tool setup, and you c
 
 ## Options
 
-**Set disk up only. Do not install packages.** will not install anything on the Workbench partition, it will only create the partitions and format them.
+**Set disk up only. Do not install packages.** will not install anything on the Workbench or Work partitions, it will only create the partitions and format them.
 
 **Do not write to disk. Produce image file only.** will create an .IMG file on your drive (in folder "Working Folder/Output Files") and will not write anything to the SD card. You can write the .IMG file to the SD card later with any image writing program such as Balena Etcher, etc.
 
+These two options are mutually exclusive (i.e. you cannot select both)!
 
 ## Space Requirements
 
 In this section you can always see how much space is required on your disk for the temporary files that are created when creating the image. You can also see how much space is required on the Work: partition for any additional files you want to write to it. 
 This field will turn red if there is insufficient space on your current working drive (usually the drive you launched the tool from). In this case you will be given the option of changing to a different drive/folder before the tool starts.
 
-Note that you will need enough space for the raw image file *and* the downloaded setup files - in the case of a very large SD card this can be a very large amount of space. It is also recommended that you choose an SSD for this as access speed will be paramount in reducing the time needed to create the image prior to writing to the card.
+Note that you will need enough space for the .HDF  file *and* the downloaded setup files - in the case of a very large SD card this can be a  large amount of space. It is also recommended that you choose an SSD for this as access speed will be paramount in reducing the time needed to create the image prior to writing to the card.
 
 ## Writing the Image to the SD Card
 
