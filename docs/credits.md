@@ -22,7 +22,7 @@ Also big thanks to the users that supported us with ideas and for just being the
 - R-Typer
 - Kifla
 - Jaimie
-- MrZ
+- Mr-Z
 - nikosidis
 - Katzazakis
 - Arzi
