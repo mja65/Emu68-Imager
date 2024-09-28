@@ -15,7 +15,7 @@ Whilst there are several tools/utilities included with the Imager tool, most of 
 - 7Zip - Copyright (C) 2024 Igor Pavlov. 7zip is free software licenced under the GNU LGPL license. Both the binaries and the source code can be obtained from [https://www.7-zip.org/](https://www.7-zip.org/)
 - Roadshow Demo - Included with permission from Olaf Barthel and Andreas Magerl. Please consider supporting the developers by purchasing the full version from [http://roadshow.apc-tcp.de/](http://roadshow.apc-tcp.de)
 - Picasso96 configuration file - Included with permission from Jens Schönfeld. Free version is downloaded from aminet and installed. Jens would like it noted:
-    - The only location to purcahse a legal copy of P96 is Individual Computers.
+    - The only location to purchase a legal copy of P96 is Individual Computers.
     - no other emulation package can claim to have a "legal copy" of P96
 You can purchase the full version of P96 at their shop: [https://icomp.de/shop-icomp/en/news.html](https://icomp.de/shop-icomp/en/news.html)
 - ArewePal - Created by Tom-Cat

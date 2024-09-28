@@ -8,7 +8,7 @@ When you start the Emu68 Imager this window will be displayed after the credits 
 
 ![Emu68 Imager Screenshot](images/screenshot1.png)
 
-The `Run Tool` button will remain red until you supply the required information. When these requirements are satisifed, the button will turn green, indicating that the tool is ready to run.
+The `Run Tool` button will remain red until you supply the required information. When these requirements are satisfied, the button will turn green, indicating that the tool is ready to run.
 
 If the button turns yellow, it means that your current drive location does not have sufficient space. You will be given the option of defining a different working folder so you can select a location with additional space.
 
@@ -27,7 +27,7 @@ The tool will list all available media in the drop-down box at the top of the wi
 
 If you insert or change the media while this window is open, you can click on `Refresh available media` to update the list. 
 
-## Selecting Partiton sizes
+## Selecting Partition sizes
 
 After selecting a suitable SD card, the partition bar will populate with some reasonable default values based on the size of your card. You can then change the sizes of each partition to meet your needs. Resizing is simple; just drag the solid bar between partitions to change them. Note that for very large cards, this may not be practical as the partitions will appear quite small (particularly for the FAT32 and Workbench partitions). In this case you may find that you prefer to enter their sizes in the text fields below.
 Invalid partition sizes will show as a red text field. 
@@ -63,13 +63,13 @@ The Workbench partition can be resized up to the maximum size allowed by the PFS
 The Work partition is generally the largest of all the partitions on your SD Card, and it should be used to install any applications or games for your Amiga, along with your documents and other files.
 Provision has been made to make additional files available as part of the installation created by the image tool - please refer to the [Supplying additional files that you want to have available](#supplying-additional-files-that-you-want-to-have-available) section on how to choose which of your files you would like to have pre-installed. If you don't populate the Work partition using this functionality then it will be empty.
 
-The Work partition will, by default, take up all the remaining capacity of your SD card. Since the PFS3 partitions on the Amiga can only be upto 101GiB in size the tool will create multiple Work partitions of equal size if your SD card has more capacity than the PFS limit. 
+The Work partition will, by default, take up all the remaining capacity of your SD card. Since the PFS3 partitions on the Amiga can only be up to 101GiB in size the tool will create multiple Work partitions of equal size if your SD card has more capacity than the PFS limit. 
 
 Only the first Work: partition will be formatted, you will need to format the rest yourself on the Amiga. Please refer to [First Time Run](amigautilities.md#first-time-run) section on how to do that.
 
 ## Free Space
 
-The Free Space is the space that will be available as "unpartitioned" on your Amiga - HD Tool Box will be able to repartion and use it as you wish.
+The Free Space is the space that will be available as "unpartitioned" on your Amiga - HD Tool Box will be able to repartition and use it as you wish.
 It is recommended that you resize your Work partition so that there is no Free Space since the *free space* WILL be written to your SD card. 
 
 ## Not Used
@@ -112,7 +112,7 @@ You will then need to click the `Check` button and the imager tool will then sea
 
 The following table details the ADF disk image files you will need for your chosen version of AmigaOS. As previously with the Kickstart ROM image, they will be matched by their contents so filenames are not needed to be correct. You can locate them wherever you like - keeping them alongside the Kickstart ROM file is a good idea. We recommend you copy your installation files to their own folder as simply pointing the tool at a large repository of Amiga system files (such as most users of say, WinUAE may have) can result in a long delay while the files are found.
 
-For OS 3.2.2.1, the OS 3.2 base installation is used along with the various updates and hotfixes. Please make sure you use the latest version of each ADF file if the name does not include version number! 
+For OS 3.2.2.1, the OS 3.2 base installation is used along with the various updates and hot-fixes. Please make sure you use the latest version of each ADF file if the name does not include version number! 
 First, copy the files from 3.2 distribution, and then add in the files from 3.2.2 Update, followed by the files from 3.2.2.1 Hotfix, overwriting where necessary with newer files.
 
 Either copy the required folders to the default directory in the path where you have installed the tool (UserFiles\ADFs\) or select the directory where the files exist (it will search all sub-folders under this directory) by clicking on `Click to set ADF Path` button.
@@ -137,7 +137,7 @@ Either copy the required folders to the default directory in the path where you 
 ||Locale-IT|||
 ||Locale-FR|||
 
-The tool will then search the location you have specified and match to the relevant ADFs required (irrespective of the filenames). If you run into any issues where the tool notes there are missing ADFs, yet you have these available, check that the versions you have used are unmodified. Certain tools (e.g. DiskFlashback) were noted as causing modfications to the ADF, that while still useable, could cause the tool not to recognise them. If this happens, try copying the originally supplied ADFs to the folder.
+The tool will then search the location you have specified and match to the relevant ADFs required (irrespective of the filenames). If you run into any issues where the tool notes there are missing ADFs, yet you have these available, check that the versions you have used are unmodified. Certain tools (e.g. DiskFlashback) were noted as causing modifications to the ADF, that while still useable, could cause the tool not to recognise them. If this happens, try copying the originally supplied ADFs to the folder.
 
 You will then need to click the `Check` button and the imager tool will then search this location and locate the correct Kickstart file based on its contents, so file names are not needed to match.
 
@@ -161,7 +161,7 @@ Please note, the output of your RaspberryPi is fixed after boot, and cannot be c
 
 The imager tool gives you the option of configuring the Emu68 WiFi driver (wifipi.device) at install time, such that wifi will be available immediately the Amiga has booted. You need to enter the SSID (name) for your WiFi access point and the Password for it in the `Wifi Settings` section. 
 
-Please bear in mind that your wifi name and password are stored on the image shoukd you use this option! It is not mandatory to provide this information during the tool setup, and you can set it up or change it later on by using the **Wifi Config** icon in the **PiStorm** folder on your Workbench partition.
+Please bear in mind that your wifi name and password are stored on the image should you use this option! It is not mandatory to provide this information during the tool setup, and you can set it up or change it later on by using the **Wifi Config** icon in the **PiStorm** folder on your Workbench partition.
 
 ## Options
 

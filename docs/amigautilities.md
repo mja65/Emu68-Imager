@@ -12,14 +12,14 @@ The first time the SD card is run there will be several additional things done:
 
 Buptest is a test performed by Emu68 to check that the PiStorm is functioning properly. On your HDMI output you will see several lines of output. If all is well the test should be successful and your Amiga will continue booting the Emu68. From now on the output will be on your normal Amiga monitor output. Therefore if you do not have a HDMI monitor connected you will not see this message. <br>
 
-After the Amiga succesfully boots into Workbench the first time it will disable Buptest since it is not needed anymore and it only slows the boot process down.
+After the Amiga successfully boots into Workbench the first time it will disable Buptest since it is not needed anymore and it only slows the boot process down.
 
 ## Workbench finalisation
 
 There are several scripts run to finalise the installation of Workbench including:
 - Setting PAL/NTSC monitors.
 - Setting HDToolBox and Fat32 partition driver according to your RaspberryPi (rPi3/4).
-- Deletion of unecessary libraries.
+- Deletion of unnecessary libraries.
 - Setting up iBrowse, PFS3.
 - Tidying up Icon positions.
 
@@ -41,7 +41,7 @@ If your SD Card is bigger than 100GB and you set up the Work: partition to be bi
 
 # PiStorm utilities and features included
 
-Besides the usual Workbench Tools, Utilities and System Programs we also included all necessary and usefull **PiStorm** utilities and also a selection of **Programs** that will help you with the PiStorm and Emu68 startup.<br>
+Besides the usual Workbench Tools, Utilities and System Programs we also included all necessary and useful **PiStorm** utilities and also a selection of **Programs** that will help you with the PiStorm and Emu68 startup.<br>
 Both are placed in the same named folders on the Workbench: partition.
 
 # PiStorm tools
@@ -93,7 +93,7 @@ In addition of PiStorm tools we also installed a few essential and useful progra
 
 ## Roadshow (demo) ##
 
-We are using the Roadshow TCP/IP stack since it is the only still maintaned TCP/IP stack for Amiga. It is a commercial product but we were allowed to distribute the demo version with the tool. It is restricted to 15 minutes online time, after which you have to reboot the Amiga. Please consider buying the unrestricted version from the author. More info in [Programs Used by the Tool](included.html#included-with-the-emu68-imager-tool)
+We are using the Roadshow TCP/IP stack since it is the only still maintained TCP/IP stack for Amiga. It is a commercial product but we were allowed to distribute the demo version with the tool. It is restricted to 15 minutes online time, after which you have to reboot the Amiga. Please consider buying the unrestricted version from the author. More info in [Programs Used by the Tool](included.html#included-with-the-emu68-imager-tool)
 
 ## Directory Opus 4
 
@@ -117,7 +117,7 @@ The most commonly used program to display how fast your Amiga is and what is ins
 
 ## AmiSpeedTest
 
-When you get Online you will want to see how fast your transfer rate is gonna be. Use this and you will find out.
+When you get Online you will want to see how fast your transfer rate is going to be. Use this to find out.
 
 ## Jano Editor
 
