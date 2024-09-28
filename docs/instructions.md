@@ -161,7 +161,7 @@ Please note, the output of your RaspberryPi is fixed after boot, and cannot be c
 
 The imager tool gives you the option of configuring the Emu68 WiFi driver (wifipi.device) at install time, such that wifi will be available immediately the Amiga has booted. You need to enter the SSID (name) for your WiFi access point and the Password for it in the `Wifi Settings` section. 
 
-It is not mandatory to provide this information during the tool setup, and you can set it up or change it later on by using the **Wifi Config** icon in the **PiStorm** folder on your Workbench partition.
+Please bear in mind that your wifi name and password are stored on the image shoukd you use this option! It is not mandatory to provide this information during the tool setup, and you can set it up or change it later on by using the **Wifi Config** icon in the **PiStorm** folder on your Workbench partition.
 
 ## Options
 
