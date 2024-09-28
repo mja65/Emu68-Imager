@@ -14,9 +14,9 @@ Buptest is a test performed by Emu68 to check that the PiStorm is functioning pr
 
 After the Amiga succesfully boots into Workbench the first time it will disable Buptest since it is not needed anymore and it only slows the boot process down.
 
-## Workbench finalization
+## Workbench finalisation
 
-There are several scripts run to finalize the installation of Workbench including:
+There are several scripts run to finalise the installation of Workbench including:
 - Setting PAL/NTSC monitors.
 - Setting HDToolBox and Fat32 partition driver according to your RaspberryPi (rPi3/4).
 - Deletion of unecessary libraries.
@@ -35,7 +35,7 @@ We have provided a Picasso96 settings file with many useful resolutions pre-set 
 
 ## Formatting of extra Work partitions
 
-If your SD Card is bigger than 100GB and you set up the Work: partition to be bigger than 101GB (the maximum PFS supports) then it will be split into additional partitions. The first partition named Work: is already formatted, but you will need to format the rest yourself. Just select the **Non Initialized** partition icon and on the right click Icons menu select Format disk, then follow the instructions and format the partition.
+If your SD Card is bigger than 100GB and you set up the Work: partition to be bigger than 101GB (the maximum PFS supports) then it will be split into additional partitions. The first partition named Work: is already formatted, but you will need to format the rest yourself. Just select the **Non Initialised** partition icon and on the right click Icons menu select Format disk, then follow the instructions and format the partition.
 
 ---
 
