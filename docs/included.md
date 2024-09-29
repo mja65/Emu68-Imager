@@ -1,4 +1,5 @@
-Whilst there are several tools/utilities included with the Imager tool, most of these are downloaded from the internet during the image creation stage. This helps to keep the package small in size as well as free to distribute. 
+Whilst there are several tools/utilities included with the Imager tool, most of these are downloaded from the internet during the image creation stage. 
+This helps to keep the package small in size as well as free and legal to distribute. 
 
 ## Programs used by the tool
 
@@ -14,9 +15,11 @@ Whilst there are several tools/utilities included with the Imager tool, most of 
 
 - 7Zip - Copyright (C) 2024 Igor Pavlov. 7zip is free software licenced under the GNU LGPL license. Both the binaries and the source code can be obtained from [https://www.7-zip.org/](https://www.7-zip.org/). Licence information is available at [https://www.7-zip.org/license.txt](https://www.7-zip.org/license.txt) and is also included in the 7ZLicense sub-folder in the Programs Folder. 
 - Roadshow Demo - Included with permission from Olaf Barthel and Andreas Magerl. Please consider supporting the developers by purchasing the full version from [http://roadshow.apc-tcp.de/](http://roadshow.apc-tcp.de)
-- Picasso96 configuration file - Included with permission from Jens Schönfeld. Free version is downloaded from aminet and installed. Jens would like it noted:
-    - The only location to purchase a legal copy of P96 is Individual Computers.
-    - no other emulation package can claim to have a "legal copy" of P96
+- Picasso96 configuration file - Included with permission from Jens Schönfeld. The free version of Picasso96 (P96) is downloaded from aminet and installed.
+  Jens would like it to be noted:
+> [!IMPORTANT]
+> The only location to purchase a legal copy of P96 is Individual Computers.
+> no other emulation package can claim to have a "legal copy" of P96
 You can purchase the full version of P96 at their shop: [https://icomp.de/shop-icomp/en/news.html](https://icomp.de/shop-icomp/en/news.html)
 - ArewePal - Created by Tom-Cat
 - CE - Created by Tom-Cat
