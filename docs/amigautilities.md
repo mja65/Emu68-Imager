@@ -12,7 +12,7 @@ The first time the SD card is booted there will be several additional steps to p
 ## Buptest
 
 Buptest is a check to ensure that communication between the Amiga and the PiStorm is functioning correctly. During the test your HDMI output will show several lines of text detailing the operation. 
-If the test fails then you should seek to either correct any obvious problems with the placing of the PiStorm on the edge connector, or ask for help on the official Discord server. 
+If the test fails then you should seek to either correct any obvious problems with the placing of the PiStorm on the edge connector, or ask for help on the official Discord server [HERE](https://discord.gg/h8e78dXHDx). 
 
 If all is well, your Amiga will continue booting Emu68. From this point on, all output will switch to your normal (RGB) Amiga monitor.<br>
 
