@@ -113,7 +113,9 @@ You will then need to click the `Check` button and the imager tool will then sea
 The following table details the ADF disk image files you will need for your chosen version of AmigaOS. As previously with the Kickstart ROM image, they will be matched by their contents so filenames are not needed to be correct. You can locate them wherever you like - keeping them alongside the Kickstart ROM file is a good idea. We recommend you copy your installation files to their own folder as simply pointing the tool at a large repository of Amiga system files (such as most users of say, WinUAE may have) can result in a long delay while the files are found.
 
 For OS 3.2.2.1, the OS 3.2 base installation is used along with the various updates and hot-fixes. Please make sure you use the latest version of each ADF file if the name does not include version number! 
-First, copy the files from 3.2 distribution, and then add in the files from 3.2.2 Update, followed by the files from 3.2.2.1 Hotfix, overwriting where necessary with newer files.
+First, copy the files from 3.2 distribution, and then add in the files from 3.2.2 Update or (if you have it) the files from 3.2.2.1 Hotfix, overwriting where necessary with newer files.
+
+Note that the 3.2.2.1 Hotfix archive contains all the updated 3.2.2 files so there is no need to use both.
 
 Either copy the required folders to the default directory in the path where you have installed the tool (UserFiles\ADFs\) or select the directory where the files exist (it will search all sub-folders under this directory) by clicking on `Click to set ADF Path` button.
 
