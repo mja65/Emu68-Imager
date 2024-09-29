@@ -25,8 +25,7 @@ There are several different versions of the AmigaOS 3.1 Workbench out there (ori
 - Copy all files from **Hotfix3.2.2.1.lha** (from the **Update3.2.2/ADFs/Update/** directory) to **UserFiles/ADFs/**.
 - Copy the **Update3.2.2.1.adf file** from **Hotfix3.2.2.1.lha** (in the **Update3.2.2/ADFs/Hotfix/** directory) to **UserFiles/ADFs/**.
 
-> [!IMPORTANT]
-> When copying files, you should overwrite older versions with newer update and hotfix files when prompted.
+> <font color="red">When copying files, you should overwrite older versions with newer update and hotfix files when prompted.</font>
 
 - Press **Check** button, it should turn Green if all steps were completed correctly.
 
