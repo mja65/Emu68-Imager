@@ -70,7 +70,6 @@ An essential utility to control everything Emu68 related. You can adjust how JIT
 
 Lets you tweak the RTG graphics output with filtering options. When RTG modes are active, they will be scaled to the resolution you set in the imager tool's display settings. This means that a lower resolution will be scaled up to match. Use this tool if the bilinear filtering bothers you, or you need to sharpen the filter a touch.
 
-> [!IMPORTANT]
 > If you want the settings to be used next time you boot, you must edit the Devs/Monitors/Videocore icon tooltypes accordingly.
 
 ## Online / Offline / WiFi Config
