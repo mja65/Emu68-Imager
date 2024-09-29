@@ -70,7 +70,7 @@ An essential utility to control everything Emu68 related. You can adjust how JIT
 
 Lets you tweak the RTG graphics output with filtering options. When RTG modes are active, they will be scaled to the resolution you set in the imager tool's display settings. This means that a lower resolution will be scaled up to match. Use this tool if the bilinear filtering bothers you, or you need to sharpen the filter a touch.
 
-> If you want the settings to be used next time you boot, you must edit the Devs/Monitors/Videocore icon tooltypes accordingly.
+> <font color="red">If you want the settings to be used next time you boot, you must edit the Devs/Monitors/Videocore icon tooltypes accordingly.</font>
 
 ## Online / Offline / WiFi Config
 
@@ -80,7 +80,7 @@ The installation includes a demo version of Roadshow TCP/IP stack which will gra
 
 Double-clicking the Offline icon will stop the TCP/IP stack and you will disconnect your Amiga from your Wifi. 
 
-> [!IMPORTANT]
+> [!Important]
 > Due to limitations in the demo version of Roadshow you may need to reboot your Amiga to go back online. We encourage you to consider buying the full version of Roadshow which does not have these limitations. <br>
 
 If you didn't setup the WiFi SSID and Password before (or you want to change it) then you can use the **WiFi Config** icon which will allow you to edit the wifipi.device configuration file.
