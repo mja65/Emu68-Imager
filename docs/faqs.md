@@ -8,6 +8,9 @@ A:
 - For **3.2** select the **ROM/** directory on your **OS 3.2 CD** and click **Check** button
 - For **3.2.2.1** extract the file **A1200.47.111.rom** from the **Hotfix3.2.2.1.lha** and its **Update3.2.2/ROMs/** directory to a directory of your choice and select it. Click **Check** button
 
+### Q: I cannot get OS 3.1 ADFs to check correctly
+A: You need to have **UNMODIFIED and Original** ADF copies of the Workbench 3.1 install floppies available. We can only support unmodified versions since we don't know what was changed on floppies that were modified. There are several different versions of 3.1 Workbench out there and we support all that we found. 
+
 ### Q: I cannot get OS 3.2.2.1 ADFs to check correctly
 A:
 - There is a directory **UserFiles** created (with **ADFs/** directory inside it) when you first run the Tool
