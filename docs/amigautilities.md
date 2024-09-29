@@ -80,8 +80,7 @@ The installation includes a demo version of Roadshow TCP/IP stack which will gra
 
 Double-clicking the Offline icon will stop the TCP/IP stack and you will disconnect your Amiga from your Wifi. 
 
-> [!Important]
-> Due to limitations in the demo version of Roadshow you may need to reboot your Amiga to go back online. We encourage you to consider buying the full version of Roadshow which does not have these limitations. <br>
+> <font color="red">Due to limitations in the demo version of Roadshow you may need to reboot your Amiga to go back online. We encourage you to consider buying the full version of Roadshow which does not have these limitations. <br></font>
 
 If you didn't setup the WiFi SSID and Password before (or you want to change it) then you can use the **WiFi Config** icon which will allow you to edit the wifipi.device configuration file.
 
