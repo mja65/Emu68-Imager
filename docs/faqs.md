@@ -1,7 +1,7 @@
 # FAQs
 
 ### Q: I cannot get KickStart ROM for **3.1** to check correctly
-A: As stated in the documentation you need a 3.1 Kickstart ROM for A1200 model. Please check again exactly which Kickstart roms are supported [here](instructions.md#kickstart-rom-files) Make sure you use **single file** and **unencrypted** ROM variants!
+A: As stated in the documentation you need a 3.1 Kickstart ROM for A1200 model. Please check again exactly which Kickstart roms are supported [here](instructions.md#kickstart-rom-files). Make sure you use **single file** and **unencrypted** ROM variants!
 
 ### Q: I cannot get KickStart ROM for **3.2 or 3.2.2.1** to check correctly
 A:
