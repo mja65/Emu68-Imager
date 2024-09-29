@@ -19,7 +19,7 @@ This helps to keep the package small in size as well as free and legal to distri
   Jens would like it to be noted:
 > <font color="red">The only location to purchase a legal copy of P96 is Individual Computers.
 > no other emulation package can claim to have a "legal copy" of P96
-You can purchase the full version of P96 at their shop: [https://icomp.de/shop-icomp/en/news.html](https://icomp.de/shop-icomp/en/news.html)</font>
+You can purchase the full version of P96 at their shop:</font> [https://icomp.de/shop-icomp/en/news.html](https://icomp.de/shop-icomp/en/news.html)
 - ArewePal - Created by Tom-Cat
 - CE - Created by Tom-Cat
 - Emu68Info - Created by Flype
