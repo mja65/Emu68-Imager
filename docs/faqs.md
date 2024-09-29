@@ -1,12 +1,13 @@
 # FAQs
 
 ### Q: I cannot get KickStart ROM for **3.1** to check correctly
-A: As stated in the documentation you need a 3.1 Kickstart ROM for A1200 model. Please check again exactly which Kickstart roms are supported [here](instructions.md#kickstart-rom-files)
+A: As stated in the documentation you need a 3.1 Kickstart ROM for A1200 model. Please check again exactly which Kickstart roms are supported [here](instructions.md#kickstart-rom-files) Make sure you use **single file** and **unencrypted** ROM variants!
 
 ### Q: I cannot get KickStart ROM for **3.2 or 3.2.2.1** to check correctly
 A:
 - For **3.2** select the **ROM/** directory on your **OS 3.2 CD** and click **Check** button
 - For **3.2.2.1** extract the file **A1200.47.111.rom** from the **Hotfix3.2.2.1.lha** and its **Update3.2.2/ROMs/** directory to a directory of your choice and select it. Click **Check** button
+- Make sure you use **single file** and **unencrypted** ROM variants!
 
 ### Q: I cannot get OS 3.1 ADFs to check correctly
 A: You need to have **UNMODIFIED and Original** ADF copies of the Workbench 3.1 install floppies available. We can only support unmodified versions since we don't know what was changed on floppies that were modified. There are several different versions of 3.1 Workbench out there (originally from Commodore, later on sold with Escom Amigas and now sold by Cloanto and their Amiga Forever package) - we support all that we found.
