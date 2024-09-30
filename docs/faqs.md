@@ -29,7 +29,13 @@ There are several different versions of the AmigaOS 3.1 Workbench out there (ori
 
 - Press **Check** button, it should turn Green if all steps were completed correctly.
 
+### Why is [Insert your favourite Amiga pacakge name] not installed?
+
+The tool is intended to provide a basic image to help you get started, to avoid common pitfalls such as RTG and internet issues and using 100% legally acquired software. Once you have a basic set up you have access to the internet as well as a suitably sized SD card where you can transfer whatever you need to add additional software. 
+
+It can be a rewarding experience learning about how to install software on your Amiga. However, if you are after a fully set up and customised distribution where you can write an image to a SD card and just use it then you should download and use one of those.
+
 ### Where is the Linux/Mac version?
 Short answer: There is none.
 
-Longer answer: The GUI is built using WPF (Windows Presentation Foundation), which as the name suggests, is Windows specific. More importantly, while Powershell is supported on Mac and Linux, some of the tools used are not. As an example, 7zip is used to extract LHA archives and this is not available on either Mac or Linux. Unfortunately the Unlha tools themselves have certain limitations.
+Longer answer: The GUI is built using WPF (Windows Presentation Foundation), which as the name suggests, is Windows specific. More importantly, while Powershell is supported on Mac and Linux, some of the tools used are not. As an example, 7zip is used to extract LHA archives and this is not available on either Mac or Linux. Unfortunately the Unlha tools themselves have certain limitations. It also makes direct changes to the physical device meaning WINE or similar will not work. 
