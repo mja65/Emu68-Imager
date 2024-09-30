@@ -119,25 +119,26 @@ Note that the 3.2.2.1 Hotfix archive contains all the updated 3.2.2 files so the
 
 Either copy the required folders to the default directory in the path where you have installed the tool (UserFiles\ADFs\) or select the directory where the files exist (it will search all sub-folders under this directory) by clicking on `Click to set ADF Path` button.
 
-|**OS 3.1**               |**OS 3.2.2.1**| ||
-||*from 3.2*|*from 3.2.2*|*from 3.2.2.1*|
-|Workbench 3.1        |Storage3.2|  DiskDoctor|Update3.2.2.1|
-|Workbench 3.1 Install|Backdrops3.2|Update3.2.2||
-|Workbench 3.1 Storage|Extras3.2|   Locale3.2.2-DE ||
-|Workbench 3.1 Fonts  |Workbench3.2|Locale3.2.2-IT||
-|Workbench 3.1 Extras |Fonts|    Locale3.2.2-NL||
-|Workbench 3.1 Locale |Install3.2|  Locale3.2.2-UK||
-||Classes3.2|                       Locale3.2.2-FR||
-||GlowIcons3.2|                     Locale3.2.2-DK||
-||Locale|                        Locale3.2.2-EN||
-||Locale-DE|                      Locale3.2.2-ES||
-||Locale-UK|||
-||Locale-NL|||
-||Locale-EN|||
-||Locale-DK|||
-||Locale-ES|||
-||Locale-IT|||
-||Locale-FR|||
+|**OS 3.1**             |**OS 3.2**     |**OS 3.2.2.1** |              |                |
+|                       |               |*from 3.2*     |*from 3.2.2*  |*from 3.2.2.1*  |
+|Workbench 3.1          |Storage3.2     |Storage3.2     |DiskDoctor    |Update3.2.2.1   |
+|Workbench 3.1 Install  |Backdrops3.2   |Backdrops3.2   |Update3.2.2   |                |
+|Workbench 3.1 Storage  |Extras3.2      |Extras3.2      |Locale3.2.2-DE|                |
+|Workbench 3.1 Fonts    |Workbench3.2   |Workbench3.2   |Locale3.2.2-IT|                |
+|Workbench 3.1 Extras   |Fonts          |Fonts          |Locale3.2.2-NL|                |
+|Workbench 3.1 Locale   |Install3.2     |Install3.2     |Locale3.2.2-UK|                |
+|                       |Classes3.2     |Classes3.2     |Locale3.2.2-FR|                |
+|                       |GlowIcons3.2   |GlowIcons3.2   |Locale3.2.2-DK|                |
+|                       |Locale         |Locale         |Locale3.2.2-EN|                |
+|                       |Locale-DE      |Locale-DE      |Locale3.2.2-ES|                |
+|                       |Locale-UK      |Locale-UK      |              |                |
+|                       |Locale-NL      |Locale-NL      |              |                |
+|                       |Locale-EN      |Locale-EN      |              |                |
+|                       |Locale-DK      |Locale-DK      |              |                |
+|                       |Locale-ES      |Locale-ES      |              |                |
+|                       |Locale-IT      |Locale-IT      |              |                |
+|                       |Locale-FR      |Locale-FR      |              |                |
+|                       |DiskDoctor     |               |              |                |
 
 The tool will then search the location you have specified and match to the relevant ADFs required (irrespective of the filenames). If you run into any issues where the tool notes there are missing ADFs, yet you have these available, check that the versions you have used are unmodified. Certain tools (e.g. DiskFlashback) were noted as causing modifications to the ADF, that while still useable, could cause the tool not to recognise them. If this happens, try copying the originally supplied ADFs to the folder.
 
