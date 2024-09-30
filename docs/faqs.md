@@ -29,7 +29,7 @@ There are several different versions of the AmigaOS 3.1 Workbench out there (ori
 
 - Press **Check** button, it should turn Green if all steps were completed correctly.
 
-### Why is [Insert your favourite Amiga pacakge name] not installed?
+### Why is [Insert your favourite Amiga package name] not installed?
 
 The tool is intended to provide a basic image to help you get started, to avoid common pitfalls such as RTG and internet issues and using 100% legally acquired software. Once you have a basic set up you have access to the internet as well as a suitably sized SD card where you can transfer whatever you need to add additional software. 
 
