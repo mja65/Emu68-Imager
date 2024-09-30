@@ -110,9 +110,11 @@ The following table shows the Kickstart ROM files that are supported for the dif
 |Kickstart 3.1 A1200 (40.068) Commodore |                               |                               |
 |Kickstart 3.x A1200 Cloanto            |                               |                               |
 
-Please note that only A1200 versions of the Kickstart ROMs are supported as these are recommended for Emu68 regardless of the Amiga model you are using. 
+Please note that only A1200 versions of the Kickstart ROMs are supported as these are recommended for Emu68 regardless of the Amiga model you are using.
 
 You will then need to click the `Check` button and the imager tool will then search this location and locate the correct Kickstart file based on its contents, so file names are not needed to match.
+
+When the tool has searched for the Kickstarts, you will be provided with a message showing the Kickstart that has been located or a message advising you that the Kickstart cannot be found.
 
 ## Workbench ADF Install Images
 
@@ -146,6 +148,15 @@ Either copy the required folders to the default directory in the path where you 
 The tool will then search the location you have specified and match to the relevant ADFs required (irrespective of the filenames). If you run into any issues where the tool notes there are missing ADFs, yet you have these available, check that the versions you have used are unmodified. Certain tools (e.g. DiskFlashback) were noted as causing modifications to the ADF, that while still useable, could cause the tool not to recognise them. If this happens, try copying the originally supplied ADFs to the folder.
 
 You will then need to click the `Check` button and the imager tool will then search this location and locate the correct Kickstart file based on its contents, so file names are not needed to match.
+
+When the tool has searched for the ADFs you will be provided with a message showing the ADFs that have been located along with any that are missing as shown below:
+
+![Missing ADF Screenshot](images/screenshot2.png)
+
+You will need to copy any missing ADFs to the location you have used and run the check process again. Common reasons ADFs could be noted as missing include:
+- The file is missing
+- The ADF you have used has been modified
+- You do not have the correct version of the ADF (e.g. you are installing 3.2.2.1 but have the DiskDcotor ADF from 3.2)
 
 ## Supplying your own additional files
 
