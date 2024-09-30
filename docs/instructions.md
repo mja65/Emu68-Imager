@@ -80,10 +80,18 @@ Press the `Reset Partitions to default` button to reset the partition sizes to d
 
 ## Supplying Kickstart ROM and Workbench installation floppy images (.ADF files)
 
-The imager tool supports two flavours of AmigaOS - v3.1 and v3.2. Version 3.2 includes the latest updates (i.e. 3.2.2.1). 
-Version 3.1 was originally supplied with the Amiga 1200 and 4000, and is still available from Cloanto as part of their Amiga Forever package. If you would like to update to the very latest AmigaOS, then Hyperion will sell you a copy of 3.2 on a CD ROM, with additional update and hotfix files as separate downloads.
+The imager tool supports three flavours of AmigaOS:
+- 3.1 
+- 3.2
+- 3.2.2.1
 
-Both routes will supply you with the necessary Kickstart ROM and Workbench disk image files for which the tool will check you have the correct files.
+Version 3.1 was originally supplied with the Amiga 1200 and 4000, and is still available from Cloanto as part of their Amiga Forever package. 
+
+If you would like to update to the very latest AmigaOS, then Hyperion will sell you a copy of 3.2 on a CD ROM, with additional update and hotfix files as separate downloads. While 3.2.2.1 is the latest version, you can also install the base 3.2 version if you wish.
+
+You need to select for which OS version you wish to install. Use the `Select OS Version` dropdown to select.
+
+Irrespective of which version you select you will need the necessary Kickstart ROM and Workbench disk image files for which the tool will check you have the correct files.
 
 The most essential part of the AmigaOS is the Kickstart, and one of the benefits of Emu68 is that you can use whichever Kickstart version you desire (currently the imager tool limits the option to two versions, but more may be available in future updates) - you are not limited to the one physically installed in your Amiga. There are additional speed benefits also; any Kickstart file loaded by Emu68 is placed in fast RaspberryPi memory and is much, much faster to access - resulting in a snappier Workbench experience.
 
@@ -92,8 +100,6 @@ The second pre-requisite is the Workbench installation media. The imager tool ex
 The names of the ADF files and Kickstart ROMs are *not important*. You can name them anything since the imager tool will checksum and compare them to a database of known good disk and ROM images. This system prevents corrupt or altered installations from causing issues with your setup and ensures a hassle-free experience.
 
 However, the actual contents of the files *is important*. You must use unmodified versions of these disks! 
-
-First you need to select for which OS version you will provide the needed files. Use the `Select OS Version` dropdown.
 
 ## Kickstart ROM files
 
