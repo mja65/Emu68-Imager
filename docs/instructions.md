@@ -188,6 +188,8 @@ Please bear in mind that your wifi name and password are stored on the image sho
 
 These two options are mutually exclusive (i.e. you cannot select both)!
 
+**Delete ALL files from Working Folder When done.** By default the tool will delete the files from the Working Folder when you start the tool. This prevents redownloading files you may already have from  previous use of the tool. However, these files can take up a lot of space (particularly the .HDF file used to create the Amiga partition on the SD card). Selection this option will delete all files from the Working Folder (with the exception of the .IMG file if you have chosen the 'Produce image file only' option above) at the conclusion of the running of the tool. Of course you can use Windows explorer to manually delete files and folders if you wish. 
+
 ## Space Requirements
 
 In this section you can always see how much space is required on your disk for the temporary files that are created when creating the image. You can also see how much space is required on the Work: partition for any additional files you want to write to it. 
