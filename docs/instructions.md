@@ -97,12 +97,12 @@ First you need to select for which OS version you will provide the needed files.
 
 ## Kickstart ROM files
 
-The following table shows the Kickstart ROM files that are expected for the two versions of AmigaOS that are supported. Either copy the kickstart file to the default directory in the path where you have installed the tool (UserFiles\Kickstarts\) or select the directory where your ROM file is located by clicking on `Click to set Kickstart Path` button.
+The following table shows the Kickstart ROM files that are supported for the different versions of AmigaOS that are supported. Either copy the kickstart file to the default directory in the path where you have installed the tool (UserFiles\Kickstarts\) or select the directory where your ROM file is located by clicking on `Click to set Kickstart Path` button.
 
-|**OS 3.1**|**OS 3.2.2.1**|
-|Kickstart 3.1 A1200 (40.068) Hyperion|Kickstart 3.2.2 A1200 (47.111)|
-|Kickstart 3.1 A1200 (40.068) Commodore||
-|Kickstart 3.x A1200 Cloanto||
+|**OS 3.1**                             |**OS 3.2**                     |**OS 3.2.2.1**                 |
+|Kickstart 3.1 A1200 (40.068) Hyperion  |Kickstart 3.2 A1200 (47.96)    |Kickstart 3.2.2 A1200 (47.111) |
+|Kickstart 3.1 A1200 (40.068) Commodore |                               |                               |
+|Kickstart 3.x A1200 Cloanto            |                               |                               |
 
 Please note that only A1200 versions of the Kickstart ROMs are supported as these are recommended for Emu68 regardless of the Amiga model you are using. 
 
@@ -112,10 +112,7 @@ You will then need to click the `Check` button and the imager tool will then sea
 
 The following table details the ADF disk image files you will need for your chosen version of AmigaOS. As previously with the Kickstart ROM image, they will be matched by their contents so filenames are not needed to be correct. You can locate them wherever you like - keeping them alongside the Kickstart ROM file is a good idea. We recommend you copy your installation files to their own folder as simply pointing the tool at a large repository of Amiga system files (such as most users of say, WinUAE may have) can result in a long delay while the files are found.
 
-For OS 3.2.2.1, the OS 3.2 base installation is used along with the various updates and hot-fixes. Please make sure you use the latest version of each ADF file if the name does not include version number! 
-First, copy the files from 3.2 distribution, and then add in the files from 3.2.2 Update or (if you have it) the files from 3.2.2.1 Hotfix, overwriting where necessary with newer files.
-
-Note that the 3.2.2.1 Hotfix archive contains all the updated 3.2.2 files so there is no need to use both.
+For OS 3.2.2.1, the OS 3.2 standard ADFs are used along with the 3.2.2 updates and the 3.2.2.1 hot-fixe which are included in the 3.2.2.1 Hotfix package (while you can use the ADFs from 3.2.2, it is not necessary as the Hotfix package already includes them).
 
 Either copy the required folders to the default directory in the path where you have installed the tool (UserFiles\ADFs\) or select the directory where the files exist (it will search all sub-folders under this directory) by clicking on `Click to set ADF Path` button.
 
