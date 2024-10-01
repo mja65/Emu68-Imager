@@ -5,7 +5,7 @@ After turning your Amiga on you should see the Emu68 Logo on your HDMI output.<b
 
 ## First Time Run
 
-Ideally (though not essential), the  Amiga should have both a HDMI monitor and standard Amiga monitor connected since both are used on the First run.<br>
+Ideally (though it is not essential), the  Amiga should have both a HDMI monitor and standard Amiga monitor connected since both are used on the First run.<br>
 
 The first time the SD card is booted there will be several additional steps to perform:
 
