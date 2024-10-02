@@ -105,10 +105,9 @@ However, the actual contents of the files *is important*. You must use unmodifie
 
 The following table shows the Kickstart ROM files that are supported for the different versions of AmigaOS that are supported. Either copy the kickstart file to the default directory in the path where you have installed the tool (UserFiles\Kickstarts\) or select the directory where your ROM file is located by clicking on `Click to set Kickstart Path` button.
 
-|**OS 3.1**                             |**OS 3.2**                     |**OS 3.2.2.1**                 |
-|Kickstart 3.1 A1200 (40.068) Hyperion  |Kickstart 3.2 A1200 (47.96)    |Kickstart 3.2.2 A1200 (47.111) |
-|Kickstart 3.1 A1200 (40.068) Commodore |                               |                               |
-|Kickstart 3.x A1200 Cloanto            |                               |                               |
+|**OS 3.1**                      |**OS 3.2**                     |**OS 3.2.2.1**                 |
+|Kickstart 3.1 A1200 (40.068)    |Kickstart 3.2 A1200 (47.96)    |Kickstart 3.2.2 A1200 (47.111) |
+|Kickstart 3.x A1200 Cloanto     |                               |                               |
 
 Please note that only A1200 versions of the Kickstart ROMs are supported as these are recommended for Emu68 regardless of the Amiga model you are using.
 
@@ -182,13 +181,13 @@ Please bear in mind that your wifi name and password are stored on the image sho
 
 ## Options
 
-**Set disk up only. Do not install packages.** will not install anything on the Workbench or Work partitions, it will only create the partitions and format them.
+**Partition disk and install Emu68 only. Do not install packages.** will not install anything on the Workbench or Work partitions, it will only create the partitions and format them.
 
-**Do not write to disk. Produce image file only.** will create an .IMG file on your drive (in folder "Working Folder/Output Files") and will not write anything to the SD card. You can write the .IMG file to the SD card later with any image writing program such as Balena Etcher, etc.
+**Do not write to SD card. A .img file will be created for later writing to disk.** will create an .IMG file on your drive (in folder "Working Folder\OutputImage") and will not write anything to the SD card. You can write the .IMG file to the SD card later with any image writing program such as Balena Etcher, etc.
 
 These two options are mutually exclusive (i.e. you cannot select both)!
 
-**Delete ALL files from Working Folder When done.** By default the tool will delete the files from the Working Folder when you start the tool. This prevents redownloading files you may already have from  previous use of the tool. However, these files can take up a lot of space (particularly the .HDF file used to create the Amiga partition on the SD card). Selection this option will delete all files from the Working Folder (with the exception of the .IMG file if you have chosen the 'Produce image file only' option above) at the conclusion of the running of the tool. Of course you can use Windows explorer to manually delete files and folders if you wish. 
+**Delete ALL files from Working Folder when done.** By default the tool will delete the files from the Working Folder when you start the tool. This prevents redownloading files you may already have from  previous use of the tool. However, these files can take up a lot of space (particularly the .HDF file used to create the Amiga partition on the SD card). Selection this option will delete all files from the Working Folder (with the exception of the .IMG file if you have chosen the 'Produce image file only' option above) at the conclusion of the running of the tool. Of course you can use Windows explorer to manually delete files and folders if you wish. 
 
 ## Space Requirements
 
