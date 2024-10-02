@@ -181,9 +181,9 @@ Please bear in mind that your wifi name and password are stored on the image sho
 
 ## Options
 
-**Set disk up only. Do not install packages.** will not install anything on the Workbench or Work partitions, it will only create the partitions and format them.
+**Partition disk and install Emu68 only. Do not install packages.** will not install anything on the Workbench or Work partitions, it will only create the partitions and format them.
 
-**Do not write to disk. Produce image file only.** will create an .IMG file on your drive (in folder "Working Folder/Output Files") and will not write anything to the SD card. You can write the .IMG file to the SD card later with any image writing program such as Balena Etcher, etc.
+**Do not write to SD card. A .img file will be created for later writing to disk.** will create an .IMG file on your drive (in folder "Working Folder/Output Files") and will not write anything to the SD card. You can write the .IMG file to the SD card later with any image writing program such as Balena Etcher, etc.
 
 These two options are mutually exclusive (i.e. you cannot select both)!
 
