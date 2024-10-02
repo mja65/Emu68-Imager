@@ -38,4 +38,4 @@ It can be a rewarding experience learning about how to install software on your 
 ### Where is the Linux/Mac version?
 Short answer: There is none.
 
-Longer answer: The GUI is built using WPF (Windows Presentation Foundation), which as the name suggests, is Windows specific. More importantly, while Powershell is supported on Mac and Linux, some of the tools used are not. As an example, 7zip is used to extract LHA archives and this is not available on either Mac or Linux. Unfortunately the Unlha tools themselves have certain limitations. It also makes direct changes to the physical device meaning WINE or similar will not work. 
+Longer answer: The GUI is built using WPF (Windows Presentation Foundation), which as the name suggests, is Windows specific. More importantly, while Powershell (the main language the tool is written in) is supported on Mac and Linux, some of the tools used are not. As an example, 7zip is used to extract LHA archives and this is not available on either Mac or Linux. Unfortunately the Unlha tools themselves have certain limitations. It also makes direct changes to the physical device meaning WINE or similar will not work. 
