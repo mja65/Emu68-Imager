@@ -29,6 +29,26 @@ There are several different versions of the AmigaOS 3.1 Workbench out there (ori
 
 - Press **Check** button, it should turn Green if all steps were completed correctly.
 
+### It's nice there is a GUI to start, but the running of the tool is in the Terminal. Why?
+
+The tool is written in Powershell. Limitations in Powershell (and frankly the knowledge of the coder) make a graphical output difficult. Two examples:
+
+1. Downloads of the various packages uses standard Powershell functionality. Showing progress for downloads either requires using the standard Powershell output or there is no output whatsoever
+
+2. Updating progress to a Window is possible, but introduces significant delay in order for Powershell to update the window. "Significant" delay means in some circumstances the tool would take twice as long to run versus what it does now. 
+
+In summary, functionality over aesthetics.
+
+### The tool is looking for ADFs I do not have! 
+
+This tool is provided for users who have legally acquired versions of the ROMs and ADFs. If you do, you should have no issue accessing the required files (e.g. using the Hyperion website to download any updates).
+
+If you've chosen to "sail the high seas" that's your choice but you will need to work out how to acquire the complete set. It is not something we can point you towards
+
+### [wifipi.device / videcore (RTG) / Buptest / (any other Emu68 software) is not working!]
+
+The tool is using the currently available version of Emu68 and Emu68 tools. By all means, reach out for support but please consider if your issue relates to the imager or Emu68. If the later, then it is not something the tool can resolve.  However, please raise the issue in the appropriate forum if you encounter it (e.g. the emu68-support channel on Discord)
+
 ### Why is [Insert your favourite Amiga package name] not installed?
 
 The tool is intended to provide a basic image to help you get started, to avoid common pitfalls such as RTG and internet issues and using 100% legally acquired software. Once you have a basic set up you have access to the internet as well as a suitably sized SD card where you can transfer whatever you need to add additional software. 
