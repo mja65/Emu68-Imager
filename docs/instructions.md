@@ -105,10 +105,9 @@ However, the actual contents of the files *is important*. You must use unmodifie
 
 The following table shows the Kickstart ROM files that are supported for the different versions of AmigaOS that are supported. Either copy the kickstart file to the default directory in the path where you have installed the tool (UserFiles\Kickstarts\) or select the directory where your ROM file is located by clicking on `Click to set Kickstart Path` button.
 
-|**OS 3.1**                             |**OS 3.2**                     |**OS 3.2.2.1**                 |
-|Kickstart 3.1 A1200 (40.068) Hyperion  |Kickstart 3.2 A1200 (47.96)    |Kickstart 3.2.2 A1200 (47.111) |
-|Kickstart 3.1 A1200 (40.068) Commodore |                               |                               |
-|Kickstart 3.x A1200 Cloanto            |                               |                               |
+|**OS 3.1**                      |**OS 3.2**                     |**OS 3.2.2.1**                 |
+|Kickstart 3.1 A1200 (40.068)    |Kickstart 3.2 A1200 (47.96)    |Kickstart 3.2.2 A1200 (47.111) |
+|Kickstart 3.x A1200 Cloanto     |                               |                               |
 
 Please note that only A1200 versions of the Kickstart ROMs are supported as these are recommended for Emu68 regardless of the Amiga model you are using.
 
