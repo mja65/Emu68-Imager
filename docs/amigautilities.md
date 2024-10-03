@@ -18,6 +18,8 @@ If all is well, your Amiga will continue booting Emu68. From this point on, all 
 
 After the Amiga successfully boots into Workbench the first time, the Buptest stage will be disabled - a successful run is only needed once and it consumes boot time.
 
+Currently Buptest does not run correctly for Pistorm under 3.1 so it is disabled should you install 3.1.
+
 ## Workbench finalisation
 
 There are several scripts included that will finalise the installation of Workbench, including:
