@@ -17,9 +17,11 @@ If you click the `Run Tool` button before it is ready, the tool will inform you 
 
 ## Load and Save Settings
 
-There is an option to load and save settings. This will allow you to save the settings entered in this screen in case you need to go back and rerun. As well as saving your settings here, a settings file will automatically be created and stored in the Settings folder where you have installed the tool. 
+There is an option to load and save settings. This will allow you to save the settings entered in this screen in case you need to go back and rerun. As well as saving your settings here, a settings file will automatically be created and stored in the Settings folder where you have installed the tool. This means if you ever need to re run the install (e.g. the install fails for any reason) you can load the previous settings and re-run.
 
-Note, when you load settings you must have the SD card you used available if you wish to restore the partition sizes from the loaded settings file. If the SD card is not available then the partition sizes from the settings file will not be loaded.
+Note, when you load settings you must have the SD card you used available if you wish to restore the partition sizes from the loaded settings file. If the SD card is not available then the partition sizes from the settings file will not be loaded. However, all your other settings (e.g. OS selection, path to ADFs, etc.) will be loaded.
+
+You will need to re-run the check for the Kickstart and ADF files.
 
 ## Selecting an SD card
 
