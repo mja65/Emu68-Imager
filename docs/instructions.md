@@ -63,7 +63,7 @@ The Workbench partition can be resized up to the maximum size allowed by the PFS
 ## Work
 
 The Work partition is generally the largest of all the partitions on your SD Card, and it should be used to install any applications or games for your Amiga, along with your documents and other files.
-Provision has been made to make additional files available as part of the installation created by the image tool - please refer to the [Supplying additional files that you want to have available](#supplying-additional-files-that-you-want-to-have-available) section on how to choose which of your files you would like to have pre-installed. If you don't populate the Work partition using this functionality then it will be empty.
+Provision has been made to make additional files available as part of the installation created by the image tool - please refer to the [Supplying your own additional files](#supplying-your-own-additional-files) section on how to choose which of your files you would like to have pre-installed. If you don't populate the Work partition using this functionality then it will be empty.
 
 The Work partition will, by default, take up all the remaining capacity of your SD card. Since the PFS3 partitions on the Amiga can only be up to 101GiB in size the tool will create multiple Work partitions of equal size if your SD card has more capacity than the PFS limit. 
 
