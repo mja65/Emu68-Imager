@@ -16,6 +16,8 @@ We want to thank the PiStorm team that has made all of this possible. We appreci
 - Paraj
 - everyone else that has contributed in any way
 
+Thanks also to Henrik Nørfjand Stengaard for creating HST-Imager and HST-Amiga. Emu68 Imager would not exist without these tools.
+
 Also big thanks to the users that supported us with ideas and for just being there:
 
 - Pedro
