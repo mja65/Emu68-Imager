@@ -6,3 +6,4 @@ https://mja65.github.io/Emu68-Imager/
 
 The tool can be downloaded through the following link:
 
+[https://mja65.github.io/Emu68-Imager/Software/Emu68Imager.zip](https://mja65.github.io/Emu68-Imager/Software/Emu68Imager.zip)
