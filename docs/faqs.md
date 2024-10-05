@@ -45,6 +45,10 @@ This tool is provided for users who have legally acquired versions of the ROMs a
 
 If you've chosen to "sail the high seas" that's your choice but you will need to work out how to acquire the complete set. It is not something we can point you towards
 
+### I am getting an error when the tool tries to create the Amiga Image
+
+The issue is seen where the tool fails at the 'Preparing Amiga Image' section where the tool is initialising the partition. This has been noted as an issue with users who have the IBM Trusteer Rapport software, an Endpoint protection tool installed and may be an issue with similar software. Unfortunately, if this issue is noted there is currently no way around this other than disabling the software when running the imager. If you do this please remember to reenable the software after running the imager!
+
 ### I've written the image but [wifipi.device / videcore (RTG) / Buptest / (any other Emu68 software)] is not working!
 
 The tool is using the currently available version of Emu68 and Emu68 tools. By all means, reach out for support but please consider if your issue relates to the imager or Emu68. If the later, then it is not something the tool can resolve.  However, please raise the issue in the appropriate forum if you encounter it (e.g. the emu68-support channel on Discord)
