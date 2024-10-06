@@ -105,7 +105,7 @@ However, the actual contents of the files *is important*. You must use unmodifie
 
 ## Kickstart ROM files
 
-The following table shows the Kickstart ROM files that are supported for the different versions of AmigaOS that are supported. Either copy the kickstart file to the default directory in the path where you have installed the tool (UserFiles\Kickstarts\) or select the directory where your ROM file is located by clicking on `Click to set Kickstart Path` button.
+The following table shows the Kickstart ROM files that are supported for the different versions of AmigaOS that are supported. Either copy the kickstart file to the default directory in the path where you have installed the tool (UserFiles\Kickstarts\) or select the directory where your ROM file is located by clicking on `Click to set Kickstart Path` button. It is recommended you use a local drive to do this, though network locations will work if you have the appropriate access rights.
 
 |**OS 3.1**                      |**OS 3.2**                     |**OS 3.2.2.1**                 |
 |Kickstart 3.1 A1200 (40.068)    |Kickstart 3.2 A1200 (47.96)    |Kickstart 3.2.2 A1200 (47.111) |
@@ -123,7 +123,7 @@ The following table details the ADF disk image files you will need for your chos
 
 For OS 3.2.2.1, the OS 3.2 standard ADFs are used along with the 3.2.2 updates and the 3.2.2.1 hot-fixe which are included in the 3.2.2.1 Hotfix package (while you can use the ADFs from 3.2.2, it is not necessary as the Hotfix package already includes them).
 
-Either copy the required folders to the default directory in the path where you have installed the tool (UserFiles\ADFs\) or select the directory where the files exist (it will search all sub-folders under this directory) by clicking on `Click to set ADF Path` button.
+Either copy the required folders to the default directory in the path where you have installed the tool (UserFiles\ADFs\) or select the directory where the files exist (it will search all sub-folders under this directory) by clicking on `Click to set ADF Path` button. It is recommended you use a local drive to do this, though network locations will work if you have the appropriate access rights.
 
 |**OS 3.1**             |**OS 3.2**     |**OS 3.2.2.1** |              |                |
 |                       |               |*from 3.2*     |*from 3.2.2*  |*from 3.2.2.1*  |
@@ -162,7 +162,7 @@ You will need to copy any missing ADFs to the location you have used and run the
 ## Supplying your own additional files
 
 If you want to supply your own files - say, tools or data that you want to have available in the Work: partition, then you can do so by clicking on the `Click to set transfer path` button.
-You can place any files you want in that location and they will be copied to the SD card into the Work: partition.
+You can place any files you want in that location and they will be copied to the SD card into the Work: partition. It is recommended you use a local drive to do this, though network locations will work if you have the appropriate access rights.
 
 The Imager tool will check file sizes and will warn you if there is not enough space. 
 N.B: this can take significant time to transfer if you have a large amount of files! 
@@ -191,6 +191,8 @@ These two options are mutually exclusive (i.e. you cannot select both)!
 
 **Delete ALL files from Working Folder when done.** By default the tool will delete the files from the Working Folder when you start the tool. This prevents redownloading files you may already have from  previous use of the tool. However, these files can take up a lot of space (particularly the .HDF file used to create the Amiga partition on the SD card). Selection this option will delete all files from the Working Folder (with the exception of the .IMG file if you have chosen the 'Produce image file only' option above) at the conclusion of the running of the tool. Of course you can use Windows explorer to manually delete files and folders if you wish. 
 
+**Click to set custom Working Folder** By default the tool will create and use a 'Working Folder' in the folder where you have installed the tool. If you need to define a different location (e.g. you have insufficient space on the drive) you can choose a a different location by pressing this button. This needs to be a local drive rather than a location on the network (including mapped network drives). 
+
 ## Space Requirements
 
 In this section you can always see how much space is required on your disk for the temporary files that are created when creating the image. You can also see how much space is required on the Work: partition for any additional files you want to write to it. 
@@ -201,6 +203,9 @@ Note that you will need enough space for the .HDF  file *and* the downloaded set
 ## Writing the Image to the SD Card
 
 Once all the options have been set to your satisfaction, the `Run Tool` button will turn green and when clicked, the process can begin.
+
+If you have selected all the required options but the button is yellow it means you lack the required space to run the tool. Either select the `Click to set custom Working Folder` button above or press the yellow button and you will be prompted to select a new location for the Working Folder with sufficient space.
+
 First, some information popup windows will inform you of what the tool is about to do (some may take some time to appear, please wait!) and then a summary page will be displayed.
 
 After this the process shall begin.
