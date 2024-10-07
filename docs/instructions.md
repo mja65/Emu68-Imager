@@ -105,7 +105,7 @@ However, the actual contents of the files *is important*. You must use unmodifie
 
 ## Kickstart ROM files
 
-The following table shows the Kickstart ROM files that are supported for the different versions of AmigaOS that are supported. Either copy the kickstart file to the default directory in the path where you have installed the tool (UserFiles\Kickstarts\) or select the directory where your ROM file is located by clicking on `Click to set Kickstart Path` button. It is recommended you use a local drive to do this, though network locations will work if you have the appropriate access rights.
+The following table shows the Kickstart ROM files that are supported for the different versions of AmigaOS that are supported. Either copy the kickstart file to the default directory in the path where you have installed the tool (UserFiles\Kickstarts\) or select the directory where your ROM file is located by clicking on `Click to set Kickstart Path` button. It is recommended you use a local drive to do this, though network locations will work if you have the appropriate access rights. UNC links will not work due to limitations in one of the supporting tools (HST-Imager).
 
 |**OS 3.1**                      |**OS 3.2**                     |**OS 3.2.2.1**                 |
 |Kickstart 3.1 A1200 (40.068)    |Kickstart 3.2 A1200 (47.96)    |Kickstart 3.2.2 A1200 (47.111) |
@@ -123,7 +123,7 @@ The following table details the ADF disk image files you will need for your chos
 
 For OS 3.2.2.1, the OS 3.2 standard ADFs are used along with the 3.2.2 updates and the 3.2.2.1 hot-fixe which are included in the 3.2.2.1 Hotfix package (while you can use the ADFs from 3.2.2, it is not necessary as the Hotfix package already includes them).
 
-Either copy the required folders to the default directory in the path where you have installed the tool (UserFiles\ADFs\) or select the directory where the files exist (it will search all sub-folders under this directory) by clicking on `Click to set ADF Path` button. It is recommended you use a local drive to do this, though network locations will work if you have the appropriate access rights.
+Either copy the required folders to the default directory in the path where you have installed the tool (UserFiles\ADFs\) or select the directory where the files exist (it will search all sub-folders under this directory) by clicking on `Click to set ADF Path` button. It is recommended you use a local drive to do this, though network locations will work if you have the appropriate access rights. UNC links will not work due to limitations in one of the supporting tools (HST-Imager).
 
 |**OS 3.1**             |**OS 3.2**     |**OS 3.2.2.1** |              |                |
 |                       |               |*from 3.2*     |*from 3.2.2*  |*from 3.2.2.1*  |
@@ -162,7 +162,7 @@ You will need to copy any missing ADFs to the location you have used and run the
 ## Supplying your own additional files
 
 If you want to supply your own files - say, tools or data that you want to have available in the Work: partition, then you can do so by clicking on the `Click to set transfer path` button.
-You can place any files you want in that location and they will be copied to the SD card into the Work: partition. It is recommended you use a local drive to do this, though network locations will work if you have the appropriate access rights.
+You can place any files you want in that location and they will be copied to the SD card into the Work: partition. It is recommended you use a local drive to do this, though network locations will work if you have the appropriate access rights and it is a mapped network drive. UNC links will not work due to limitations in one of the supporting tools (HST-Imager).
 
 The Imager tool will check file sizes and will warn you if there is not enough space. 
 N.B: this can take significant time to transfer if you have a large amount of files! 
