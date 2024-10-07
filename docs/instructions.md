@@ -159,7 +159,7 @@ When the tool has searched for the ADFs you will be provided with a message show
 You will need to copy any missing ADFs to the location you have used and run the check process again. Common reasons ADFs could be noted as missing include:
 - The file is missing
 - The ADF you have used has been modified
-- You do not have the correct version of the ADF (e.g. you are installing 3.2.2.1 but have the DiskDcotor ADF from 3.2)
+- You do not have the correct version of the ADF (e.g. you are installing 3.2.2.1 but have the DiskDoctor ADF from 3.2)
 
 ## Supplying your own additional files
 
