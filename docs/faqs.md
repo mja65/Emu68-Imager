@@ -19,6 +19,10 @@ Make sure you use **single file** and **unencrypted** ROM variants as those are 
 These ADF files **must** be **UNMODIFIED and Original** copies of the Workbench 3.1 install floppies. The imager tool only supports unmodified versions since changes may introduce incompatibilities which break the automatic install system. 
 There are several different versions of the AmigaOS 3.1 Workbench out there (originally from Commodore, later on sold with Escom Amigas and now sold by Cloanto and their Amiga Forever package) - All of these official versions are supported.
 
+### After running my 3.1 image, I don't have languages available, or files are missing
+
+It's likely you used the Escom 3.1 ADF files, and unfortunately these are missing several key features such as languages and tools. If you have Commodore or Cloanto ADF files available then add them to your ADF search folder and the tool will prioritise them over the cut-down Escom images.
+
 ### The tool cannot find or check my AmigaOS 3.2.2.1 ADFs.
 - There is a directory **UserFiles** created (with **ADFs/** directory inside it) when you first run the Tool.
 - Copy all files from your **OS 3.2 CD** (from the **ADF/** directory) to **UserFiles/ADFs/**.
