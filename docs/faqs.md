@@ -41,9 +41,9 @@ In summary, functionality over aesthetics.
 
 ### Do Network drives or locations work? /Why can I not see my mapped network drives?
 
-Network drives should work in relation to selecting folders for the copying of ADF and Kickstart ROM files, as well as for the Transfer Folder if you have the appropriate access rights for the locations on your network.
+Network drives should work in relation to selecting folders for the copying of ADF and Kickstart ROM files, as well as for the Transfer Folder if you have the appropriate access rights for the locations on your network and you use mapped network drives. UNC links are NOT supported.
 
-You cannot use a Network location for the Working Folder or to run the tool. While this possibly could change in the future, there are some limitations that prevent this at the current time.
+You cannot use a Network location for the Working Folder or to run the tool. While this possibly could change in the future, there are some limitations that prevent this at the current time including with HST-Imager.
 
 In order for the tool to run correctly (both to set up the SD card as well as write the image to it), the tool needs to run as Administrator. Depending on your set up of mapped network drives you may not be able to see them in the tool. This is a known issue in Windows. Please see the following article from Microsoft:
 
