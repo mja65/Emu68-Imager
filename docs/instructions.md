@@ -95,7 +95,7 @@ You need to select for which OS version you wish to install. Use the `Select OS 
 
 Irrespective of which version you select you will need the necessary Kickstart ROM and Workbench disk image files for which the tool will check you have the correct files.
 
-The most essential part of the AmigaOS is the Kickstart, and one of the benefits of Emu68 is that you can use whichever Kickstart version you desire (currently the imager tool limits the option to two versions, but more may be available in future updates) - you are not limited to the one physically installed in your Amiga. There are additional speed benefits also; any Kickstart file loaded by Emu68 is placed in fast RaspberryPi memory and is much, much faster to access - resulting in a snappier Workbench experience.
+The most essential part of the AmigaOS is the Kickstart, and one of the benefits of Emu68 is that you can use a different Kickstart version to the one physically installed inside your Amiga (currently the imager tool limits the option to three versions, but more may be available in future updates) - though obviously your Kickstart and Workbench versions should match. There are additional speed benefits also; any Kickstart file loaded by Emu68 is placed in fast RaspberryPi memory and is much, much faster to access - resulting in a snappier Workbench experience.
 
 The second pre-requisite is the Workbench installation media. The imager tool expects that you will supply these media as disk images (.ADF files). You cannot use real floppy disks from an original workbench installation set with a PC floppy drive; they cannot be read. You can however use specialised hardware to make those images from real floppy drives using tools that you can get on Aminet, but that is beyond the scope of this document. Enquire with your friendly local Amiga web forum for more details.
 
@@ -147,6 +147,8 @@ Either copy the required folders to the default directory in the path where you 
 |                       |DiskDoctor     |               |              |                |
 
 The tool will then search the location you have specified and match to the relevant ADFs required (irrespective of the filenames). If you run into any issues where the tool notes there are missing ADFs, yet you have these available, check that the versions you have used are unmodified. Certain tools (e.g. DiskFlashback) were noted as causing modifications to the ADF, that while still useable, could cause the tool not to recognise them. If this happens, try copying the originally supplied ADFs to the folder.
+
+**NOTE:** ADF images from the Escom Amiga distribution are missing, among other things, language files (keyboard layouts too) and some tools. These images, while usable, should be avoided - if Commodore or Cloanto ADF images are available then the imager tool will prioritise their use over those from Escom.
 
 You will then need to click the `Check` button and the imager tool will then search this location and locate the correct Kickstart file based on its contents, so file names are not needed to match.
 
