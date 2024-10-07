@@ -148,7 +148,7 @@ Either copy the required folders to the default directory in the path where you 
 
 The tool will then search the location you have specified and match to the relevant ADFs required (irrespective of the filenames). If you run into any issues where the tool notes there are missing ADFs, yet you have these available, check that the versions you have used are unmodified. Certain tools (e.g. DiskFlashback) were noted as causing modifications to the ADF, that while still useable, could cause the tool not to recognise them. If this happens, try copying the originally supplied ADFs to the folder.
 
-**NOTE:** ADF images from the Escom Amiga distribution are missing, among other things, language files (keyboard layouts too) and some tools. These images, while usable, should be avoided - if Commodore or Cloanto ADF images are available then the imager tool will prioritise their use over those from Escom.
+> <font color="red">**NOTE:** ADF images from the Escom Amiga distribution are missing, among other things, language files (keyboard layouts too) and some tools. These images, while usable, should be avoided - if Commodore or Cloanto ADF images are available then the imager tool will prioritise their use over those from Escom.</font>
 
 You will then need to click the `Check` button and the imager tool will then search this location and locate the correct Kickstart file based on its contents, so file names are not needed to match.
 
