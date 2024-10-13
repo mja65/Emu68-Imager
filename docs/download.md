@@ -2,7 +2,13 @@ The latest version of Emu68 Imager can be found at the following link:
 
 [https://mja65.github.io/Emu68-Imager/Software/Emu68Imager.zip](https://mja65.github.io/Emu68-Imager/Software/Emu68Imager.zip)
 
-The latest version is currently 1.0.2. Changes since 1.0 are:
+The latest version is currently 1.0.3. Changes since 1.0 are:
+
+1.0.3
+
+- Fixed prioritisation of ADFs so that 3.1 ADFs are correctly prioritised (Commodore, then Cloanto, then Escom)
+- Introduced check for latest version of input CSV files at start up to allow for updates without a new version of the tool being required
+- Minor bug fixes (e.g. typos in terminal output, missing screenshot from documentation copied to image) 
 
 1.0.2
 
