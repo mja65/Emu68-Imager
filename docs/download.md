@@ -8,7 +8,7 @@ The latest version is currently 1.0.3. Changes since 1.0 are:
 
 - Fixed prioritisation of ADFs so that 3.1 ADFs are correctly prioritised (Commodore, then Cloanto, then Escom)
 - Introduced check for latest version of input CSV files at start up to allow for updates without a new version of the tool being required
-- Minor bug fixes (e.g. typos in terminal output) 
+- Minor bug fixes (e.g. typos in terminal output, missing screenshot from documentation copied to image) 
 
 1.0.2
 
