@@ -40,7 +40,7 @@ As detailed in the instructions, the default output for the is RGB. You will nee
 
 ### I am experiencing errors after manually uograding from 3.1/3.2 to a later version 
 
-It's possible the Startup-Sequence was overwritten by your uodate. Check for if the install process has saved a previous version as part of the upgrade process and copy the sections marked as "modified by Powershell" into the new version of the startup-sequence. 
+It's possible the Startup-Sequence was overwritten by your update. Check for if the install process has saved a previous version as part of the upgrade process and copy the sections marked as "modified by Powershell" into the new version of the startup-sequence. 
 
 ### It's nice there is a GUI to start, but the running of the tool is in the Terminal. Why?
 
