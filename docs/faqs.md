@@ -34,8 +34,7 @@ It's likely you used the Escom 3.1 ADF files, and unfortunately these are missin
 - Press **Check** button, it should turn Green if all steps were completed correctly.
 
 
-### When I use the image on the Amiga it is stuck at the Emu68
-screen
+### When I use the image on the Amiga it is stuck at the Emu68 screen
 
 As detailed in the instructions, the default output for the is RGB. You will need to connect your Amiga to your monitor via the DB23 port. 
 
