@@ -20,7 +20,6 @@ These ADF files **must** be **UNMODIFIED and Original** copies of the Workbench 
 There are several different versions of the AmigaOS 3.1 Workbench out there (originally from Commodore, later on sold with Escom Amigas and now sold by Cloanto and their Amiga Forever package) - All of these official versions are supported.
 
 ### After running my 3.1 image, I don't have languages available, or files are missing
-
 It's likely you used the Escom 3.1 ADF files, and unfortunately these are missing several key features such as languages and tools. If you have Commodore or Cloanto ADF files available then add them to your ADF search folder and the tool will prioritise them over the cut-down Escom images.
 
 ### The tool cannot find or check my AmigaOS 3.2.2.1 ADFs.
@@ -33,17 +32,13 @@ It's likely you used the Escom 3.1 ADF files, and unfortunately these are missin
 
 - Press **Check** button, it should turn Green if all steps were completed correctly.
 
-
 ### When I use the image on the Amiga it is stuck at the Emu68 screen
-
 As detailed in the instructions, the default output for the is RGB. You will need to connect your Amiga to your monitor via the DB23 port. 
 
 ### I am experiencing errors after manually upgrading from 3.1/3.2 to a later version 
-
 It's possible the Startup-Sequence was overwritten by your update. Check for if the install process has saved a previous version as part of the upgrade process and copy the sections marked as "modified by Powershell" into the new version of the startup-sequence. 
 
 ### It's nice there is a GUI to start, but the running of the tool is in the Terminal. Why?
-
 The tool is written in Powershell. Limitations in Powershell (and frankly the knowledge of the coder) make a graphical output difficult. Two examples:
 
 1. Downloads of the various packages uses standard Powershell functionality. Showing progress for downloads either requires using the standard Powershell output or there is no output whatsoever
@@ -53,7 +48,6 @@ The tool is written in Powershell. Limitations in Powershell (and frankly the kn
 In summary, functionality over aesthetics.
 
 ### Do Network drives or locations work? /Why can I not see my mapped network drives?
-
 Network drives should work in relation to selecting folders for the copying of ADF and Kickstart ROM files, as well as for the Transfer Folder if you have the appropriate access rights for the locations on your network and you use mapped network drives. UNC links are NOT supported.
 
 You cannot use a Network location for the Working Folder or to run the tool. While this possibly could change in the future, there are some limitations that prevent this at the current time including with HST-Imager.
@@ -65,25 +59,20 @@ In order for the tool to run correctly (both to set up the SD card as well as wr
 Note, changes suggested in the article (e.g. changes to your registry) could cause damage to your system and is done at your own risk!
 
 ### The tool is looking for ADFs I do not have! 
-
 This tool is provided for users who have legally acquired versions of the ROMs and ADFs. If you do, you should have no issue accessing the required files (e.g. using the Hyperion website to download any updates).
 
 If you've chosen to "sail the high seas" that's your choice but you will need to work out how to acquire the complete set. It is not something we can point you towards
 
 ### I am getting an error when the tool tries to create the Amiga Image
-
 The issue is seen where the tool fails at the 'Preparing Amiga Image' section where the tool is initialising the partition. This has been noted as an issue with users who have the IBM Trusteer Rapport software, an Endpoint protection tool installed and may be an issue with similar software. Unfortunately, if this issue is noted there is currently no way around this other than disabling the software when running the imager. If you do this please remember to reenable the software after running the imager!
 
 ### I've written the image but [wifipi.device / videcore (RTG) / Buptest / (any other Emu68 software)] is not working!
-
 The tool is using the currently available version of Emu68 and Emu68 tools. By all means, reach out for support but please consider if your issue relates to the imager or Emu68. If the later, then it is not something the tool can resolve.  However, please raise the issue in the appropriate forum if you encounter it (e.g. the emu68-support channel on Discord)
 
 ### How do I upgrade from the demo version of Roadshow to the full version?
-
 If you have the full version of Roadshow, copy the bsdsocket.library from the install package to the Libs folder on the Workbench drive. You can either use the option to transfer files when you run the tool (please refer to the [Supplying your own additional files](#supplying-your-own-additional-files) section) or copy the files to the FAT32 partition.
 
 ### Why is [Insert your favourite Amiga package name] not installed?
-
 The tool is intended to provide a basic image to help you get started, to avoid common pitfalls such as RTG and internet issues and using 100% legally acquired software. Once you have a basic set up you have access to the internet as well as a suitably sized SD card where you can transfer whatever you need to add additional software. 
 
 It can be a rewarding experience learning about how to install software on your Amiga. However, if you are after a fully set up and customised distribution with all games and applications pre-installed and where you can write an image to a SD card and just use it then you should download and use one of those.
