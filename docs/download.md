@@ -2,7 +2,13 @@ The latest version of Emu68 Imager can be found at the following link:
 
 [https://mja65.github.io/Emu68-Imager/Software/Emu68Imager.zip](https://mja65.github.io/Emu68-Imager/Software/Emu68Imager.zip)
 
-The latest version is currently 1.0.3. Changes since 1.0 are:
+The latest version is currently 1.0.4. Changes since 1.0 are:
+
+1.0.4
+
+- Fixed issue with DOpus and Kickstart 3.1 where DOpus would search for drawer .info file in default 3.2 location that did not exist
+- Updated install packages to include XPK (included in live updates)
+- Added Picasso96 ENV "DisableAmigaBlitter" setting to prevent graphical corruption arising with the most recent PeterK icon.library version under Kickstart 3.1 and using a RGB Workbench screen where clicking on icons could result in graphical corruption  
 
 1.0.3
 
