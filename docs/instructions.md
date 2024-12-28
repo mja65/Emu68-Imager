@@ -46,7 +46,7 @@ This is the boot partition for the Raspberry Pi. It contains the Emu68 system an
 - A config.txt file with configuration information for your PiStorm and Raspberry Pi.
 - A cmdline.txt file with configuration information for Emu68.
 - A Kickstarts folder to which you can copy the Kickstarts you want to use with WHDLoad games and demos. This is optional and not required to use the tool.
-- A Packages folder where you can copy Install Packages for the Emu68 Imager tool package installer. This is optional and not required to use the tool. LINKME
+- A Packages folder where you can copy Install Packages for the Emu68 Imager tool package installer. This is optional and not required to use the tool.
 
 The miniumum size of the FAT32 partition is 35MiB, with a maximum of 4GiB. The imager tool will select the default size according to the capacity of the SD card.
 
@@ -137,13 +137,14 @@ Either copy the required folders to the default directory in the path where you 
 |                       |GlowIcons3.2   |GlowIcons3.2   |Locale3.2.2-DK|                |
 |                       |Locale         |Locale         |Locale3.2.2-EN|                |
 |                       |Locale-DE      |Locale-DE      |Locale3.2.2-ES|                |
-|                       |Locale-UK      |Locale-UK      |              |                |
+|                       |Locale-UK      |Locale-UK      |Locale3.2.2-SE|                |
 |                       |Locale-NL      |Locale-NL      |              |                |
 |                       |Locale-EN      |Locale-EN      |              |                |
 |                       |Locale-DK      |Locale-DK      |              |                |
 |                       |Locale-ES      |Locale-ES      |              |                |
 |                       |Locale-IT      |Locale-IT      |              |                |
 |                       |Locale-FR      |Locale-FR      |              |                |
+|                       |Locale-SE      |Locale-SE      |              |                |
 |                       |DiskDoctor     |               |              |                |
 
 The tool will then search the location you have specified and match to the relevant ADFs required (irrespective of the filenames). If you run into any issues where the tool notes there are missing ADFs, yet you have these available, check that the versions you have used are unmodified. Certain tools (e.g. DiskFlashback) were noted as causing modifications to the ADF, that while still useable, could cause the tool not to recognise them. If this happens, try copying the originally supplied ADFs to the folder.
