@@ -2,7 +2,14 @@ The latest version of Emu68 Imager can be found at the following link:
 
 [https://mja65.github.io/Emu68-Imager/Software/Emu68Imager.zip](https://mja65.github.io/Emu68-Imager/Software/Emu68Imager.zip)
 
-The latest version is currently 1.0.4. Changes since 1.0 are:
+The latest version is currently 1.0.4.1 Changes since 1.0 are:
+
+1.0.4.1
+
+- Fixed issue with the Quicklink on the disclaimer window not working (thanks to Makedonk for identifying)
+- Added check for 64bit OS so Imager will not start if 32bit version of Windows is used
+- Corrected typo in FindFreeSpace command used in Powershell
+- Added additional flag for the "Invoke-Webrequest" commands to improve compatibility (thanks to Czig for identifying issue and solution)
 
 1.0.4
 
