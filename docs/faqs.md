@@ -18,6 +18,7 @@ Make sure you use **single file** and **unencrypted** ROM variants as those are 
 ### The tool cannot find or check my AmigaOS 3.1 ADFs
 These ADF files **must** be **UNMODIFIED and Original** copies of the Workbench 3.1 install floppies. The imager tool only supports unmodified versions since changes may introduce incompatibilities which break the automatic install system. 
 There are several different versions of the AmigaOS 3.1 Workbench out there (originally from Commodore, later on sold with Escom Amigas and now sold by Cloanto and their Amiga Forever package) - All of these official versions are supported.
+
 If you have manually installed Workbench from your ADFs previously bear in mind that altering HDtoolbox to point to the PiStorm storage device and/or saving the drive definition to the disk will change the Md5 checksum! In the event this has occurred you will need to revert to the original version of the ADF. 
 
 
