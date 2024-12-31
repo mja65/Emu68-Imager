@@ -72,6 +72,9 @@ The tool is using the currently available version of Emu68 and Emu68 tools. By a
 ### How do I upgrade from the demo version of Roadshow to the full version?
 If you have the full version of Roadshow, copy the bsdsocket.library from the install package to the Libs folder on the Workbench drive. You can either use the option to transfer files when you run the tool (please refer to the [Supplying your own additional files](#supplying-your-own-additional-files) section) or copy the files to the FAT32 partition.
 
+### How do I use a an alternative TCP/IP stack such as Miami?
+If you wish you use something other than Roadshow, then install it as per its instructions (guides for this are beyond the scope of the Emu68 Imager documentation). To avoid conflicts with Roadshow, just rename bsdsocket.library in the Libs directory (e.g. bsdsocket.libraryOLD). 
+
 ### Why is [Insert your favourite Amiga package name] not installed?
 The tool is intended to provide a basic image to help you get started, to avoid common pitfalls such as RTG and internet issues and using 100% legally acquired software. Once you have a basic set up you have access to the internet as well as a suitably sized SD card where you can transfer whatever you need to add additional software. 
 
