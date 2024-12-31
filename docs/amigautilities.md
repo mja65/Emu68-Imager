@@ -40,7 +40,8 @@ Note that this will not necessarily change your keyboard localisation settings, 
 
 ## RTG Screenmodes
 
-We have provided a Picasso96 settings file with many useful resolutions pre-set for you. Just run the ScreenMode preferences and set any resolution you like. 
+By default, Workbench will boot to a standard non RTG screenmode, though RTG has been sewt up. We have also  provided a Picasso96 settings file with many useful resolutions pre-set for you. Just run the ScreenMode preferences and set any resolution you like. 
+
 **All RTG resolutions will display on your HDMI display**, whereas PAL/NTSC et al will show on your Amiga (RGB) monitor. 
 
 Workbench will be much snappier with RTG enabled, and you will be able to enjoy millions of colours alongside maximum available Chip RAM. We have also installed PeterK's icon library that takes advantage of all these colours so you can install PNG icons in all their glory. 
