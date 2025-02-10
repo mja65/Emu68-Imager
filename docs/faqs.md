@@ -36,7 +36,7 @@ It's likely you used the Escom 3.1 ADF files, and unfortunately these are missin
 - Press **Check** button, it should turn Green if all steps were completed correctly.
 
 ### When I use the image on the Amiga it is stuck at the Emu68 screen
-As detailed in the instructions, the default output for the is RGB. You will need to connect your Amiga to your monitor via the DB23 port. RTG is set up so you can change the default Workbench screen to RTG by selecting a RTG screenmode in Prefs. 
+As detailed in the instructions, the default output is RGB. You will need to connect your Amiga to your monitor via the DB23 port. RTG is set up so you can change the default Workbench screen to RTG by selecting a RTG screenmode in Prefs. 
 
 ### I am experiencing errors after manually upgrading from 3.1/3.2 to a later version 
 It's possible the Startup-Sequence was overwritten by your update. Check for if the install process has saved a previous version as part of the upgrade process and copy the sections marked as "modified by Powershell" into the new version of the startup-sequence. 
