@@ -19,6 +19,9 @@ Make sure you use **single file** and **unencrypted** ROM variants as those are 
 These ADF files **must** be **UNMODIFIED and Original** copies of the Workbench 3.1 install floppies. The imager tool only supports unmodified versions since changes may introduce incompatibilities which break the automatic install system. 
 There are several different versions of the AmigaOS 3.1 Workbench out there (originally from Commodore, later on sold with Escom Amigas and now sold by Cloanto and their Amiga Forever package) - All of these official versions are supported.
 
+If you have manually installed Workbench from your ADFs previously bear in mind that altering HDtoolbox to point to the PiStorm storage device and/or saving the drive definition to the disk will change the Md5 checksum! In the event this has occurred you will need to revert to the original version of the ADF. 
+
+
 ### After running my 3.1 image, I don't have languages available, or files are missing
 It's likely you used the Escom 3.1 ADF files, and unfortunately these are missing several key features such as languages and tools. If you have Commodore or Cloanto ADF files available then add them to your ADF search folder and the tool will prioritise them over the cut-down Escom images.
 
@@ -33,7 +36,7 @@ It's likely you used the Escom 3.1 ADF files, and unfortunately these are missin
 - Press **Check** button, it should turn Green if all steps were completed correctly.
 
 ### When I use the image on the Amiga it is stuck at the Emu68 screen
-As detailed in the instructions, the default output for the is RGB. You will need to connect your Amiga to your monitor via the DB23 port. 
+As detailed in the instructions, the default output is RGB. You will need to connect your Amiga to your monitor via the DB23 port. RTG is set up so you can change the default Workbench screen to RTG by selecting a RTG screenmode in Prefs. 
 
 ### I am experiencing errors after manually upgrading from 3.1/3.2 to a later version 
 It's possible the Startup-Sequence was overwritten by your update. Check for if the install process has saved a previous version as part of the upgrade process and copy the sections marked as "modified by Powershell" into the new version of the startup-sequence. 
@@ -71,6 +74,9 @@ The tool is using the currently available version of Emu68 and Emu68 tools. By a
 
 ### How do I upgrade from the demo version of Roadshow to the full version?
 If you have the full version of Roadshow, copy the bsdsocket.library from the install package to the Libs folder on the Workbench drive. You can either use the option to transfer files when you run the tool (please refer to the [Supplying your own additional files](#supplying-your-own-additional-files) section) or copy the files to the FAT32 partition.
+
+### How do I use a an alternative TCP/IP stack such as Miami?
+If you wish you use something other than Roadshow, then install it as per its instructions (guides for this are beyond the scope of the Emu68 Imager documentation). To avoid conflicts with Roadshow, just rename bsdsocket.library in the Libs directory (e.g. bsdsocket.libraryOLD). 
 
 ### Why is [Insert your favourite Amiga package name] not installed?
 The tool is intended to provide a basic image to help you get started, to avoid common pitfalls such as RTG and internet issues and using 100% legally acquired software. Once you have a basic set up you have access to the internet as well as a suitably sized SD card where you can transfer whatever you need to add additional software. 
