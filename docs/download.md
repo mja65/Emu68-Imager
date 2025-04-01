@@ -2,7 +2,13 @@ The latest version of Emu68 Imager can be found at the following link:
 
 [https://mja65.github.io/Emu68-Imager/Software/Emu68Imager.zip](https://mja65.github.io/Emu68-Imager/Software/Emu68Imager.zip)
 
-The latest version is currently 1.0.4.1 Changes since 1.0 are:
+The latest version is currently 1.0.4.2 Changes since 1.0 are:
+
+1.0.4.2
+
+- Fixed some typos in the log created during execution and as reported in the terminal
+- Added filter so versions of Emu68 >= 1.1 will not be downloaded. This is a temporary measure until this version is released and is supported
+- Changed downloading of documentation to the Amiga so that if the download fails that the image will still be created
 
 1.0.4.1
 
