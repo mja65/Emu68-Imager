@@ -13,6 +13,7 @@ Make sure you use **single file** and **unencrypted** ROM variants as those are 
 ### The tool cannot find or check my Kickstart ROM image for **3.2 or 3.2.2.1**
 - For **3.2** select the **ROM/** directory on your **OS 3.2 CD** and click the **Check** button.
 - For **3.2.2.1** extract the file **A1200.47.111.rom** from the **Hotfix3.2.2.1.lha** (inside the **Update3.2.2/ROMs/** directory) to a directory of your choice and select that. Then click **Check** button.
+- For **3.2.3** extract the file **A1200.47.115.rom** from the **AmigaOS-3.2.3.lha** (inside the **Update3.2.3/ROMs/** directory) to a directory of your choice and select that. Then click **Check** button.
 - Make sure you use **single file** and **unencrypted** ROM variants, as they are the only ones currently supported.
 
 ### The tool cannot find or check my AmigaOS 3.1 ADFs
@@ -25,11 +26,14 @@ If you have manually installed Workbench from your ADFs previously bear in mind 
 ### After running my 3.1 image, I don't have languages available, or files are missing
 It's likely you used the Escom 3.1 ADF files, and unfortunately these are missing several key features such as languages and tools. If you have Commodore or Cloanto ADF files available then add them to your ADF search folder and the tool will prioritise them over the cut-down Escom images.
 
-### The tool cannot find or check my AmigaOS 3.2.2.1 ADFs.
+### The tool cannot find or check my AmigaOS 3.2.2.1 or 3.2.3 ADFs.
 - There is a directory **UserFiles** created (with **ADFs/** directory inside it) when you first run the Tool.
 - Copy all files from your **OS 3.2 CD** (from the **ADF/** directory) to **UserFiles/ADFs/**.
-- Copy all files from **Hotfix3.2.2.1.lha** (from the **Update3.2.2/ADFs/Update/** directory) to **UserFiles/ADFs/**.
-- Copy the **Update3.2.2.1.adf file** from **Hotfix3.2.2.1.lha** (in the **Update3.2.2/ADFs/Hotfix/** directory) to **UserFiles/ADFs/**.
+- For 3.2.2.1:
+    - Copy all files from **Hotfix3.2.2.1.lha** (from the **Update3.2.2/ADFs/Update/** directory) to **UserFiles/ADFs/**.
+    - Copy the **Update3.2.2.1.adf file** from **Hotfix3.2.2.1.lha** (in the **Update3.2.2/ADFs/Hotfix/** directory) to **UserFiles/ADFs/**.
+- For 3.2.3:
+    - Copy all the files from **AmigaOS-3.2.3.lha** (from the **Update3.2.3/ADFs/** directory) to **UserFiles/ADFs/**.   
 
 > <font color="red">When copying files, you should overwrite older versions with newer update and hotfix files when prompted.</font>
 

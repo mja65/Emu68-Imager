@@ -2,7 +2,12 @@ The latest version of Emu68 Imager can be found at the following link:
 
 [https://mja65.github.io/Emu68-Imager/Software/Emu68Imager.zip](https://mja65.github.io/Emu68-Imager/Software/Emu68Imager.zip)
 
-The latest version is currently 1.0.4.2 Changes since 1.0 are:
+The latest version is currently 1.0.4.3 Changes since 1.0 are:
+
+1.0.4.3
+
+- Added functionality to support AmigaOS 3.2.3. 
+- Revised Imager code to better allow for future versions of AmigaOS to be added without impacting previous versions of Emu68Imager
 
 1.0.4.2
 

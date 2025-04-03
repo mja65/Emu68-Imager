@@ -82,14 +82,15 @@ Press the `Reset Partitions to default` button to reset the partition sizes to d
 
 ## Supplying Kickstart ROM and Workbench installation floppy images (.ADF files)
 
-The imager tool supports three flavours of AmigaOS:
+The imager tool supports four flavours of AmigaOS:
 - 3.1 
 - 3.2
 - 3.2.2.1
+- 3.2.3
 
 Version 3.1 was originally supplied with the Amiga 1200 and 4000, and is still available from Cloanto as part of their Amiga Forever package. 
 
-If you would like to update to the very latest AmigaOS, then Hyperion will sell you a copy of 3.2 on a CD ROM, with additional update and hotfix files as separate downloads. While 3.2.2.1 is the latest version, you can also install the base 3.2 version if you wish.
+If you would like to update to the very latest AmigaOS, then Hyperion will sell you a copy of 3.2 on a CD ROM, with additional update and hotfix files as separate downloads. While 3.2.3 is the latest version, you can also install the base 3.2 version or 3.2.2.1 if you wish.
 
 You need to select for which OS version you wish to install. Use the `Select OS Version` dropdown to select.
 
@@ -107,9 +108,9 @@ However, the actual contents of the files *is important*. You must use unmodifie
 
 The following table shows the Kickstart ROM files that are supported for the different versions of AmigaOS that are supported. Either copy the kickstart file to the default directory in the path where you have installed the tool (UserFiles\Kickstarts\) or select the directory where your ROM file is located by clicking on `Click to set Kickstart Path` button. It is recommended you use a local drive to do this, though network locations will work if you have the appropriate access rights. UNC links will not work due to limitations in one of the supporting tools (HST-Imager).
 
-|**OS 3.1**                      |**OS 3.2**                     |**OS 3.2.2.1**                 |
-|Kickstart 3.1 A1200 (40.068)    |Kickstart 3.2 A1200 (47.96)    |Kickstart 3.2.2 A1200 (47.111) |
-|Kickstart 3.x A1200 Cloanto     |                               |                               |
+|**OS 3.1**                      |**OS 3.2**                     |**OS 3.2.2.1**                 |**OS 3.2.3**                 |
+|Kickstart 3.1 A1200 (40.068)    |Kickstart 3.2 A1200 (47.96)    |Kickstart 3.2.2 A1200 (47.111) |Kickstart 3.2.3 A1200 (47.115) |
+|Kickstart 3.x A1200 Cloanto     |                               |                               |                               |
 
 Please note that only A1200 versions of the Kickstart ROMs are supported as these are recommended for Emu68 regardless of the Amiga model you are using.
 
@@ -125,27 +126,27 @@ For OS 3.2.2.1, the OS 3.2 standard ADFs are used along with the 3.2.2 updates a
 
 Either copy the required folders to the default directory in the path where you have installed the tool (UserFiles\ADFs\) or select the directory where the files exist (it will search all sub-folders under this directory) by clicking on `Click to set ADF Path` button. It is recommended you use a local drive to do this, though network locations will work if you have the appropriate access rights. UNC links will not work due to limitations in one of the supporting tools (HST-Imager).
 
-|**OS 3.1**             |**OS 3.2**     |**OS 3.2.2.1** |              |                |
-|                       |               |*from 3.2*     |*from 3.2.2*  |*from 3.2.2.1*  |
-|Workbench 3.1          |Storage3.2     |Storage3.2     |DiskDoctor    |Update3.2.2.1   |
-|Workbench 3.1 Install  |Backdrops3.2   |Backdrops3.2   |Update3.2.2   |                |
-|Workbench 3.1 Storage  |Extras3.2      |Extras3.2      |Locale3.2.2-DE|                |
-|Workbench 3.1 Fonts    |Workbench3.2   |Workbench3.2   |Locale3.2.2-IT|                |
-|Workbench 3.1 Extras   |Fonts          |Fonts          |Locale3.2.2-NL|                |
-|Workbench 3.1 Locale   |Install3.2     |Install3.2     |Locale3.2.2-UK|                |
-|                       |Classes3.2     |Classes3.2     |Locale3.2.2-FR|                |
-|                       |GlowIcons3.2   |GlowIcons3.2   |Locale3.2.2-DK|                |
-|                       |Locale         |Locale         |Locale3.2.2-EN|                |
-|                       |Locale-DE      |Locale-DE      |Locale3.2.2-ES|                |
-|                       |Locale-UK      |Locale-UK      |Locale3.2.2-SE|                |
-|                       |Locale-NL      |Locale-NL      |              |                |
-|                       |Locale-EN      |Locale-EN      |              |                |
-|                       |Locale-DK      |Locale-DK      |              |                |
-|                       |Locale-ES      |Locale-ES      |              |                |
-|                       |Locale-IT      |Locale-IT      |              |                |
-|                       |Locale-FR      |Locale-FR      |              |                |
-|                       |Locale-SE      |Locale-SE      |              |                |
-|                       |DiskDoctor     |               |              |                |
+|**OS 3.1**             |**OS 3.2**     |**OS 3.2.2.1** |              |                |**OS 3.2.3**   |                |
+|                       |               |*from 3.2*     |*from 3.2.2*  |*from 3.2.2.1*  |*from 3.2*     |*from 3.2.3*    |  
+|Workbench 3.1          |Storage3.2     |Storage3.2     |DiskDoctor    |Update3.2.2.1   |Storage3.2     |Classes3.2.3    |
+|Workbench 3.1 Install  |Backdrops3.2   |Backdrops3.2   |Update3.2.2   |                |Backdrops3.2   |DiskDoctor3.2.3 |
+|Workbench 3.1 Storage  |Extras3.2      |Extras3.2      |Locale3.2.2-DE|                |Extras3.2      |Extras3.2.3     |
+|Workbench 3.1 Fonts    |Workbench3.2   |Workbench3.2   |Locale3.2.2-IT|                |Workbench3.2   |Locale-DE3.2.3  | 
+|Workbench 3.1 Extras   |Fonts          |Fonts          |Locale3.2.2-NL|                |Fonts          |Locale-DK3.2.3  |
+|Workbench 3.1 Locale   |Install3.2     |Install3.2     |Locale3.2.2-UK|                |Install3.2     |Locale-EN3.2.3  | 
+|                       |Classes3.2     |Classes3.2     |Locale3.2.2-FR|                |Classes3.2     |Locale-ES3.2.3  |
+|                       |GlowIcons3.2   |GlowIcons3.2   |Locale3.2.2-DK|                |GlowIcons3.2   |Locale-FR3.2.3  |
+|                       |Locale         |Locale         |Locale3.2.2-EN|                |Locale         |Locale-IT3.2.3  | 
+|                       |Locale-DE      |Locale-DE      |Locale3.2.2-ES|                |Locale-DE      |Locale-SE3.2.3  |
+|                       |Locale-UK      |Locale-UK      |Locale3.2.2-SE|                |Locale-UK      |Locale-UK3.2.3  |
+|                       |Locale-NL      |Locale-NL      |              |                |Locale-NL      |Update3.2.3     |
+|                       |Locale-EN      |Locale-EN      |              |                |Locale-EN      |                |
+|                       |Locale-DK      |Locale-DK      |              |                |Locale-DK      |                |
+|                       |Locale-ES      |Locale-ES      |              |                |Locale-ES      |                |
+|                       |Locale-IT      |Locale-IT      |              |                |Locale-IT      |                |
+|                       |Locale-FR      |Locale-FR      |              |                |Locale-FR      |                |
+|                       |Locale-SE      |Locale-SE      |              |                |Locale-SE      |                |
+|                       |DiskDoctor     |               |              |                |               |                |
 
 The tool will then search the location you have specified and match to the relevant ADFs required (irrespective of the filenames). If you run into any issues where the tool notes there are missing ADFs, yet you have these available, check that the versions you have used are unmodified. Certain tools (e.g. DiskFlashback) were noted as causing modifications to the ADF, that while still useable, could cause the tool not to recognise them. If this happens, try copying the originally supplied ADFs to the folder.
 
@@ -180,7 +181,7 @@ Please note, the output of your RaspberryPi is fixed after boot, and cannot be c
 
 ## Configuring WiFi
 
-The imager tool gives you the option of configuring the Emu68 WiFi driver (wifipi.device) at install time, such that wifi will be available immediately the Amiga has booted. You need to enter the SSID (name) for your WiFi access point and the Password for it in the `Wifi Settings` section. 
+The imager tool gives you the option of configuring the Emu68 WiFi driver (wifipi.device) at install time, such that wifi will be available immediately the Amiga has booted. You need to enter the SSID (name) for your WiFi access point and the Password for it in the `Wifi Settings` section. Note this is case sensitive!
 
 Please bear in mind that your wifi name and password are stored on the image should you use this option! It is not mandatory to provide this information during the tool setup, and you can set it up or change it later on by using the **Wifi Config** icon in the **PiStorm** folder on your Workbench partition.
 
