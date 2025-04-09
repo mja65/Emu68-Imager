@@ -1,6 +1,6 @@
 ## Welcome to the Emu68 Imager.
 
-The Emu68 Imager is a utility to allow PiStorm users to easily prepare an SD card with Emu68 and a basic pre-configured AmigaOS 3.1, 3.2, 3.2.2.1 or 3.2.3 installation. 
+The Emu68 Imager is a utility to allow PiStorm users to easily prepare an SD card with Emu68 and a basic pre-configured AmigaOS 3.1, 3.2 or 3.2.2.1 installation. As of version 1.0.5 AmigaOS3.9 is also available.
 
 ---
 
