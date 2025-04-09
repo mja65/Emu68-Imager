@@ -7,6 +7,7 @@ The latest version is currently 1.0.5. Changes since 1.0 are:
 1.0.5
 
 - Added support for installing AmigaOS 3.9
+- Fixed TransferKick to account for where there are no Kickstart files in the Kickstart folder
 - Minor bug fixes
 
 1.0.4.3
