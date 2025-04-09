@@ -80,7 +80,7 @@ Due to the nature of how Emu68's drivers work, the SD card will be physically pa
 
 Press the `Reset Partitions to default` button to reset the partition sizes to default values.
 
-## Supplying Kickstart ROM and Workbench installation floppy images (.ADF files)
+## Supplying Kickstart ROM and Workbench installation files (e.g. .ADF files)
 
 The imager tool supports five flavours of AmigaOS:
 - 3.1 
