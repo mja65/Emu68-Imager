@@ -82,13 +82,16 @@ Press the `Reset Partitions to default` button to reset the partition sizes to d
 
 ## Supplying Kickstart ROM and Workbench installation floppy images (.ADF files)
 
-The imager tool supports four flavours of AmigaOS:
+The imager tool supports five flavours of AmigaOS:
 - 3.1 
 - 3.2
 - 3.2.2.1
 - 3.2.3
+- 3.9
 
 Version 3.1 was originally supplied with the Amiga 1200 and 4000, and is still available from Cloanto as part of their Amiga Forever package. 
+
+AmigaOS 3.9 was created by Haage & Partner. 
 
 If you would like to update to the very latest AmigaOS, then Hyperion will sell you a copy of 3.2 on a CD ROM, with additional update and hotfix files as separate downloads. While 3.2.3 is the latest version, you can also install the base 3.2 version or 3.2.2.1 if you wish.
 
@@ -108,9 +111,9 @@ However, the actual contents of the files *is important*. You must use unmodifie
 
 The following table shows the Kickstart ROM files that are supported for the different versions of AmigaOS that are supported. Either copy the kickstart file to the default directory in the path where you have installed the tool (UserFiles\Kickstarts\) or select the directory where your ROM file is located by clicking on `Click to set Kickstart Path` button. It is recommended you use a local drive to do this, though network locations will work if you have the appropriate access rights. UNC links will not work due to limitations in one of the supporting tools (HST-Imager).
 
-|**OS 3.1**                      |**OS 3.2**                     |**OS 3.2.2.1**                 |**OS 3.2.3**                 |
-|Kickstart 3.1 A1200 (40.068)    |Kickstart 3.2 A1200 (47.96)    |Kickstart 3.2.2 A1200 (47.111) |Kickstart 3.2.3 A1200 (47.115) |
-|Kickstart 3.x A1200 Cloanto     |                               |                               |                               |
+|**OS 3.1**                      |**OS 3.2**                     |**OS 3.2.2.1**                 |**OS 3.2.3**                   |**OS 3.9**                     |
+|Kickstart 3.1 A1200 (40.068)    |Kickstart 3.2 A1200 (47.96)    |Kickstart 3.2.2 A1200 (47.111) |Kickstart 3.2.3 A1200 (47.115) |Kickstart 3.1 A1200 (40.068)   |
+|Kickstart 3.x A1200 Cloanto     |                               |                               |                               |                               |
 
 Please note that only A1200 versions of the Kickstart ROMs are supported as these are recommended for Emu68 regardless of the Amiga model you are using.
 
@@ -118,35 +121,37 @@ You will then need to click the `Check` button and the imager tool will then sea
 
 When the tool has searched for the Kickstarts, you will be provided with a message showing the Kickstart that has been located or a message advising you that the Kickstart cannot be found.
 
-## Workbench ADF Install Images
+## Workbench Media Install Images
 
-The following table details the ADF disk image files you will need for your chosen version of AmigaOS. As previously with the Kickstart ROM image, they will be matched by their contents so filenames are not needed to be correct. You can locate them wherever you like - keeping them alongside the Kickstart ROM file is a good idea. We recommend you copy your installation files to their own folder as simply pointing the tool at a large repository of Amiga system files (such as most users of say, WinUAE may have) can result in a long delay while the files are found.
+All versions of AmigaOS apart from 3.9 are installed from ADF disk image files. 3.9 uses a CD .iso file along with the Boing Bag Update Archive (.LHA) files.
 
-For OS 3.2.2.1, the OS 3.2 standard ADFs are used along with the 3.2.2 updates and the 3.2.2.1 hot-fixe which are included in the 3.2.2.1 Hotfix package (while you can use the ADFs from 3.2.2, it is not necessary as the Hotfix package already includes them).
+The following table details the files you will need for your chosen version of AmigaOS. As previously with the Kickstart ROM image, they will be matched by their contents so filenames are not needed to be correct. You can locate them wherever you like - keeping them alongside the Kickstart ROM file is a good idea. We recommend you copy your installation files to their own folder as simply pointing the tool at a large repository of Amiga system files (such as most users of say, WinUAE may have) can result in a long delay while the files are found.
+
+For OS 3.2.2.1, the OS 3.2 standard ADFs are used along with the 3.2.2 updates and the 3.2.2.1 hot-fixes which are included in the 3.2.2.1 Hotfix package (while you can use the ADFs from 3.2.2, it is not necessary as the Hotfix package already includes them).
 
 Either copy the required folders to the default directory in the path where you have installed the tool (UserFiles\ADFs\) or select the directory where the files exist (it will search all sub-folders under this directory) by clicking on `Click to set ADF Path` button. It is recommended you use a local drive to do this, though network locations will work if you have the appropriate access rights. UNC links will not work due to limitations in one of the supporting tools (HST-Imager).
 
-|**OS 3.1**             |**OS 3.2**     |**OS 3.2.2.1** |              |                |**OS 3.2.3**   |                |
-|                       |               |*from 3.2*     |*from 3.2.2*  |*from 3.2.2.1*  |*from 3.2*     |*from 3.2.3*    |  
-|Workbench 3.1          |Storage3.2     |Storage3.2     |DiskDoctor    |Update3.2.2.1   |Storage3.2     |Classes3.2.3    |
-|Workbench 3.1 Install  |Backdrops3.2   |Backdrops3.2   |Update3.2.2   |                |Backdrops3.2   |DiskDoctor3.2.3 |
-|Workbench 3.1 Storage  |Extras3.2      |Extras3.2      |Locale3.2.2-DE|                |Extras3.2      |Extras3.2.3     |
-|Workbench 3.1 Fonts    |Workbench3.2   |Workbench3.2   |Locale3.2.2-IT|                |Workbench3.2   |Locale-DE3.2.3  | 
-|Workbench 3.1 Extras   |Fonts          |Fonts          |Locale3.2.2-NL|                |Fonts          |Locale-DK3.2.3  |
-|Workbench 3.1 Locale   |Install3.2     |Install3.2     |Locale3.2.2-UK|                |Install3.2     |Locale-EN3.2.3  | 
-|                       |Classes3.2     |Classes3.2     |Locale3.2.2-FR|                |Classes3.2     |Locale-ES3.2.3  |
-|                       |GlowIcons3.2   |GlowIcons3.2   |Locale3.2.2-DK|                |GlowIcons3.2   |Locale-FR3.2.3  |
-|                       |Locale         |Locale         |Locale3.2.2-EN|                |Locale         |Locale-IT3.2.3  | 
-|                       |Locale-DE      |Locale-DE      |Locale3.2.2-ES|                |Locale-DE      |Locale-SE3.2.3  |
-|                       |Locale-UK      |Locale-UK      |Locale3.2.2-SE|                |Locale-UK      |Locale-UK3.2.3  |
-|                       |Locale-NL      |Locale-NL      |              |                |Locale-NL      |Update3.2.3     |
-|                       |Locale-EN      |Locale-EN      |              |                |Locale-EN      |                |
-|                       |Locale-DK      |Locale-DK      |              |                |Locale-DK      |                |
-|                       |Locale-ES      |Locale-ES      |              |                |Locale-ES      |                |
-|                       |Locale-IT      |Locale-IT      |              |                |Locale-IT      |                |
-|                       |Locale-FR      |Locale-FR      |              |                |Locale-FR      |                |
-|                       |Locale-SE      |Locale-SE      |              |                |Locale-SE      |                |
-|                       |DiskDoctor     |               |              |                |               |                |
+|**OS 3.1**             |**OS 3.2**     |**OS 3.2.2.1** |              |                |**OS 3.2.3**   |                |**OS 3.9**             |        
+|                       |               |*from 3.2*     |*from 3.2.2*  |*from 3.2.2.1*  |*from 3.2*     |*from 3.2.3*    |AmigaOS 3.9 CD ISO     | 
+|Workbench 3.1          |Storage3.2     |Storage3.2     |DiskDoctor    |Update3.2.2.1   |Storage3.2     |Classes3.2.3    |Boing Bag 1 Update     |
+|Workbench 3.1 Install  |Backdrops3.2   |Backdrops3.2   |Update3.2.2   |                |Backdrops3.2   |DiskDoctor3.2.3 |Boing Bag 2 Update     |
+|Workbench 3.1 Storage  |Extras3.2      |Extras3.2      |Locale3.2.2-DE|                |Extras3.2      |Extras3.2.3     |                       |
+|Workbench 3.1 Fonts    |Workbench3.2   |Workbench3.2   |Locale3.2.2-IT|                |Workbench3.2   |Locale-DE3.2.3  |                       | 
+|Workbench 3.1 Extras   |Fonts          |Fonts          |Locale3.2.2-NL|                |Fonts          |Locale-DK3.2.3  |                       |
+|Workbench 3.1 Locale   |Install3.2     |Install3.2     |Locale3.2.2-UK|                |Install3.2     |Locale-EN3.2.3  |                       |
+|                       |Classes3.2     |Classes3.2     |Locale3.2.2-FR|                |Classes3.2     |Locale-ES3.2.3  |                       |
+|                       |GlowIcons3.2   |GlowIcons3.2   |Locale3.2.2-DK|                |GlowIcons3.2   |Locale-FR3.2.3  |                       |
+|                       |Locale         |Locale         |Locale3.2.2-EN|                |Locale         |Locale-IT3.2.3  |                       | 
+|                       |Locale-DE      |Locale-DE      |Locale3.2.2-ES|                |Locale-DE      |Locale-SE3.2.3  |                       |
+|                       |Locale-UK      |Locale-UK      |Locale3.2.2-SE|                |Locale-UK      |Locale-UK3.2.3  |                       |
+|                       |Locale-NL      |Locale-NL      |              |                |Locale-NL      |Update3.2.3     |                       |
+|                       |Locale-EN      |Locale-EN      |              |                |Locale-EN      |                |                       |
+|                       |Locale-DK      |Locale-DK      |              |                |Locale-DK      |                |                       |
+|                       |Locale-ES      |Locale-ES      |              |                |Locale-ES      |                |                       |
+|                       |Locale-IT      |Locale-IT      |              |                |Locale-IT      |                |                       |
+|                       |Locale-FR      |Locale-FR      |              |                |Locale-FR      |                |                       |
+|                       |Locale-SE      |Locale-SE      |              |                |Locale-SE      |                |                       |
+|                       |DiskDoctor     |               |              |                |               |                |                       |
 
 The tool will then search the location you have specified and match to the relevant ADFs required (irrespective of the filenames). If you run into any issues where the tool notes there are missing ADFs, yet you have these available, check that the versions you have used are unmodified. Certain tools (e.g. DiskFlashback) were noted as causing modifications to the ADF, that while still useable, could cause the tool not to recognise them. If this happens, try copying the originally supplied ADFs to the folder.
 
@@ -154,14 +159,14 @@ The tool will then search the location you have specified and match to the relev
 
 You will then need to click the `Check` button and the imager tool will then search this location and locate the correct Kickstart file based on its contents, so file names are not needed to match.
 
-When the tool has searched for the ADFs you will be provided with a message showing the ADFs that have been located along with any that are missing as shown below:
+When the tool has searched for the Installtion Files you will be provided with a message showing the files that have been located along with any that are missing as shown below:
 
-![Missing ADF Screenshot](images/screenshot2.png)
+![Missing Install Files Screenshot](images/screenshot2.png)
 
-You will need to copy any missing ADFs to the location you have used and run the check process again. Common reasons ADFs could be noted as missing include:
+You will need to copy any missing Install files such as ADFs to the location you have used and run the check process again. Common reasons ADFs could be noted as missing include:
 - The file is missing
-- The ADF you have used has been modified
-- You do not have the correct version of the ADF (e.g. you are installing 3.2.2.1 but have the DiskDoctor ADF from 3.2)
+- The file you have used has been modified
+- You do not have the correct version of the file (e.g. you are installing 3.2.2.1 but have the DiskDoctor ADF from 3.2)
 
 ## Supplying your own additional files
 

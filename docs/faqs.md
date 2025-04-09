@@ -87,6 +87,9 @@ The tool is intended to provide a basic image to help you get started, to avoid 
 
 It can be a rewarding experience learning about how to install software on your Amiga. However, if you are after a fully set up and customised distribution with all games and applications pre-installed and where you can write an image to a SD card and just use it then you should download and use one of those.
 
+### Why does Workbench in 3.9 look poor? 
+The default icons and dock in 3.9 look best with a screenmode with a high number of colours such as RTG. 
+
 ### Where is the Linux/Mac version?
 Short answer: There is none.
 
