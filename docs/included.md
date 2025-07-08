@@ -50,6 +50,7 @@ The full packages (including licencing information (where applicable) and docume
 - CopyReplace : [https://aminet.net/package/util/sys/CopyReplace](https://aminet.net/package/util/sys/CopyReplace)
 - Directory Opus 4.16JR : [https://aminet.net/package/util/dopus/DOpus416JRbin](https://aminet.net/package/util/dopus/DOpus416JRbin)
 - Directory Opus 4.17pre21 : [http://dopus.free.fr/betas/DOpus417pre21.lzx](http://dopus.free.fr/betas/DOpus417pre21.lzx)
+- Mecho [https://www.aminet.net/util/batch/mecho.lha](https://www.aminet.net/util/batch/mecho.lha)
 - Fat95 : [https://aminet.net/package/disk/misc/fat95](https://aminet.net/package/disk/misc/fat95)
 - File Sys Box : [https://aminet.net/package/util/libs/filesysbox.m68k-amigaos](https://aminet.net/package/util/libs/filesysbox.m68k-amigaos)
 - Hippo Player : [https://aminet.net/package/mus/play/hippoplayerupdate](https://aminet.net/package/mus/play/hippoplayerupdate)
