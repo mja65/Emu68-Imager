@@ -5,7 +5,7 @@ These packages include freely available software, packaged up neatly so that the
 
 - To install them put the files into the **Install** folder of the FAT32 drive - insert the SD into your PC's reader and this will be the only partition accessible.<br>
 - When the Amiga has booted, navigate to the **PiStorm** folder and double-click on the **Install Packages** icon. 
-- The Installer will do the rest - though bear in mind that after reading disclaimers, then Enter key may need to be pressed to progress.
+- The Installer will do the rest - though bear in mind that after reading disclaimers, then the Enter key may need to be pressed to progress.
 
 Note, only install files with the required installation script will work.
 
