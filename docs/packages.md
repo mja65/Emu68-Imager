@@ -1,13 +1,15 @@
 # Additional Packages
 
-Additional packages can be added to the Installer. 
+Additional packages as listed on this page can be added to the Installer. 
 These packages include freely available software, packaged up neatly so that they are installed with minimal required interaction.<br>
 
 - To install them put the files into the **Install** folder of the FAT32 drive - insert the SD into your PC's reader and this will be the only partition accessible.<br>
 - When the Amiga has booted, navigate to the **PiStorm** folder and double-click on the **Install Packages** icon. 
 - The Installer will do the rest - though bear in mind that after reading disclaimers, then Enter key may need to be pressed to progress.
 
-**Available packages:**
+Note, only install files with the required installation script will work.
+
+** Currently Available packages:**
 
 ## WHDLoad Demos
 
