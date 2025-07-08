@@ -87,6 +87,24 @@ Double-clicking the Offline icon will stop the TCP/IP stack and you will disconn
 
 If you didn't setup the WiFi SSID and Password before (or you want to change it) then you can use the **WiFi Config** icon which will allow you to edit the wifipi.device configuration file.
 
+Currently the wifipi.device requires you to connect to a wireless network which is WPA2 with CCMP-AES encryption (NOT WPA/WPA2 mixed Mode and NOT TKIP encryption). 
+
+Some users have reported issues with the following:
+-- Shared 2.4 and 5Ghz networks sharing the same SSID
+-- Connecting to a 5ghz network
+-- Mesh networks
+-- Where the channel number of the wireless network is something other than channel 1
+
+Also note some routers (particularly those provided by Telcos) can be locked down such that the ability to modify some settings is restricted.
+
+If you are encountering issues connecting consider the above (i.e. trying a network in the 2.4ghz band with channel 1 and which is not a mesh network). Connecting to a wireless phone hotspot as a troubleshooting step can also be useful if you are encountring issues.  
+
+If you wish to check your network is correctly set up for connection to your Amiga, running the command "netsh wlan show networks mode=ssid" will provide analysis of available networks.
+
+![image](https://github.com/user-attachments/assets/d5982004-e760-49dd-b1e0-3bcc2cababc4)
+
+Your network should show as WPA2-Personal and with encryption of CCMP per the example in order for it to successfully work with your Amiga. 
+
 ## Emu68Meter and Emu68Info
 
 These two utilities will display the status of Emu68 and provide information on the model of Raspberry Pi used.
