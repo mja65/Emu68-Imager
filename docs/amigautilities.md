@@ -90,10 +90,10 @@ If you didn't setup the WiFi SSID and Password before (or you want to change it)
 Currently the wifipi.device requires you to connect to a wireless network which is WPA2 with CCMP-AES encryption (NOT WPA/WPA2 mixed Mode and NOT TKIP encryption). 
 
 Some users have reported issues with the following:
--- Shared 2.4 and 5Ghz networks sharing the same SSID
--- Connecting to a 5ghz network
--- Mesh networks
--- Where the channel number of the wireless network is something other than channel 1
+- Shared 2.4 and 5Ghz networks sharing the same SSID
+- Connecting to a 5ghz network
+- Mesh networks
+- Where the channel number of the wireless network is something other than channel 1
 
 Also note some routers (particularly those provided by Telcos) can be locked down such that the ability to modify some settings is restricted.
 
