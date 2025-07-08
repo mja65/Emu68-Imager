@@ -2,7 +2,15 @@ The latest version of Emu68 Imager can be found at the following link:
 
 [https://mja65.github.io/Emu68-Imager/Software/Emu68Imager.zip](https://mja65.github.io/Emu68-Imager/Software/Emu68Imager.zip)
 
-The latest version is currently 1.0.5. Changes since 1.0 are:
+The latest version is currently 1.0.5.2 Changes since 1.0 are:
+
+1.0.5.2
+
+- Improved the Online script to better handle where connections do not work. Where connections have failed but WirelessManager remains connected, WirelessManager is closed so the log can be accessed on the Amiga (previously the log was inaccessible as WirelessManager locks the file). The logs for WirelessManager, AddInterface from Roadshow and sntp are all concatenated and written to RAM:WirelessLogs.Txt so the user can see all the information in one place for troubleshooting
+
+1.0.5.1
+
+- Added check for encrypted Cloanto Kickstart ROMs so the user is alerted if they have chosen this ROM since it will not work on PiStorm without being decrypted
 
 1.0.5
 
