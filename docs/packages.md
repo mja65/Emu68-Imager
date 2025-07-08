@@ -9,7 +9,7 @@ These packages include freely available software, packaged up neatly so that the
 
 Note, only install files with the required installation script will work.
 
-** Currently Available packages:**
+**Currently Available packages:**
 
 ## WHDLoad Demos
 
