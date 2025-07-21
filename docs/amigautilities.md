@@ -77,7 +77,17 @@ Lets you tweak the RTG graphics output with filtering options. When RTG modes ar
 
 ## Online / Offline / WiFi Config
 
-If you correctly set up  your WiFi SSID and Password in the imager tool, you can now double click on **Online** icon and your Amiga should immediately attempt to connect to your Wifi-enabled router.<br>
+As of version 1.0.6 of Emu68 Imager, this provides a GUI to complete the information:
+
+<img width="426" height="212" alt="image" src="https://github.com/user-attachments/assets/7900bae9-2bf4-4d0b-a876-cf623a574b31" />
+
+Enter the details in the screen and press save. Once you have done this, you can close the window.
+
+If you correctly set up  your WiFi SSID and Password in the imager tool, you can now double click on the **Online** icon and your Amiga should immediately attempt to connect to your Wifi-enabled router.<br>
+
+As of version 1.0.6 of Emu68 Imager, this is now the OnlineWifi icon.
+
+Also as of version 1.0.6, use the **OnlineGENet** icon to use the genet.device to connect to a wired network. Currently this will only work if you are running a minimum Kickstart 2.0
 
 The installation includes a demo version of Roadshow TCP/IP stack which will grant you a trial of up to 15 minutes online activity after which you  will need to reset your Amiga. <br>
 
@@ -113,6 +123,12 @@ These two utilities will display the status of Emu68 and provide information on 
 
 The **SMB Config** icon will bring up the included text editor with the configuration file for the included Samba driver. 
 You can enter the connection string to your Samba share at the end of the file. 
+
+As of 1.0.6 of the Emu68 Imager, SMB Config provides a GUI to enter the information:
+
+<img width="434" height="194" alt="image" src="https://github.com/user-attachments/assets/4dc754dd-fe9d-477e-8802-cc147f160a6a" />
+
+Once you have entered the details, press save. You can then close the window.
 
 When you elect to mount the Samba share, you should navigate to the SYS:Storage/DOSDrivers folder and double click the SMB0 icon - or you can use the **MountSMB** button in Directory Opus (right clicking on the same button will allow you to unmount the Samba share volume).
 
