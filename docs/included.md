@@ -21,13 +21,14 @@ This helps to keep the package small in size as well as free and legal to distri
 > no other emulation package can claim to have a "legal copy" of P96
 You can purchase the full version of P96 at their shop:</font> [https://icomp.de/shop-icomp/en/news.html](https://icomp.de/shop-icomp/en/news.html)
 - ArewePal - Created by Tom-Cat
+- AreWeOnline (from Emu68 Imager 1.0.6) - Created by Tom-Cat
 - CE - Created by Tom-Cat
 - Emu68Info - Created by Flype
 - Emu68meter - Created by Flype
+- Emu68Updater (from Emu68 Imager 1.0.6) - Created by Shaytan
 - TomCopy - Created by Tom-Cat
 - TomDelete - Created by Tom-Cat
 - WaitforTask - Created by Flype
-
 
 ## Downloaded and installed during image creation
 
@@ -36,6 +37,7 @@ The full packages (including licencing information (where applicable) and docume
 - Emu68 Tools : [https://github.com/michalsc/Emu68-tools/releases/tag/nightly](https://github.com/michalsc/Emu68-tools/releases/tag/nightly)
 - Emu68 Pistorm: [https://github.com/michalsc/Emu68/releases](https://github.com/michalsc/Emu68/releases)
 - Emu68 Pistorm32lite: [https://github.com/michalsc/Emu68/releases](https://github.com/michalsc/Emu68/releases)
+- aget (from UHC Tools) (Emu68 Imager 1.0.6+) :  [https://aminet.net/util/misc/UHCTools.lha](https://aminet.net/util/misc/UHCTools.lha)
 - akGIF : [https://aminet.net/package/util/dtype/akGIF-dt](https://aminet.net/package/util/dtype/akGIF-dt)
 - akJFIF : [https://aminet.net/package/util/dtype/akJFIF-dt](https://aminet.net/package/util/dtype/akJFIF-dt)
 - akPNG : [https://aminet.net/package/util/dtype/akPNG-dt](https://aminet.net/package/util/dtype/akPNG-dt)
@@ -47,12 +49,14 @@ The full packages (including licencing information (where applicable) and docume
 - BusTest : [https://aminet.net/package/util/moni/bustest](https://aminet.net/package/util/moni/bustest)
 - CFD : [https://aminet.net/package/driver/media/CFD133](https://aminet.net/package/driver/media/CFD133)
 - ChangeBootPri : [https://thomas-rapp.hier-im-netz.de/downloads/](https://thomas-rapp.hier-im-netz.de/downloads/)
+- CLICon (Emu68 Imager 1.0.6+) : [https://aminet.net/util/wb/CLICon.lha](https://aminet.net/util/wb/CLICon.lha)
 - CopyReplace : [https://aminet.net/package/util/sys/CopyReplace](https://aminet.net/package/util/sys/CopyReplace)
 - Directory Opus 4.16JR : [https://aminet.net/package/util/dopus/DOpus416JRbin](https://aminet.net/package/util/dopus/DOpus416JRbin)
 - Directory Opus 4.17pre21 : [http://dopus.free.fr/betas/DOpus417pre21.lzx](http://dopus.free.fr/betas/DOpus417pre21.lzx)
 - Mecho [https://www.aminet.net/util/batch/mecho.lha](https://www.aminet.net/util/batch/mecho.lha)
 - Fat95 : [https://aminet.net/package/disk/misc/fat95](https://aminet.net/package/disk/misc/fat95)
 - File Sys Box : [https://aminet.net/package/util/libs/filesysbox.m68k-amigaos](https://aminet.net/package/util/libs/filesysbox.m68k-amigaos)
+- GENet.device (Emu68 Imager 1.0.6+) : [https://github.com/rondoval/emu68-genet-driver](https://github.com/rondoval/emu68-genet-driver)
 - Hippo Player : [https://aminet.net/package/mus/play/hippoplayerupdate](https://aminet.net/package/mus/play/hippoplayerupdate)
 - Idefix 97 : [https://aminet.net/package/driver/media/IDEfix97](https://aminet.net/package/driver/media/IDEfix97)
 - Installer : [https://aminet.net/package/util/misc/Installer-43_3](https://aminet.net/package/util/misc/Installer-43_3)
