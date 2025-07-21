@@ -75,6 +75,10 @@ Lets you tweak the RTG graphics output with filtering options. When RTG modes ar
 
 > <font color="red">If you want the settings to be used next time you boot, you must edit the Devs/Monitors/Videocore icon tooltypes accordingly.</font>
 
+## Emu68 Updater
+
+As of version 1.0.6 of Emu68 Imager, you can now check for updates to Emu68 which will then automatically install to your SD card. Navigate to the Emu68-Updater folder and double click the Emu68-Updater. It will then check for any newer versions of Emu68. This will only check for new releases. It will not install nightly releases. It is set to work automatically if you have left Emu68 in the default location on the SD card (the root folder) as well you have left the name of the SD card as SD0:. If either of these have been changed you will need to edit the Emu68-Updater file and change the arguments for EMU68DEVICE and EMU68PATH.
+
 ## Online / Offline / WiFi Config
 
 As of version 1.0.6 of Emu68 Imager, this provides a GUI to complete the information:
@@ -87,7 +91,7 @@ If you correctly set up  your WiFi SSID and Password in the imager tool, you can
 
 As of version 1.0.6 of Emu68 Imager, this is now the OnlineWifi icon.
 
-Also as of version 1.0.6, use the **OnlineGENet** icon to use the genet.device to connect to a wired network. Currently this will only work if you are running a minimum Kickstart 2.0
+Also as of version 1.0.6, use the **OnlineGENet** icon to use the genet.device to connect to a wired network. Currently this will only work if you are running a minimum Kickstart 2.0.
 
 The installation includes a demo version of Roadshow TCP/IP stack which will grant you a trial of up to 15 minutes online activity after which you  will need to reset your Amiga. <br>
 
@@ -114,6 +118,10 @@ If you wish to check your network is correctly set up for connection to your Ami
 ![image](https://github.com/user-attachments/assets/d5982004-e760-49dd-b1e0-3bcc2cababc4)
 
 Your network should show as WPA2-Personal and with encryption of CCMP per the example in order for it to successfully work with your Amiga. 
+
+Your speeds are dependent on a variety of factors, including the tcp.recvspace, udp.recvspace, tcp.sendspace, and udp.sendspace settings within Roadshow. 
+
+As of version 1.0.6 of Emu68 Imager, you can change these via the tooltypes for the relevant connection icon (as different settings are likely best for Wired vs Wireless connections). In order to see the current settings you can run C:roadshow from the shell.   
 
 ## Emu68Meter and Emu68Info
 
