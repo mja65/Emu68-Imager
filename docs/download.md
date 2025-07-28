@@ -2,7 +2,11 @@ The latest version of Emu68 Imager can be found at the following link:
 
 [https://mja65.github.io/Emu68-Imager/Software/Emu68Imager.zip](https://mja65.github.io/Emu68-Imager/Software/Emu68Imager.zip)
 
-The latest version is currently 1.0.6.2 Changes since 1.0 are:
+The latest version is currently 1.0.6.3 Changes since 1.0 are:
+
+1.0.6.3
+
+- Changes to the Onlinescript to allow for use in menutools. Roadshow send and receive parameters are now stored in their own file.
 
 1.0.6.2
 

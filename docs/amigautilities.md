@@ -121,7 +121,9 @@ Your network should show as WPA2-Personal and with encryption of CCMP per the ex
 
 Your speeds are dependent on a variety of factors, including the tcp.recvspace, udp.recvspace, tcp.sendspace, and udp.sendspace settings within Roadshow. 
 
-As of version 1.0.6 of Emu68 Imager, you can change these via the tooltypes for the relevant connection icon (as different settings are likely best for Wired vs Wireless connections). In order to see the current settings you can run C:roadshow from the shell.   
+As of version 1.0.6 of Emu68 Imager, you can change these via the tooltypes for the relevant connection icon (as different settings are likely best for Wired vs Wireless connections). In order to see the current settings you can run C:roadshow from the shell.
+
+As of version 1.0.6.3 the settings are contained within a textfile called RoadshowParameters. Double clicking on the icon will allow you to edit these settings per the device you wish to change.
 
 ## Emu68Meter and Emu68Info
 
