@@ -86,7 +86,8 @@ If you wish you use something other than Roadshow, then install it as per its in
 The tool is intended to provide a basic image to help you get started, to avoid common pitfalls such as RTG and internet issues and using 100% legally acquired software. Once you have a basic set up you have access to the internet as well as a suitably sized SD card where you can transfer whatever you need to add additional software. 
 
 It can be a rewarding experience learning about how to install software on your Amiga. However, if you are after a fully set up and customised distribution with all games and applications pre-installed and where you can write an image to a SD card and just use it then you should download and use one of those.
-
+### Why does the performance of my SD card appear poor? I have a fast card!
+In order to minimise issues for users who use SD extenders (despite them not being recommended) the parameters "sd.low_speed" and "emmc.low_speed" are included in the cmdline.txt file on the FAT32 partition. It's possible if you have a faster card (e.g. Sandisk Extreme) you might see some peformance drop off. Remove those entries from cmdline.txt. However, the risk of issues if you are using a SD extender will be increased. 
 ### Why does Workbench in 3.9 look poor? 
 The default icons and dock in 3.9 look best with a screenmode with a high number of colours such as RTG. 
 
