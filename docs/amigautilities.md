@@ -83,7 +83,7 @@ As of version 1.0.6 of Emu68 Imager, you can now check for updates to Emu68 whic
 
 As of version 1.0.6 of Emu68 Imager, this provides a GUI to complete the information:
 
-<img width="426" height="212" alt="image" src="https://github.com/user-attachments/assets/7900bae9-2bf4-4d0b-a876-cf623a574b31" />
+![WifiConfig Screenshot](images/WifiConfig.png)
 
 Enter the details in the screen and press save. Once you have done this, you can close the window.
 
@@ -115,7 +115,7 @@ If you are encountering issues connecting consider the above (i.e. trying a netw
 
 If you wish to check your network is correctly set up for connection to your Amiga, running the command "netsh wlan show networks mode=ssid" will provide analysis of available networks.
 
-![image](https://github.com/user-attachments/assets/d5982004-e760-49dd-b1e0-3bcc2cababc4)
+![image](images/NetworkCommandOutput.png)
 
 Your network should show as WPA2-Personal and with encryption of CCMP per the example in order for it to successfully work with your Amiga. 
 
@@ -136,7 +136,7 @@ You can enter the connection string to your Samba share at the end of the file.
 
 As of 1.0.6 of the Emu68 Imager, SMB Config provides a GUI to enter the information:
 
-<img width="434" height="194" alt="image" src="https://github.com/user-attachments/assets/4dc754dd-fe9d-477e-8802-cc147f160a6a" />
+![image](images/SMBConfig.png)
 
 Once you have entered the details, press save. You can then close the window.
 

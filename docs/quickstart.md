@@ -2,7 +2,7 @@
 
 When you start the Emu68 Imager you will be presented with the options screen:
 
-![Emu68 Imager Screenshot](images/screenshot1.png)
+![Emu68 Imager Screenshot](images/Version1/screenshot1.png)
 
 The `Run Tool` button will remain red until you select the required options.
 Options that are mandatory are the SD Drive to write to, The OS version you intend to install, your desired screen mode for the RTG driver, and the paths to both the system ADF images and your Kickstart ROM image.
