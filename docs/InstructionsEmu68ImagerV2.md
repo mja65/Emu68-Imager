@@ -158,7 +158,7 @@ Please bear in mind that your wifi name and password are stored on the image sho
 
 ### Select Packages
 
-![Emu68 Imager Screenshot](images/Version2/SelectPackages.png]
+![Select Packages Screenshot](images/Version2/SelectPackages.png)
 
 This screen allows you to customise what is installed. You can choose between different icon sets where available (e.g. Standard versus GlowIcons). Additionally, if you want to customise which software is installed you can add/remove certain options. For example, if your language is not selected by default then you can choose to install it (as well as unselecting languages you do not wish to install). Take care when uninstalling things you might later need!
 
