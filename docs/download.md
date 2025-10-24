@@ -1,18 +1,41 @@
 There are currently two version of the Emu68 Imager available. The latest version of Emu68 Imager can be found at the following Github repository page where you can download the latest release:
 
-[https://github.com/mja65/Emu68Imager2/releases] (https://github.com/mja65/Emu68Imager2/releases)
+[link] (https://github.com/mja65/Emu68Imager2/releases)
 
 The legacy version of the imager can be found at the following [link](https://mja65.github.io/Emu68-Imager/Software/Emu68Imager.zip):
 
 The latest version of Emu68 Imager is 2.0.
 
-The latest legacy version of Emu68 Imager is currently 1.0.6.3
+The latest legacy version of Emu68 Imager is 1.0.6.3
 
 Changes since 1.0 are:
 
 2.0
 
-- To be completed
+- Complete rewrite of the code
+
+New features include:
+- Option to run in either Simple Mode or Advanced Mode so users can generate an SD card without needing to go through most of the configuration options
+- Progress bar reporting when running tasks
+- New User Interface with more modular design
+- Ability for backup server location to be set for downloaded software
+
+Also many "under the hood" changes too numerous to mention.
+
+Disk Set up
+- Disk partitioning now works as proper disk partitioning so you can add/create/delete/move partitions rather than just resizing them
+- Multiple 0x76 partitions can be created if you wish to use them
+- Rather than a single Work partition you can have more than 1 (or none). All partitions will now be formatted rather than just the first one
+- Ability to define settings on Amiga partitions as you can within HDToolbox (e.g. boot priority, buffers, device name, volume name, etc.)
+- When writing to an image, you can write to .vhd image files which only use as much space as the data contained within the image
+
+Configuration of Image
+- Option to select which icon set you wish to install
+- Option to add/remove packages from install (e.g. language files)
+
+Writing of Image
+- Use of the latest version of HST Imager so no longer a need to write to an image before the image is then written to a disk (i.e. significant saving in temporary space needed particularly when writing large images)
+- Significant performance improvements in speed of execution - this is impacted by the speed of your SD card as individual files are now written directly to the SD card which can be slower than writing a large image so your mileage will vary depending on the speed of your SD card, the number of files you are writing and the SD Card adapter used 
 
 1.0.6.3
 
