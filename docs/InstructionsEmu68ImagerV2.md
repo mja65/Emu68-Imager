@@ -18,45 +18,9 @@ Once you have selected the mode you will be presented with the start screen. Eac
 
 ### Start
 
-This the start page which provides quick guidance as well as a link to this documentation.
+This the start page where you set up the environment you wish to install. It also provides links to the documentation (this site).
 
-### Setup Disk
-
-![Emu68 Imager Screenshot](images/Version2/SetupDisk.png)
-
-This is where you set up the disk you wish to write to. There are a few different things to do:
-
-#### Disk Type
-
-This is where you define if you want to write to either a SD card or to an Image which you can then write to at a later date. If you change your mind after you begin configuring the disk/image you will need to redo this part!
-
-If you select a Disk you will need to select the particular disk you wish to write to. Only removable media attached to your PC will be available for selection.
-
-If you select an image, you will need to define the following:
-- Image Size: The size of the image you want to create
-- Image Location: Where you wish to save the image. When you save the image you are provided with two different image types to save, a .vhd file or a .img file. A .img file is the fixed size of the image. For example, if you select 32GiB you will need 32 GiB of space to save the file. This is the most compatible image format and should work regardless of the software you use to mount and write the image. Alternatively, you can use a .vhd file which will dynamically resize based on the contents of the image. This has the advantage that even a large sized image will only take up as much space as the data within. However, not all software will recognise this format - though it is recognised both in WinUAE and Windows. 
-
-#### Partitioning
-
-This is where you set up the disk in accordance with how you wish. There are two levels of partitioning, the MBR partitions and the Amiga Partitions.
-
-MBR partitions are what the Raspberry Pi recognises when you boot the Amiga and Emu68 loads. Emu68 loads files from a FAT32 partition. Additionally, MBR partitions with the Partition ID of 0x76 are identified by Emu68 as being separate Amiga drives. Note, there can be a maximum of 4 MBR partitions. This is a limitation of the MBR structure, not Emu68.
-
-By default, the Emu68 Imager creates one FAT32 partition and one 0x76 partition. If you wish, you can resize, move, delete, and add partitions. However, you are limited to the maximum of four MBR partitions.
-
-If you click on any of the 0x76 partitions you will then see the Amiga partitions included within the 0x76 partition. Again, you can resize, move, delete and add partitions as you see fit. Should you wish you can also define the parameters of the partition including device, volume name, etc. - as you would if you were using HDToolbox on the Amiga. You can have a maximum of 10 Amiga partitions within the 0x76 partition. This is not a limitation of AmigaOS - rather it's placed within Emu68 Imager such that the interface does not become unwieldy! 
-
-You also have the option of importing files from your PC to the partition. However, you are limited to importing single folders which will then import all files and folders underneath that folder. Each Amiga partition can have files imported to it. 
-
-If you want to set up your owm environment you can delete the default Workbench partition. However, you will need to restart the set up process should you change your mind. 
-
-if you have more granular requirements, you can of course use WinUAE, HST Imager, DiskFlashback, etc. to copy individual files directly to the partition.
-
-### Configure Emu68
-
-This is where you set up the environment you wish to install.
-
-![Emu68 Imager Screenshot](images/Version2/ConfigureEmu68.png)
+![Emu68 Imager Screenshot](images/Version2/StartupPageAdvanced.png)
 
 #### OS Selection
 
@@ -159,6 +123,39 @@ Please note, the output of your RaspberryPi is fixed after boot, and cannot be c
 The imager tool gives you the option of configuring the Emu68 WiFi driver (wifipi.device) at install time, such that wifi will be available immediately the Amiga has booted. You need to enter the SSID (name) for your WiFi access point and the Password for it in the `Wifi Settings` section. Note this is case sensitive!
 
 Please bear in mind that your wifi name and password are stored on the image should you use this option! It is not mandatory to provide this information during the tool setup, and you can set it up or change it later on by using the **Wifi Config** icon in the **PiStorm** folder on your Workbench partition.
+
+
+### Setup Disk
+
+![Emu68 Imager Screenshot](images/Version2/SetupDiskAdvanced.png)
+
+This is where you set up the disk you wish to write to. There are a few different things to do:
+
+#### Disk Type
+
+This is where you define if you want to write to either a SD card or to an Image which you can then write to at a later date. If you change your mind after you begin configuring the disk/image you will need to redo this part!
+
+If you select a Disk you will need to select the particular disk you wish to write to. Only removable media attached to your PC will be available for selection.
+
+If you select an image, you will need to define the following:
+- Image Size: The size of the image you want to create
+- Image Location: Where you wish to save the image. When you save the image you are provided with two different image types to save, a .vhd file or a .img file. A .img file is the fixed size of the image. For example, if you select 32GiB you will need 32 GiB of space to save the file. This is the most compatible image format and should work regardless of the software you use to mount and write the image. Alternatively, you can use a .vhd file which will dynamically resize based on the contents of the image. This has the advantage that even a large sized image will only take up as much space as the data within. However, not all software will recognise this format - though it is recognised both in WinUAE and Windows. 
+
+#### Partitioning
+
+This is where you set up the disk in accordance with how you wish. There are two levels of partitioning, the MBR partitions and the Amiga Partitions.
+
+MBR partitions are what the Raspberry Pi recognises when you boot the Amiga and Emu68 loads. Emu68 loads files from a FAT32 partition. Additionally, MBR partitions with the Partition ID of 0x76 are identified by Emu68 as being separate Amiga drives. Note, there can be a maximum of 4 MBR partitions. This is a limitation of the MBR structure, not Emu68.
+
+By default, the Emu68 Imager creates one FAT32 partition and one 0x76 partition. If you wish, you can resize, move, delete, and add partitions. However, you are limited to the maximum of four MBR partitions.
+
+If you click on any of the 0x76 partitions you will then see the Amiga partitions included within the 0x76 partition. Again, you can resize, move, delete and add partitions as you see fit. Should you wish you can also define the parameters of the partition including device, volume name, etc. - as you would if you were using HDToolbox on the Amiga. You can have a maximum of 10 Amiga partitions within the 0x76 partition. This is not a limitation of AmigaOS - rather it's placed within Emu68 Imager such that the interface does not become unwieldy! 
+
+You also have the option of importing files from your PC to the partition. However, you are limited to importing single folders which will then import all files and folders underneath that folder. Each Amiga partition can have files imported to it. 
+
+If you want to set up your owm environment you can delete the default Workbench partition. However, you will need to restart the set up process should you change your mind. 
+
+if you have more granular requirements, you can of course use WinUAE, HST Imager, DiskFlashback, etc. to copy individual files directly to the partition.
 
 ### Select Packages
 
