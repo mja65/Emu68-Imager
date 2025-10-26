@@ -1,12 +1,14 @@
 # Instructions - Emu68 Imager Version 2.x
 
+Double click on the **Emu68Imager.cmd** file to run the Imager.
+
 When you first start the tool you will be presented with a window to select simple or advanced mode with a description for each mode. Select the mode you wish to use.
 
 ![Emu68 Imager Screenshot](images/Version2/StartupScreen.png)
 
 ## Simple Mode
 
-This will provide basic functionality only in order to create an image with as little customisation as possible.
+This will provide basic functionality in order to create an image with as little customisation as possible.
 
 ## Advanced Mode
 
@@ -14,7 +16,11 @@ This will provide full functionality including full control over disk partitioni
 
 ## Running the Tool
 
-Once you have selected the mode you will be presented with the start screen. Each tab (shown on the left) will take you to a different page
+Prior to starting the tool will run some checks including that you have accessibility to the internet in order to be able to download the software required.
+
+Once completed, the tool will check you have the most recent input files along with core software required to run the tool. If this is the first time running it may take a little time to get this software.
+
+Once you have selected the mode, the prerequisite checks have been made and you have the right initial software downloaded, you will be presented with the start screen. Each tab (shown on the left) will take you to a different page
 
 ### Start
 
@@ -143,13 +149,21 @@ If you select an image, you will need to define the following:
 
 #### Partitioning
 
-This is where you set up the disk in accordance with how you wish. There are two levels of partitioning, the MBR partitions and the Amiga Partitions.
+This is where you set up the disk in accordance with how you wish. You can do this either through using the mouse to click, move, and reposition partitions and/or via the input boxes on screen. 
+
+There are two levels of partitioning, the MBR partitions and the Amiga Partitions.
 
 MBR partitions are what the Raspberry Pi recognises when you boot the Amiga and Emu68 loads. Emu68 loads files from a FAT32 partition. Additionally, MBR partitions with the Partition ID of 0x76 are identified by Emu68 as being separate Amiga drives. Note, there can be a maximum of 4 MBR partitions. This is a limitation of the MBR structure, not Emu68.
 
 By default, the Emu68 Imager creates one FAT32 partition and one 0x76 partition. If you wish, you can resize, move, delete, and add partitions. However, you are limited to the maximum of four MBR partitions.
 
+You can choose where to add the new partition (if you wish to put it next to a particular partition versus just at the end of the disk for example). 
+
+As the partitions can be moved around there is the possibility that there is empty space between the partitions. Press the "Remove free space between partitions" button if you want to remove this.
+
 If you click on any of the 0x76 partitions you will then see the Amiga partitions included within the 0x76 partition. Again, you can resize, move, delete and add partitions as you see fit. Should you wish you can also define the parameters of the partition including device, volume name, etc. - as you would if you were using HDToolbox on the Amiga. You can have a maximum of 10 Amiga partitions within the 0x76 partition. This is not a limitation of AmigaOS - rather it's placed within Emu68 Imager such that the interface does not become unwieldy! 
+
+Similar options exist as for MBR partitions as it relates to the positioning of partitions and removal of free space between the partitions.
 
 You also have the option of importing files from your PC to the partition. However, you are limited to importing single folders which will then import all files and folders underneath that folder. Each Amiga partition can have files imported to it. 
 
@@ -171,15 +185,13 @@ There is an option to load and save settings. This will allow you to save the se
 
 Once all the options have been set to your satisfaction, the `Run Tool` button will turn green and when clicked, the process can begin.
 
-If you have selected all the required options but the button is yellow it means you lack the required space to run the tool. Either select the `Click to set custom Working Folder` button above or press the yellow button and you will be prompted to select a new location for the Working Folder with sufficient space.
-
-First, some information popup windows will inform you of what the tool is about to do (some may take some time to appear, please wait!) and then a summary page will be displayed.
-
 After this the process shall begin.
 
 The main output will be a Powershell window - a text display of progress. 
 
 There are several sections where the imager tool downloads all necessary packages from the internet. 
 Finally, the image will be written to the SD Card and when finished you can eject it and remove it from the drive.
+
+A log file will be created in the "Logs" folder. This can be useful for troubleshooting.
 
 Now you can insert the SD Card into RaspberryPi on your Amiga and continue with the [Amiga Utilities instructions](amigautilities.md)!
