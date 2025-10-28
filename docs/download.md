@@ -19,23 +19,25 @@ New features include:
 - Progress bar reporting when running tasks
 - New User Interface with more modular design
 - Ability for backup server location to be set for downloaded software
-
-Also many "under the hood" changes too numerous to mention.
+- Minor tweaks on Amiga environment
+- Changes to config.txt so Pistorm16 support will work when Pistorm16 included as part of Emu68 Github Releases
 
 Disk Set up
 - Disk partitioning now works as proper disk partitioning so you can add/create/delete/move partitions rather than just resizing them
 - Multiple 0x76 partitions can be created if you wish to use them
-- Rather than a single Work partition you can have more than 1 (or none). All partitions will now be formatted rather than just the first one
+- Rather than a single Work partition you can have more than 1 (or none). All partitions will now be formatted rather than just the first one. You can use whichever device name and volume name you choose. Note, the Workbench partition currently remains with a fixed volume name and device name
 - Ability to define settings on Amiga partitions as you can within HDToolbox (e.g. boot priority, buffers, device name, volume name, etc.)
-- When writing to an image, you can write to .vhd image files which only use as much space as the data contained within the image
+- When writing to an image, in addition to .img files you can write to .vhd image files which only use as much space as the data contained within the image
 
 Configuration of Image
-- Option to select which icon set you wish to install
+- Option to select which icon set you wish to install (e.g. glowicons vs standard icons)
 - Option to add/remove packages from install (e.g. language files)
 
 Writing of Image
 - Use of the latest version of HST Imager so no longer a need to write to an image before the image is then written to a disk (i.e. significant saving in temporary space needed particularly when writing large images)
 - Significant performance improvements in speed of execution - this is impacted by the speed of your SD card as individual files are now written directly to the SD card which can be slower than writing a large image so your mileage will vary depending on the speed of your SD card, the number of files you are writing and the SD Card adapter used 
+
+Also many "under the hood" changes too numerous to mention.
 
 1.0.6.3
 
