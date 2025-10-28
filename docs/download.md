@@ -2,7 +2,11 @@ The latest version of Emu68 Imager can be found at the following link:
 
 [https://mja65.github.io/Emu68-Imager/Software/Emu68Imager.zip](https://mja65.github.io/Emu68-Imager/Software/Emu68Imager.zip)
 
-The latest version is currently 1.0.6.3 Changes since 1.0 are:
+The latest version is currently 1.0.6.4 Changes since 1.0 are:
+
+1.0.6.4
+- Forced download of GeNet 1.3 (since 2.0 requires custom version of Emu68)
+- Updated documentation links for download
 
 1.0.6.3
 
