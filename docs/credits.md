@@ -9,6 +9,8 @@ There are several people responsible for this in several different ways. Most of
 - ZX Dunny
 - Flype
 
+Credit also to the mountain-load of testing undertaken by Shaytan to get this working for version 2.0.  
+
 We want to thank the PiStorm team that has made all of this possible. We appreciate the dedication and all the work they put into making the best accelerator for the Amiga along with constant improvements along the way (and all this free of charge):
 
 - Claude
