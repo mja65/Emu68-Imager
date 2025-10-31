@@ -1,6 +1,6 @@
 There are currently two version of the Emu68 Imager available. The latest version of Emu68 Imager can be found at the following Github repository page where you can download the latest release:
 
-[link] (https://github.com/mja65/Emu68Imager2/releases)
+[link](https://github.com/mja65/Emu68-Imager-Software/releases)
 
 The legacy version of the imager can be found at the following [link](https://mja65.github.io/Emu68-Imager/Software/Emu68Imager.zip):
 
