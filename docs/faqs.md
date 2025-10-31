@@ -77,7 +77,7 @@ The issue is seen where the tool fails at the 'Preparing Amiga Image' section wh
 The tool is using the currently available version of Emu68 and Emu68 tools. By all means, reach out for support but please consider if your issue relates to the imager or Emu68. If the later, then it is not something the tool can resolve.  However, please raise the issue in the appropriate forum if you encounter it (e.g. the emu68-support channel on Discord)
 
 ### How do I upgrade from the demo version of Roadshow to the full version?
-If you have the full version of Roadshow, copy the bsdsocket.library from the install package to the Libs folder on the Workbench drive. You can either use the option to transfer files when you run the tool (please refer to the [Supplying your own additional files](#supplying-your-own-additional-files) section) or copy the files to the FAT32 partition.
+If you have the full version of Roadshow, copy the bsdsocket.library from the install package to the Libs folder on the Workbench drive. You can either use the option to transfer files when you run the tool (please refer to the [Supplying your own additional files](instructions.md#supplying-your-own-additional-files) section) or copy the files to the FAT32 partition.
 
 ### How do I use a an alternative TCP/IP stack such as Miami?
 If you wish you use something other than Roadshow, then install it as per its instructions (guides for this are beyond the scope of the Emu68 Imager documentation). To avoid conflicts with Roadshow, just rename bsdsocket.library in the Libs directory (e.g. bsdsocket.libraryOLD). 

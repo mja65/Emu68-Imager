@@ -17,4 +17,6 @@ The Emu68 Imager is a utility to allow PiStorm users to easily prepare an SD car
 [Credits & Thanks](credits.md)<br>
 
 ---
-![Emu68 Imager Screenshot](images/screenshot1.png)
+![Emu68 Imager Screenshot](images/Version2/StartupScreen.png)
+
+![Emu68 Imager Screenshot](images/Version2/StartupPageAdvanced.png)

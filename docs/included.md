@@ -5,9 +5,9 @@ This helps to keep the package small in size as well as free and legal to distri
 
 - HST.Imager by Henrik Nørfjand Stengaard - [https://github.com/henrikstengaard/hst-imager](https://github.com/henrikstengaard/hst-imager)
 - HST.Amiga by Henrik Nørfjand Stengaard - [https://github.com/henrikstengaard/hst-amiga](https://github.com/henrikstengaard/hst-amiga)
-- HDF2Emu68 by Claude Schwartz and Tom-Cat - [https://github.com/PiStorm/hdf2emu68](https://github.com/PiStorm/hdf2emu68)
-- DDTC by Tom-Cat 
-- FindFreeSpace by Tom-Cat
+- HDF2Emu68 by Claude Schwartz and Tom-Cat (prior to 2.0) - [https://github.com/PiStorm/hdf2emu68](https://github.com/PiStorm/hdf2emu68)
+- DDTC by Tom-Cat (prior to 2.0)
+- FindFreeSpace by Tom-Cat (prior to 2.0)
 - Unlzx - [https://aminet.net/util/arc/W95unlzx.lha](https://aminet.net/util/arc/W95unlzx.lha)
 
   
