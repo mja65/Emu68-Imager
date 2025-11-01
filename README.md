@@ -10,4 +10,6 @@ The tool can be downloaded through the following [link](https://mja65.github.io/
 
 Version 2.x
 
+Note: This tool is currently being revised! At present, please use this for testing purposes only!
+
 The tool is available through the Releases section of this Github. Download the latest release [here](https://github.com/mja65/Emu68-Imager/releases).
