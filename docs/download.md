@@ -6,7 +6,7 @@ The legacy version of the imager can be found at the following [link](https://mj
 
 The latest version of Emu68 Imager is 2.0. Note: This tool is currently being revised! At present, please use this for testing purposes only and use the legacy version for actual use.
 
-The latest legacy version of Emu68 Imager is 1.0.6.4
+The latest legacy version of Emu68 Imager is 1.0.6.5
 
 Changes since 1.0 are:
 
@@ -38,6 +38,10 @@ Writing of Image
 - Significant performance improvements in speed of execution - this is impacted by the speed of your SD card as individual files are now written directly to the SD card which can be slower than writing a large image so your mileage will vary depending on the speed of your SD card, the number of files you are writing and the SD Card adapter used 
 
 Also many "under the hood" changes too numerous to mention.
+
+1.0.6.5
+
+- Uopdated Github link for Emu68Tools
 
 1.0.6.4
 - Forced download of GeNet 1.3 (since 2.0 requires custom version of Emu68)
