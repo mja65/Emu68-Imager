@@ -4,11 +4,39 @@ There are currently two version of the Emu68 Imager available. The latest versio
 
 The legacy version of the imager can be found at the following [link](https://mja65.github.io/Emu68-Imager/Software/Emu68Imager.zip):
 
-The latest version of Emu68 Imager is 2.0. Note: This tool is currently being revised! At present, please use this for testing purposes only and use the legacy version for actual use.
+The latest version of Emu68 Imager is 2.0.2 Note: Version 2 was released late October 2025. Bugs may still be possible so bear this in mind! The legacy version (1.x) is the most stable at this point in time.
 
 The latest legacy version of Emu68 Imager is 1.0.6.5
 
 Changes since 1.0 are:
+
+2.0.2
+
+- Added check for documentation site as part of start up checks
+- Added parameters user selected when running Emu68 Imager to the log
+- Changed the reporting of issues for connection to warnings from error messages
+- Removed the onetime run script to set PFS maximium filename size (HST Imager already does this)
+- Added error reporting if terminal window state cannot be changed
+- Added checks so that the Imager does not write to a non existent variable when entering volume name in rare circumstances
+- Fixed issue where Emu68 Imager occasionally exited when user changed selectable packages
+- Corrected total number of tasks
+
+2.0.1.1
+
+- Fixed issue where FAT32 files were not beign copied when writing an .Img file
+
+
+2.0.1
+
+- Fixed issue where code was not always returning the Amiga partitions
+
+2.0.0.2
+
+- Fixed issue where user ran with no Workbench partition
+
+2.0.0.1
+
+- Fixed issue where backup server for WHDLoadWrapper was not always being used
 
 2.0
 
