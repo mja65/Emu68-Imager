@@ -4,11 +4,24 @@ There are currently two version of the Emu68 Imager available. The latest versio
 
 The legacy version of the imager can be found at the following [link](https://mja65.github.io/Emu68-Imager/Software/Emu68Imager.zip):
 
-The latest version of Emu68 Imager is 2.0.2 Note: Version 2 was released late October 2025. Bugs may still be possible so bear this in mind! The legacy version (1.x) is the most stable at this point in time.
+The latest version of Emu68 Imager is 2.0.3 Note: Version 2 was released late October 2025. Bugs may still be possible so bear this in mind! The legacy version (1.x) is the most stable at this point in time.
 
 The latest legacy version of Emu68 Imager is 1.0.6.5
 
 Changes since 1.0 are:
+
+2.0.3
+
+- Changed extraction process for ISOs to use HST-Imager rather than 7z to resolve issue where non-English characters were corrupted (affected install of OS3.9)
+- Removed unrequired code relating to generation of the onetime run script to set PFS maximium filename size (HST Imager already does this)
+- Revised handling of variables in Amiga scripts to ensure compatibility with OS3.9
+- Changed check for out-of-date versions of Emu68 Imager to make message more prominent and to include link to Download page
+- Revised code for checking whether image can be generated
+- Changed Reset to default so that users who have chosen to remove the Workbench partition do not need to restart Emu68 Imager should they wish to reset the disk and start again
+- Added additional handling to ensure that Amiga partitions were actually deleted
+- Removed unrequired function "Confirm-HSTNoErrors"
+- Updated function to remove extraneous message to terminal
+- Updated "Copy-ArchiveinArchiveFiles" function so that log file is written to the correct temporary folder
 
 2.0.2
 
