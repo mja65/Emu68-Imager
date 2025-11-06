@@ -22,6 +22,8 @@ Changes since 1.0 are:
 - Removed unrequired function "Confirm-HSTNoErrors"
 - Updated function to remove extraneous message to terminal
 - Updated "Copy-ArchiveinArchiveFiles" function so that log file is written to the correct temporary folder
+- Added additional tooltips to the GUI (i.e. hovering over fields provides explanation to the user)
+- Amended name of onetimescript for determining model of Raspberry Pi so loading image in WinUAE on first boot did not attempt to run 
 
 2.0.2
 
