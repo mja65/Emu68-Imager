@@ -4,11 +4,11 @@ The Emu68 Imager software is used to create a working SD card for use in a PiSto
 
 https://mja65.github.io/Emu68-Imager/
 
-Version 1.x
+**Version 1.x**
 
 The tool can be downloaded through the following [link](https://mja65.github.io/Emu68-Imager/Software/Emu68Imager.zip).
 
-Version 2.x
+**Version 2.x**
 
 Note: Version 2 was released late October 2025. Bugs may still be possible so bear this in mind! The legacy version (1.x) is the most stable at this point in time.
 
