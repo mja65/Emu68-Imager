@@ -12,11 +12,11 @@ Changes since 1.0 are:
 
 2.0.4
 
-- added Franethrower parameters to cmdline.txt
-- added warning if running wondows in scaled mode since GUI will have issues 
+- added Framethrower parameters to cmdline.txt
+- added warning if running Windows in scaled mode since GUI will have issues 
 - fixed issue where some input boxes in GUI were ignored
 - updated to use latest version of HST imager
-- fixed some isuses where icon positioning wasnt always working (mainly 3.9)
+- fixed some issues where icon positioning wasn't always working (mainly 3.9)
 - various other bug fixes
 
 2.0.3
