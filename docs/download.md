@@ -9,6 +9,7 @@ The latest version of Emu68 Imager is 2.0.4 Note: Version 2 was released late Oc
 The latest legacy version of Emu68 Imager is 1.0.6.5
 
 Changes since 1.0 are:
+
 2.0.4
 
 - added Franethrower parameters to cmdline.txt
