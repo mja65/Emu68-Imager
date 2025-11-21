@@ -9,6 +9,7 @@ The latest version of Emu68 Imager is 2.0.4.1 Note: Version 2 was released late 
 The latest legacy version of Emu68 Imager is 1.0.6.5
 
 Changes since 1.0 are:
+
 2.0.4.1
 
 - Bugfix for where conversion to integer was not always set
