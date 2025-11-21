@@ -4,11 +4,16 @@ There are currently two version of the Emu68 Imager available. The latest versio
 
 The legacy version of the imager can be found at the following [link](https://mja65.github.io/Emu68-Imager/Software/Emu68Imager.zip):
 
-The latest version of Emu68 Imager is 2.0.4 Note: Version 2 was released late October 2025.
+The latest version of Emu68 Imager is 2.0.4.1 Note: Version 2 was released late October 2025.
 
 The latest legacy version of Emu68 Imager is 1.0.6.5
 
 Changes since 1.0 are:
+2.0.4.1
+
+- Bugfix for where conversion to integer was not always set
+- Bugfix for where incorrect files might be copied in rare circumstances
+- Bugdix for issue where creating .img files resulted in an error
 
 2.0.4
 
