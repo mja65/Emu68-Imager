@@ -16,7 +16,7 @@ Changes since 1.0 are:
 - Fixed display issue with Disclaimer
 - Bugfix for where conversion to integer was not always set
 - Bugfix for where incorrect files might be copied in rare circumstances
-- Bugdix for issue where creating .img files resulted in an error
+- Bugfix for issue where creating .img files resulted in an error
 
 2.0.4
 
