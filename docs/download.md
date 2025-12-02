@@ -10,6 +10,11 @@ The latest legacy version of Emu68 Imager is 1.0.6.5
 
 Changes since 1.0 are:
 
+2.0.4.2
+
+- Fixed issue where user had Imager residing in a file path with spaces
+- Restored buptest on first boot
+
 2.0.4.1
 
 - Fixed cosmetic issue with UI typo
