@@ -4,11 +4,25 @@ There are currently two version of the Emu68 Imager available. The latest versio
 
 The legacy version of the imager can be found at the following [link](https://mja65.github.io/Emu68-Imager/Software/Emu68Imager.zip):
 
-The latest version of Emu68 Imager is 2.0.4.2 Note: Version 2 was released late October 2025.
+The latest version of Emu68 Imager is 2.1.
 
-The latest legacy version of Emu68 Imager is 1.0.6.5
+The latest legacy version of Emu68 Imager is 1.0.6.5. Note, this version of the tool is not receiving updates.
 
 Changes since 1.0 are:
+
+2.1
+
+- Introduced selection of Screenmodes so user can select either Native or RTG screenmode to boot. All user interaction has been moved to after Workbench has loaded so users who have not connected native output should not be stuck at a black screen
+- Introduced check so that if a user selects an unsupported screenmode the screenmode will revert to PAL Highres non interlaced
+- Revised system detection in Startup-Sequence
+- Removed unnecessary Onetimerun scripts
+- Added Unicam parameters to cmdline to support Framethrower
+- Updated Emu68 Imager to use the new Emu68-tools repository including the new Videocore.card file 
+- Added latest version of HST Amiga (0.5.208)
+- Added latest version of HST Imager (1.4.526)
+- Changed icon positioning to use HST Amiga so no longer performed on first boot
+- Changed Onetimestartup to allow for execution of scripts after workbench has loaded
+- Added additional screenmode (1600*900) to Picasso96settings
 
 2.0.4.2
 

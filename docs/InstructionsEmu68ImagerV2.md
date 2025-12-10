@@ -124,6 +124,22 @@ By default the tool will select the Automatic mode where the Raspberry Pi uses D
 
 Please note, the output of your RaspberryPi is fixed after boot, and cannot be changed without altering the config.txt file on the FAT32 partition.
 
+#### Selecting Screen mode of Workbench
+
+As of version 2.1, you have the ability to define specific screen modes. You can either select RTG or native depending on the screenmode you want. 
+
+You must select a screenmode compatible with your amiga! For example, do not select a 256 colour native resolution if you are using a non-AGA amiga. If you do so, upon first boot you should find that the Amiga defaults to a 8 colour High resolution non-laced mode.
+
+![ScreenModeConfiguration](images/Version2/ScreenModeConfiguration.png)
+
+#### Configuring Unicam
+
+As of version 2.1, if you have a Framethrower, you can add the unicam settings required to use it. Currently, the settings can only be added if you have selected a RTG screenmode as  booting into a native mode is still not 100% working.  
+
+You can also configure some of the basic Unicam settings. This will be exapanded over time - remember you can edit the cmdline.txt settings at any point manually.
+
+![UnicamConfiguration](images/Version2/UnicamSettings.png)
+
 #### Configuring WiFi
 
 The imager tool gives you the option of configuring the Emu68 WiFi driver (wifipi.device) at install time, such that wifi will be available immediately the Amiga has booted. You need to enter the SSID (name) for your WiFi access point and the Password for it in the `Wifi Settings` section. Note this is case sensitive!
