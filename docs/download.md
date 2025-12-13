@@ -4,11 +4,27 @@ There are currently two version of the Emu68 Imager available. The latest versio
 
 The legacy version of the imager can be found at the following [link](https://mja65.github.io/Emu68-Imager/Software/Emu68Imager.zip):
 
-The latest version of Emu68 Imager is 2.1.
+The latest version of Emu68 Imager is 2.1.1.1.
 
 The latest legacy version of Emu68 Imager is 1.0.6.5. Note, this version of the tool is not receiving updates.
 
 Changes since 1.0 are:
+
+2.1.1.1
+
+- Updated WHDLoadWrapper function to include -UseBasicParsing parameter to suppress warning on newer versions of Powershell
+
+2.1.1
+
+- Updated Emu68 Updater to update Videocore.card as well as tooltype
+- Fixed issue where incorrect version of Emu68info was being used from Emu68-tools repository
+- Corrected typo in CheckScreenModeandChipset.rexx
+
+2.1.0.1
+
+- Fixed issue with missing text qualifiers
+- Fixed issue with environment variable names for Pi3
+- Fixed UI issue with loading settings
 
 2.1
 
