@@ -4,11 +4,23 @@ There are currently two version of the Emu68 Imager available. The latest versio
 
 The legacy version of the imager can be found at the following [link](https://mja65.github.io/Emu68-Imager/Software/Emu68Imager.zip):
 
-The latest version of Emu68 Imager is 2.1.1.1.
+The latest version of Emu68 Imager is 2.1.1.4.
 
 The latest legacy version of Emu68 Imager is 1.0.6.5. Note, this version of the tool is not receiving updates.
 
 Changes since 1.0 are:
+2.1.1.4
+
+-Update to fix issue where non-English Windows reported 64bit rather than 64-bit resulting in false detection of non 64 bit Windows
+
+2.1.1.3
+
+- Changed prerequisite check so ARM64 WIndows users were not excluded
+- Changed DL for Whdloadwrapper to reflect changes on Turran FTP server
+
+2.1.1.2
+
+- Updates for Emu68 Updater to update Videocore.card file
 
 2.1.1.1
 
