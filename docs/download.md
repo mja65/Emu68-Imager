@@ -2,11 +2,7 @@ There are currently two version of the Emu68 Imager available. The latest versio
 
 [Link to Github Repository Releases](https://github.com/mja65/Emu68-Imager-Software/releases)
 
-The legacy version of the imager can be found at the following [link](https://mja65.github.io/Emu68-Imager/Software/Emu68Imager.zip):
-
-The latest version of Emu68 Imager is 2.1.1.4.
-
-The latest legacy version of Emu68 Imager is 1.0.6.5. Note, this version of the tool is not receiving updates.
+The legacy version of the imager can be found at the following [link](https://mja65.github.io/Emu68-Imager/Software/Emu68Imager.zip). Note, this version of the tool is not receiving updates.
 
 Changes since 1.0 are:
 
@@ -241,5 +237,6 @@ Also many "under the hood" changes too numerous to mention.
 - Added check for whether the .hdf file is locked after creation to try to address if antivirus/anti-malware programs have locked the file for access
 - Added messagebox at the conclusion of the tool running to alert the user the tool has successfully completed
 - Removed the 7 Cities of Gold RTB file from the Install Packages
+
 
 
