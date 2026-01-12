@@ -9,6 +9,15 @@ The latest version of Emu68 Imager is 2.1.1.4.
 The latest legacy version of Emu68 Imager is 1.0.6.5. Note, this version of the tool is not receiving updates.
 
 Changes since 1.0 are:
+
+2.1.1.6
+
+-Forced Unicam settings to be lowercase to prevent issues with FrameThrower
+
+2.1.1.5
+
+-Update to fix issue where non-English Windows reported 64 bits rather than 64-bit resulting in false detection of non 64 bit Windows
+
 2.1.1.4
 
 -Update to fix issue where non-English Windows reported 64bit rather than 64-bit resulting in false detection of non 64 bit Windows
@@ -232,4 +241,5 @@ Also many "under the hood" changes too numerous to mention.
 - Added check for whether the .hdf file is locked after creation to try to address if antivirus/anti-malware programs have locked the file for access
 - Added messagebox at the conclusion of the tool running to alert the user the tool has successfully completed
 - Removed the 7 Cities of Gold RTB file from the Install Packages
+
 
