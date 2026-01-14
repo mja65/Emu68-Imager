@@ -10,4 +10,5 @@ The tool can be downloaded through the following [link](https://mja65.github.io/
 
 **Version 2.x**
 
-The tool is available through the Releases section of this Github. Download the latest release [here](https://github.com/mja65/Emu68-Imager/releases).
+The tool is available through the Releases section of this Github. Download the latest release [here](https://github.com/mja65/Emu68-Imager-Software/releases).
+
