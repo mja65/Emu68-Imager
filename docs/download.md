@@ -6,6 +6,12 @@ The legacy version of the imager can be found at the following [link](https://mj
 
 Changes since 1.0 are:
 
+2.1.1.7
+
+- Fixed issue where there was an error if Roadshow was not installed
+- Fixed issue with paths where destination path was the root folder
+- Revised handling for imported files
+
 2.1.1.6
 
 -Forced Unicam settings to be lowercase to prevent issues with FrameThrower
@@ -237,6 +243,7 @@ Also many "under the hood" changes too numerous to mention.
 - Added check for whether the .hdf file is locked after creation to try to address if antivirus/anti-malware programs have locked the file for access
 - Added messagebox at the conclusion of the tool running to alert the user the tool has successfully completed
 - Removed the 7 Cities of Gold RTB file from the Install Packages
+
 
 
 
