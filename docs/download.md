@@ -2,9 +2,18 @@ There are currently two version of the Emu68 Imager available. The latest versio
 
 [Link to Github Repository Releases](https://github.com/mja65/Emu68-Imager-Software/releases)
 
-The legacy version of the imager can be found at the following [link](https://mja65.github.io/Emu68-Imager/Software/Emu68Imager.zip). Note, this version of the tool is not receiving updates.
-
 Changes since 1.0 are:
+
+2.1.2
+
+- Updated default Unicam settings based on feedback from Claude and Michal
+- Redesigned Emu68-Updater so that it now will updated some installed applications, libraries, and devices in addition to Videcore.card and Emu68. The updater itself is also self-updating. It should also handle if the SD mount has been renamed and if the EMu68 file location has been changed in config.txt 
+- Added support for Miami (trial version) in addition to Roadshow. There is now an option on the main screen of Emu68 Imager to allow you to select whether you want either Roadshow (default) or Miami (or no TCP/IP stack at all)
+- Redesigned Network script to include Miami as well as making it more robust
+- Fixed issue where PeterK's icon.library was sometimes being overwritten by AmigaOS version
+- Fixed issue where extraneous file was left in Devs/DosDrivers folder on 3.9
+- Fixed issue where markers of Emu68 Imager changes in start up sequence were labelled "Start" rather than "End"
+- Fixed issue where 3.9 image loaded in WinUAE wouldn't always load Screenmode
 
 2.1.1.7
 
