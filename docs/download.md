@@ -4,6 +4,13 @@ There are currently two version of the Emu68 Imager available. The latest versio
 
 Changes since 1.0 are:
 
+2.1.3
+
+- Updated SMB Config and Wifi Config to include version numbers so they can be updated via the Emu68 Updater
+- Fixed issue in Wifi Config where setting no SSID but with a password would let a user save the preferences
+- Fixed issue with the Emu Updater where the self update feature didn't work
+- Fixed issue with the Emu Updater so that version string with File names with spaces work
+
 2.1.2
 
 - Updated default Unicam settings based on feedback from Claude and Michal
