@@ -3,9 +3,11 @@ There are currently two version of the Emu68 Imager available. The latest versio
 [Link to Github Repository Releases](https://github.com/mja65/Emu68-Imager-Software/releases)
 
 Changes since 1.0 are:
+
 2.1.4
 
 - changed the user agent for downloads from Turran FTP to prevent Emu68 imager being detected as a bot. 
+
 2.1.3
 
 - Updated SMB Config and Wifi Config to include version numbers so they can be updated via the Emu68 Updater
