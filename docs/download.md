@@ -4,6 +4,62 @@ There are currently two version of the Emu68 Imager available. The latest versio
 
 Changes since 1.0 are:
 
+2.2
+
+**Highlights & Major Features
+**
+
+* **Emu68 1.1 Support:** Full integration with Emu68 1.1, featuring revised `config.txt` files, updated `dtoverlay` support, updated `videocore.card`, and updated device/library support.
+* **Significant Speed Improvements:** Multi-threaded operations, optimised extraction engines, and single-pass disk writing deliver massive speedups across the board. Writing an OS 3.2.3 image is **over 3x faster** than v2.1.4, and a complete 64 GiB SD card setup from scratch (including initial file downloads) can now be written in **under 90 seconds** depending on SD card and software selected.
+* **Custom Software Target Paths:** Added drive selection and folder paths for software packages, allowing custom installation directories across different drives and folders.
+
+**Detailed Changes
+**
+
+* **Multi-Threaded Pipeline:** Added thread support for parallel downloading and extracting (requires an optional component checked on startup; seamlessly falls back to sequential processing if omitted).
+* **Single-Pass Disk Writing:** Restructured the disk-writing sequence so HST Imager is executed once instead of multiple times, and unified code paths for `.VHD` and `.HDF` files.
+* **Faster File Extractors:**
+  * Replaced HST Imager extraction with **UnADF** and **adflib** for faster ADF processing.
+  * Replaced 7-Zip/HST Imager with native **LHA** and **ISO** extractors, accelerating OS 3.9 processing and adding support for filenames with non-English characters.
+  * Sped up `.Z` archive extraction for OS 3.2.x installations.
+  * Optimised `.info` file manipulation and ADF hash calculation.
+* **ISO Verification:** Replaced hash checks on ISO images with key-file verification for faster startups and broader CD media compatibility.
+* **Remote Repository Sync:** Moved supporting files and CSV configuration files to a centralised GitHub repository. Data is now fetched as a single archive on startup for faster load times and back-end updates without requiring a full application release.
+
+* **Reworked Package Selection Screen:**
+  * Displays software descriptions, author details, and direct website hyperlinks.
+  * Allows custom drive/folder paths for software packages.
+  * Optimised dependency checking: package modifications now only trigger a media recheck if OS installation parameters change.
+* **UI Clean-up:** Removed redundant links on the main panel that were already available on the startup screen.
+* **Startup Protections:** Added a startup check that blocks execution if Emu68 Imager is located in a path containing special characters.
+* **Cache Management:** Added an option to purge all temporary/cached files on startup.
+
+* **Devices and libraries (Installed by Default):**
+  * Added `xhci.device` (USB support - Rondoval).
+  * Added `nvme.device` (NVMe storage - Rondoval).
+  * Added `bcmpcie.library` (Rondoval).
+  * Added `ODFileSystem` (CD/DVD filesystem support by Reinauer).
+  * Included Poseidon 4.5 by default for USB-enabled Emu68 1.1 setups, alongside Rondoval's Poseidon backport from AROS.
+* **Hardware Tools:** Added **Unitool** with scanline adjustments for configuring Unicam settings on Amiga hardware.
+
+* **Expanded TCP/IP Options:** Added options to install **AmiTCP_NG**, **AminetXDuo**, and **lwip-Amiga**.
+* **WHDLoad Network Integration:** Separated network scripts for each Network stack to avoid complexity for end users. Configured WHDLoad-Startup and WHDLoad-Cleanup to automatically disconnect active connections when launching WHDLoad games/demos and restore them upon exit (accommodating requirements of newer `genet.device` releases).
+* **Option for full versions of Miami and Roadshow:** Automatically detects full Miami keyfiles or full Roadshow installers placed in `UserFiles\ExistingApplications` and installs them over the default demo versions. If they are not detected, the demo versions will be installed
+* **Direct Repository Downloads:** Shifted `AmiSSL`, `CFD`, and `FAT95` download targets directly to GitHub to bypass Aminet upload delays and improve download speeds.
+
+* **Locale Support:** Added locale selection/deselection options to OS 3.1 and 3.9 installation pathways (matching OS 3.2.x functionality).
+* **Enhanced ROM Handling:** In addition for system install, Kickstart checks also now search for compatible WHDLoad Kickstart ROMs and deploy them directly to `SYS:Devs/Kickstarts`. If none are found, the install will still continue.
+* **Visual & Layout Enhancements:** Added **Iconclean** (by Lemaru) to automatically rearrange workbench icons on first boot based on installed software.
+* **Optional Packages:** Added optional installs for **Amelinium**, **MUI 5.0** (MUI 3.8 remains default), **AHI 6.0**, **AmigaAmp**, **ClassAct** (for OS 3.1), **xsysinfo**, **GitHub Downloader** (by Shaytan), **Ranchero**, **bsdsocktest**, and the **State of the Art** demo (for testing WHDLoad). Note, other than Amelinium, the additional packages are disabled by default to avoid bloat!
+
+**Bug Fixes & Internal Changes
+**
+
+* **UAE Metadata Support:** Implemented native support for UAE file attributes, preserving Amiga-specific flags (e.g., the `Script` bit) and character sets unsupported by Windows file systems.
+* **Turran FTP Server:** Fixed the connectivity test to the Turran FTP server following server-side API changes.
+* **WHDLoad Wrapper:** Resolved an issue where `WHDLoadMassupdater` was not deploying correctly.
+* **Script Refactoring:** Updated `Emu68 Updater.rexx` and `Emu68-Updater` to support pattern matching for the new GitHub structure.
+
 2.1.4
 
 - changed the user agent for downloads from Turran FTP to prevent Emu68 imager being detected as a bot. 
