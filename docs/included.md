@@ -13,8 +13,8 @@ This helps to keep the package small in size as well as free and legal to distri
 ## Included with the Emu68 Imager Tool
 
 - 7Zip - Copyright (C) 2024 Igor Pavlov. 7zip is free software licenced under the GNU LGPL license. Both the binaries and the source code can be obtained from [https://www.7-zip.org/](https://www.7-zip.org/). Licence information is available at [https://www.7-zip.org/license.txt](https://www.7-zip.org/license.txt) and is also included in the 7ZLicense sub-folder in the Programs Folder. 
-- Lhasa - Copyright (c) 2011-2025, Simon Howard. A full copy of the licence is contained in the program directory. [https://github.com/fragglet/lhasa](https://github.com/fragglet/lhasa)
-- Unadf - main design and code : Laurent Clévy.  It is licensed under GPL-2 and a full copy of the licence is contained in the program directory. [https://github.com/adflib/ADFlib](https://github.com/adflib/ADFlib)
+- Lhasa (Version 2.2+) - Copyright (c) 2011-2025, Simon Howard. A full copy of the licence is contained in the program directory. [https://github.com/fragglet/lhasa](https://github.com/fragglet/lhasa)
+- Unadf (Version 2.2+) - main design and code : Laurent Clévy.  It is licensed under GPL-2 and a full copy of the licence is contained in the program directory. [https://github.com/adflib/ADFlib](https://github.com/adflib/ADFlib)
 - Roadshow Demo - Included with permission from Olaf Barthel and Andreas Magerl. Please consider supporting the developers by purchasing the full version from [http://roadshow.apc-tcp.de/](http://roadshow.apc-tcp.de)
 - Picasso96 configuration file - Included with permission from Jens Schönfeld. The free version of Picasso96 (P96) is downloaded from Aminet and installed.
   Jens would like it to be noted:
@@ -24,7 +24,7 @@ You can purchase the full version of P96 at their shop:</font> [https://icomp.de
 
 ## Emu68 Imager Supporting Files
 
-Various supporting files are downloaded from a separate [Github Repository](https://github.com/mja65/Emu68-Imager-SupportingFiles). Details are contained on that repository, it's readme and License.
+As of version 2.2, various supporting files are downloaded from a separate [Github Repository](https://github.com/mja65/Emu68-Imager-SupportingFiles). Details are contained on that repository, it's readme and License.
 
 ## Downloaded and installed during image creation
 
