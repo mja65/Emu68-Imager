@@ -167,13 +167,6 @@ This will launch IBrowse with the documentation saved on the SD card (you don't 
 
 In addition to PiStorm tools we have also included a few essential/useful programs to complement your chosen AmigaOS.
 
-## Roadshow (demo) ##
-
-Roadshow TCP/IP stack is included because it is the only TCP/IP stack that is still maintained for Amiga. It is a commercial product but we were graciously allowed to distribute the demo version with the tool. 
-It is restricted to 15 minutes of online time, after which a reboot is required to connect again. 
-
-Please consider buying the unrestricted version from the author. More info in [Programs Used by the Tool](included.html#included-with-the-emu68-imager-tool)
-
 ## Directory Opus 4
 
 This is one of the more commonly used file management tools on the Amiga. It is the pinnacle of the double-panel browser genre and no Amiga installation should be without it. We have also provided additional functionality (such as archive extraction) so it is all set up and good to go.

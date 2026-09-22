@@ -34,6 +34,10 @@ This the start page where you set up the environment you wish to install. It als
 
 ![Emu68 Imager Screenshot](images/Version2/StartupPageAdvanced.png)
 
+#### Emu68 Selection
+
+As of version 2.2, you are able to select different Emu68 versions via a drop down menu in the top left (for example either the latest release versus beta versions of Emu68). The available versions will change based on the Emu68 development process.
+
 #### OS Selection
 
 The imager tool supports five flavours of AmigaOS:
@@ -73,7 +77,11 @@ Please note that only A1200 versions of the Kickstart ROMs are supported as thes
 
 You will then need to click the `Check` button and the imager tool will then search this location and locate the correct Kickstart file based on its contents, so file names are not needed to match.
 
+![Checked Roms Screenshot](images/Version2/CheckRoms.png)
+
 When the tool has searched for the Kickstarts, you will be provided with a message showing the Kickstart that has been located or a message advising you that the Kickstart cannot be found.
+
+As of version 2.2, Emu68 Imager will also look for suitable Kickstart ROMs to include within the Devs:Kickstart folder for use in WHDLoad. If any are found they will be copied and renamed in accordance with WHDLoad requirements. 
 
 #### Workbench Media Install Images
 
@@ -142,9 +150,25 @@ You must select a screenmode compatible with your amiga! For example, do not sel
 
 As of version 2.1, if you have a Framethrower, you can add the unicam settings required to use it. Currently, the settings can only be added if you have selected a RTG screenmode as  booting into a native mode is still not 100% working.  
 
-You can also configure some of the basic Unicam settings. This will be exapanded over time - remember you can edit the cmdline.txt settings at any point manually.
+You can also configure some of the basic Unicam settings. Bear in mind that some settings such as cropping would require you to actually see the output on your screen in order to determine the correct settings for your display so are not contained within  Emu68 Imager. Remember you can edit the cmdline.txt (for Emu68 version 1.0.7) or config.txt (for Emu68 versions 1.1 and higher) settings at any point manually as well as via the Unicam tool which is contained in the PiStorm folder.
 
 ![UnicamConfiguration](images/Version2/UnicamSettings.png)
+
+#### MUI Version
+
+As of version 2.2, you can now choose if you want MUI 3.8 vs 5.0. 
+
+#### TCP/IP Stack
+
+As of version 2.2 multiple TCP/IP stacks are available and are shown below:
+
+| TCP/IP Stack | Type / Licensing | Details & Restrictions |
+| :--- | :--- | :--- |
+| **Roadshow (demo)** | Commercial (Demo) | Considered the de facto standard for AmigaOS; modern and actively maintained. It is a commercial product but we were graciously allowed to distribute the demo version with the tool. The included demo version is restricted to **15 minutes** of online time per session, requiring a reboot to reconnect. Please consider buying the unrestricted version from the author if you wish to use it.|
+| **MiamiDX** | Commercial / Proprietary (Demo) | A popular alternative to Roadshow preferred by many classic Amiga users. The provided demo version is subject to a time-based connection timeout. |
+| **lwip-amiga** | Open Source (BSD-3-Clause) | A modern, high-performance TCP/IP stack based on lwIP. Designed for AmigaOS 3.2+ with heavy hardware acceleration (such as PiStorm/Emu68), delivering fast transfer speeds via its native `netdev` interface and standard SANA-II drivers. |
+| **AmiTCP / AmiTCP NG** | Open Source (GPL-2) | **AmiTCP 3.0b2** is a classic, lightweight, free TCP/IP stack (1994). **AmiTCP 4.x / NG** represents updated versions providing standard `bsdsocket.library` compatibility. |
+| **AmiNetXDuo** | Open Source (MIT) | A modern IPv4 and IPv6 TCP/IP stack based on Eclipse ThreadX NetX Duo. Compatible with Roadshow configuration files, supports standard SANA-II drivers, and features a low memory footprint (offers Full, Minimal, and Micro profiles). |
 
 #### Configuring WiFi
 
@@ -152,6 +176,11 @@ The imager tool gives you the option of configuring the Emu68 WiFi driver (wifip
 
 Please bear in mind that your wifi name and password are stored on the image should you use this option! It is not mandatory to provide this information during the tool setup, and you can set it up or change it later on by using the **Wifi Config** icon in the **PiStorm** folder on your Workbench partition.
 
+#### Emu68 Settings
+
+![Emu68Settings](images/Version2/Emu68Settings.png)
+
+Depending on the version of Emu68 chosen, various settings can be enabled or disabled such as whether you want to enable buptest or disable the Low Speed option configured by default (for users with SD card extenders)
 
 ### Setup Disk
 
@@ -197,7 +226,7 @@ if you have more granular requirements, you can of course use WinUAE, HST Imager
 
 ![Select Packages Screenshot](images/Version2/SelectPackages.png)
 
-This screen allows you to customise what is installed. You can choose between different icon sets where available (e.g. Standard versus GlowIcons). Additionally, if you want to customise which software is installed you can add/remove certain options. For example, if your language is not selected by default then you can choose to install it (as well as unselecting languages you do not wish to install). Take care when uninstalling things you might later need!
+This screen allows you to customise what is installed. You can choose between different icon sets where available (e.g. Standard versus GlowIcons). Additionally, if you want to customise which software is installed you can add/remove certain options. For example, if your language is not selected by default then you can choose to install it (as well as unselecting languages you do not wish to install). Take care when uninstalling things you might later need! As of version 2.2 you can also choose to install some packages in different locations or different drives.
 
 ### Load and Save Settings
 
