@@ -170,17 +170,38 @@ As of version 2.2 multiple TCP/IP stacks are available and are shown below:
 | **AmiTCP / AmiTCP NG** | Open Source (GPL-2) | **AmiTCP 3.0b2** is a classic, lightweight, free TCP/IP stack (1994). **AmiTCP 4.x / NG** represents updated versions providing standard `bsdsocket.library` compatibility. |
 | **AmiNetXDuo** | Open Source (MIT) | A modern IPv4 and IPv6 TCP/IP stack based on Eclipse ThreadX NetX Duo. Compatible with Roadshow configuration files, supports standard SANA-II drivers, and features a low memory footprint (offers Full, Minimal, and Micro profiles). |
 
+Versions 2.2+ also allow for automatic installation of the full versions of Roadshow and Miami if you have them. Place the install files in the **UserFiles\ExistingApplications** folder and Emu68 Imager will detect them and install the required files. If not detected, the demo versions will be installed.
+
 #### Configuring WiFi
 
-The imager tool gives you the option of configuring the Emu68 WiFi driver (wifipi.device) at install time, such that wifi will be available immediately the Amiga has booted. You need to enter the SSID (name) for your WiFi access point and the Password for it in the `Wifi Settings` section. Note this is case sensitive!
+The imager tool gives you the option of configuring the Emu68 WiFi driver (wifipi.device) at install time, such that wifi will be available immediately the Amiga has booted. You need to enter the SSID (name) for your WiFi access point and the Password for it in the `Wifi Settings` section. Note both the SSID and the password are case sensitive!
 
 Please bear in mind that your wifi name and password are stored on the image should you use this option! It is not mandatory to provide this information during the tool setup, and you can set it up or change it later on by using the **Wifi Config** icon in the **PiStorm** folder on your Workbench partition.
 
-#### Emu68 Settings
+#### USB Settings
 
 ![Emu68Settings](images/Version2/Emu68Settings.png)
 
-Depending on the version of Emu68 chosen, various settings can be enabled or disabled such as whether you want to enable buptest or disable the Low Speed option configured by default (for users with SD card extenders)
+If you select a version of Emu68 that supports it (1.1+), you will have the option to enable the USB stack. This will install Rondoval's xhci.device. 
+
+You will then need to choose the version of Poseidon you wish to install - either 4.5 or 6.x. The latter is the backported AROS version from Rondoval.
+
+Emu68 Imager will automatically choose the correct version of xhci.device based on your selection of Poseidon and your version of Emu68.
+
+#### Emu68 Settings
+
+Depending on the version of Emu68 chosen, various settings can be enabled or disabled as follows:
+
+| Setting | Explanation | 
+| Enable Low Speed Option | Improves compatibility for users with SD Card Extenders |
+| Enable Buptest on First Boot | Enables a basic test on initial boot |
+| Disable scsi.device | Disables the onboard IDE controller for A1200/A600 |
+| Force Agnus Type | Allows you to change the Agnus type for users running PAL or NTSC Amigas but with a different version of Agnus installed |
+| Enable DMA | Enables DMA for the SD Card |
+| Enable IRQ | Enables IRQ for the SD Card |
+| SD Card Speed | Enables over or underclocking of the SD card speed |
+
+If you do not know what these settings to - then do not change or enable them!
 
 ### Setup Disk
 
