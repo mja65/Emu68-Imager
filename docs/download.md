@@ -11,7 +11,7 @@ Changes since 1.0 are:
 
 * **Emu68 1.1 Support:** Full integration with Emu68 1.1, featuring revised `config.txt` files, updated `dtoverlay` support, updated `videocore.card`, and updated device/library support.
 * **Significant Speed Improvements:** Multi-threaded operations, optimised extraction engines, and single-pass disk writing deliver massive speedups across the board. Writing an OS 3.2.3 image is **over 3x faster** than v2.1.4, and a complete 64 GiB SD card setup from scratch (including initial file downloads) can now be written in **under 90 seconds** depending on SD card and software selected.
-* **Custom Software Target Paths:** Added drive selection and folder paths for software packages, allowing custom installation directories across different drives and folders.
+* **Additional network stack options:** In addition to Roadshow and Miami, you can now install lwip-Amiga, AminetXDuo, and AmiTCP_NG
 
 **Detailed Changes
 **
@@ -24,6 +24,7 @@ Changes since 1.0 are:
   * Sped up `.Z` archive extraction for OS 3.2.x installations.
   * Optimised `.info` file manipulation and ADF hash calculation.
 * **ISO Verification:** Replaced hash checks on ISO images with key-file verification for faster startups and broader CD media compatibility.
+* **Custom Software Target Paths:** Added drive selection and folder paths for software packages, allowing custom installation directories across different drives and folders.
 * **Remote Repository Sync:** Moved supporting files and CSV configuration files to a centralised GitHub repository. Data is now fetched as a single archive on startup for faster load times and back-end updates without requiring a full application release.
 
 * **Reworked Package Selection Screen:**
