@@ -38,6 +38,12 @@ This the start page where you set up the environment you wish to install. It als
 
 As of version 2.2, you are able to select different Emu68 versions via a drop down menu in the top left (for example either the latest release versus beta versions of Emu68). The available versions will change based on the Emu68 development process.
 
+#### Settings
+
+As of version 2.2, downloads will be performed in parallel. If for any reason you wish to revert to all downloads being made sequentially you can uncheck the "Download all Files in Parallel" option.
+
+Additionally, if for some reason you wish to delete all existing downloaded files you can select this option. This should not be needed in normal operation but in rare circumstances you might encounter an error in the event that the contents of an archive have changed over time and you already have a prior file downloaded.
+
 #### OS Selection
 
 The imager tool supports five flavours of AmigaOS:
