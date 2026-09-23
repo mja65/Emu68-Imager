@@ -106,7 +106,7 @@ The full packages (including licencing information (where applicable) and docume
 | **UnZIP 5.52** | [UnZIP552.lha](http://aminet.net/util/arc/UnZIP552.lha) |
 | **ViNCEd** | [ViNCEd.lha](http://aminet.net/util/shell/ViNCEd.lha) |
 | **WHDLoad** | [WHDLoad_usr.lha](http://whdload.de/whdload/WHDLoad_usr.lha) |
-| **WHDLoadWrapper (latest version)** |[https://ftp2.grandis.nu/turransearch/search.php?search=1&search=Wrapper&category_id=Misc&exclude=&limit=30&httplinks=on&username=ftp%2Cany](https://ftp2.grandis.nu/turransearch/search.php?search=1&search=Wrapper&category_id=Misc&exclude=&limit=30&httplinks=on&username=ftp%2Cany)|
+| **WHDLoadWrapper (latest version)** |[Google drive link](https://drive.google.com/drive/folders/1cgGJ7pGQTOL4VZXLp_IFwdjUrVWDI3Mw)|
 | **Prism2 Network Driver** | [prism2v2.lha](http://aminet.net/driver/net/prism2v2.lha) |
 | **Wizard Library** | [WizardLibrary.lha](http://aminet.net/util/libs/WizardLibrary.lha) |
 | **Workbench Library 40.5** | [Workbench-Library-40-5.lha](http://cdn.cloanto.com/pub/amiga/Workbench-Library-40-5.lha) |
