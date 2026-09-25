@@ -4,6 +4,11 @@ There are currently two version of the Emu68 Imager available. The latest versio
 
 Changes since 1.0 are:
 
+2.2.3
+
+- Added additional checks so that if installation of NuGet provider and ThreadJob do not work, the program will alert the user and exit
+- Removed explicit definition of Framethower device in DToverlay (the default device is Framethrower anyway) as this seems to create an issue in Emu68 where Framethrower is selected
+
 2.2.2
 
 - Fixed issue where check for ThreadJob didn't work correctly and a user could try and download in parallel when prerequisites were not installed
