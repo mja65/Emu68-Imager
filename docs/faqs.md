@@ -88,6 +88,33 @@ The tool is intended to provide a basic image to help you get started, to avoid 
 It can be a rewarding experience learning about how to install software on your Amiga. However, if you are after a fully set up and customised distribution with all games and applications pre-installed and where you can write an image to a SD card and just use it then you should download and use one of those.
 ### Why does the performance of my SD card appear poor? I have a fast card!
 In order to minimise issues for users who use SD extenders (despite them not being recommended) the parameters "sd.low_speed" and "emmc.low_speed" are included in the cmdline.txt file on the FAT32 partition. It's possible if you have a faster card (e.g. Sandisk Extreme) you might see some peformance drop off. Remove those entries from cmdline.txt. However, the risk of issues if you are using a SD extender will be increased. 
+### I am encountering errors in installing the Nuget package provider and/or ThreadJob!
+Open Powershell and run the following command:
+
+Get-PackageProvider -Name NuGet -ListAvailable
+
+If it is installed you should get a result like the following:
+
+[NugetScreenshot](images/Version2/Nuget.png)
+
+You can run the following command to manually install it:
+ 
+Install-PackageProvider -Name NuGet -MinimumVersion 2.8.5.201 -Force
+ 
+Similarly, for ThreadJob, run the following command:
+
+Get-Module -Name ThreadJob -ListAvailable
+
+If it is installed you should get a result like the following:
+
+[ThreadJobScreenshot](images/Version2/Threadjob.png)
+
+You can run the following command to manually install it:
+
+Install-Module -Name ThreadJob -Scope CurrentUser -Force -AllowClobber
+
+Once installed you can run the checks again to see that they have in fact installed.
+
 ### Why does Workbench in 3.9 look poor? 
 The default icons and dock in 3.9 look best with a screenmode with a high number of colours such as RTG. 
 
