@@ -4,6 +4,14 @@ There are currently two version of the Emu68 Imager available. The latest versio
 
 Changes since 1.0 are:
 
+2.2.2
+
+- Fixed issue where check for ThreadJob didn't work correctly and a user could try and download in parallel when prerequisites were not installed
+
+2,2,1
+
+- Fixed issue with error when no messages were to be displayed in Run Options Window when running an image
+
 2.2
 
 **Highlights & Major Features
