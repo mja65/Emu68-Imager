@@ -95,7 +95,7 @@ Get-PackageProvider -Name NuGet -ListAvailable
 
 If it is installed you should get a result like the following:
 
-![NugetScreenshot](images/Version2/Nuget.png)
+![Nuget](images/Version2/Nuget.png)
 
 You can run the following command to manually install it:
  
@@ -107,7 +107,7 @@ Get-Module -Name ThreadJob -ListAvailable
 
 If it is installed you should get a result like the following:
 
-![ThreadJobScreenshot](images/Version2/Threadjob.png)
+![ThreadJob](images/Version2/ThreadJob.png)
 
 You can run the following command to manually install it:
 
