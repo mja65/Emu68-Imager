@@ -115,6 +115,24 @@ Install-Module -Name ThreadJob -Scope CurrentUser -Force -AllowClobber
 
 Once installed you can run the checks again to see that they have in fact installed.
 
+### I am getting an error from Github about "Rate Limit Exceeded"! How do I fix?
+The Imager uses a API request to Github to determine the URL for downloads. This is to avoid updates being needed where a repository has a new release - the Imager automatically determines the most recent release. In order to "prevent abuse and denial-of-service attacks" Github have restricted uanauthenticated requests to 60 per hour. This is normally not an issue, but if you have run the Imager multiple times in a short space of time you may encounter an error similar to the following:
+
+![GithubRateLimit](images/Version2/GithubRateLimitExceeded.png)
+
+You have two options - either add a Personal Access token (free) which gives you up to 5,000 requests per hour, or wait 60 minutes.
+
+To add a personal access token you need to perform the following steps:
+1. Go to the following site https://github.com/settings/tokens
+2. If you do not already have a Github account you will need to create one
+3. Click the "Generate new token" button and select the "Generate new token (classic)" option
+4. The default is 30 days expiry. Set this to what you want
+5. Once you have the token you will need to add the value to the GithubAPIToken= line
+
+![GithubAddToken](images/Version2/Emu68ImagerIniFile.png)
+
+Note, do not share this key!
+
 ### Why does Workbench in 3.9 look poor? 
 The default icons and dock in 3.9 look best with a screenmode with a high number of colours such as RTG. 
 
