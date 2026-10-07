@@ -4,6 +4,30 @@ There are currently two version of the Emu68 Imager available. The latest versio
 
 Changes since 1.0 are:
 
+2.2.8
+
+- Fix for failed downloads not being retried in all cases, additional robustness checks over downloads and extractions and improved error reporting (thanks to Github user Sniper-SnX for their analysis of the issue, testing, and changes submitted via PR)
+
+2.2.7.1
+
+- Fixed typo for .ini file
+
+2.2.7
+
+- Added support for extraction of files where Windows 10 did not support the file names properly
+
+2.2.6
+
+- Fixed broken extraction of ADF files for sequential processing
+
+2.2.5
+
+- Fixed issue where recheck of media did not occur when packages were changed
+- 
+2.2.4
+
+- Added check so that any read-only attribute files in the destination will be overwritten
+
 2.2.3
 
 - Added additional checks so that if installation of NuGet provider and ThreadJob do not work, the program will alert the user and exit
